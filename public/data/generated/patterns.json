@@ -1,0 +1,522 @@
+{
+  "listeningRhythms": {
+    "id": "listening-rhythms",
+    "title": "Listening Rhythms",
+    "peakPeriod": "Late Night (23:00–03:00)",
+    "description": "26.6% of all listening sessions occurred between 23:00 and 03:00.",
+    "distribution": [
+      {
+        "label": "Morning (06:00–12:00)",
+        "count": 17898,
+        "pct": "11.9"
+      },
+      {
+        "label": "Afternoon (12:00–17:00)",
+        "count": 15603,
+        "pct": "10.4"
+      },
+      {
+        "label": "Evening (17:00–23:00)",
+        "count": 54466,
+        "pct": "36.3"
+      },
+      {
+        "label": "Late Night (23:00–03:00)",
+        "count": 39824,
+        "pct": "26.6"
+      },
+      {
+        "label": "Early Dawn (03:00–06:00)",
+        "count": 22069,
+        "pct": "14.7"
+      }
+    ],
+    "evidence": {
+      "totalSessions": 149860,
+      "lateNightSessions": 39824,
+      "confidence": "Strong signal (149,860 sessions analyzed)"
+    }
+  },
+  "repeatDays": {
+    "id": "repeat-days",
+    "title": "Weekly Cadence",
+    "description": "Activity demonstrates steady weekday engagement with weekend listening peaks.",
+    "distribution": [
+      {
+        "day": "Sunday",
+        "count": 18274,
+        "pct": "12.2"
+      },
+      {
+        "day": "Monday",
+        "count": 21031,
+        "pct": "14.0"
+      },
+      {
+        "day": "Tuesday",
+        "count": 20705,
+        "pct": "13.8"
+      },
+      {
+        "day": "Wednesday",
+        "count": 23406,
+        "pct": "15.6"
+      },
+      {
+        "day": "Thursday",
+        "count": 21401,
+        "pct": "14.3"
+      },
+      {
+        "day": "Friday",
+        "count": 25646,
+        "pct": "17.1"
+      },
+      {
+        "day": "Saturday",
+        "count": 19397,
+        "pct": "12.9"
+      }
+    ],
+    "evidence": {
+      "peakDay": "Friday",
+      "confidence": "High repetition"
+    }
+  },
+  "topSounds": {
+    "id": "top-sounds",
+    "title": "Top Sounds & Artists",
+    "description": "The archive is anchored by recurring artist sessions with The Beatles and The Killers dominating multiple years.",
+    "artists": [
+      {
+        "name": "The Beatles",
+        "count": 13621
+      },
+      {
+        "name": "The Killers",
+        "count": 6878
+      },
+      {
+        "name": "John Mayer",
+        "count": 4855
+      },
+      {
+        "name": "Bob Dylan",
+        "count": 3814
+      },
+      {
+        "name": "Paul McCartney",
+        "count": 2697
+      },
+      {
+        "name": "Led Zeppelin",
+        "count": 2482
+      },
+      {
+        "name": "Johnny Cash",
+        "count": 2478
+      },
+      {
+        "name": "The Rolling Stones",
+        "count": 2390
+      },
+      {
+        "name": "Radiohead",
+        "count": 2305
+      },
+      {
+        "name": "The Black Keys",
+        "count": 2231
+      },
+      {
+        "name": "Imagine Dragons",
+        "count": 2116
+      },
+      {
+        "name": "Pink Floyd",
+        "count": 2105
+      },
+      {
+        "name": "The Strokes",
+        "count": 1818
+      },
+      {
+        "name": "Coldplay",
+        "count": 1631
+      },
+      {
+        "name": "Arctic Monkeys",
+        "count": 1600
+      },
+      {
+        "name": "Lou Reed",
+        "count": 1558
+      },
+      {
+        "name": "The Velvet Underground",
+        "count": 1507
+      },
+      {
+        "name": "Ed Sheeran",
+        "count": 1458
+      },
+      {
+        "name": "Howard Shore",
+        "count": 1446
+      },
+      {
+        "name": "Kings of Leon",
+        "count": 1381
+      },
+      {
+        "name": "Elvis Presley",
+        "count": 1281
+      },
+      {
+        "name": "John Lennon",
+        "count": 1279
+      },
+      {
+        "name": "Billy Joel",
+        "count": 1262
+      },
+      {
+        "name": "Arcade Fire",
+        "count": 1137
+      },
+      {
+        "name": "Mumford & Sons",
+        "count": 1074
+      }
+    ],
+    "tracks": [
+      {
+        "name": "Ode To The Mets — The Strokes",
+        "count": 207
+      },
+      {
+        "name": "In the Blood — John Mayer",
+        "count": 181
+      },
+      {
+        "name": "Dying Breed — The Killers",
+        "count": 166
+      },
+      {
+        "name": "Caution — The Killers",
+        "count": 164
+      },
+      {
+        "name": "19 Dias y 500 Noches - En Directo — Joaquín Sabina",
+        "count": 148
+      },
+      {
+        "name": "All These Things That I've Done — The Killers",
+        "count": 142
+      },
+      {
+        "name": "Concerning Hobbits — Howard Shore",
+        "count": 142
+      },
+      {
+        "name": "Come Together - Remastered 2009 — The Beatles",
+        "count": 137
+      },
+      {
+        "name": "Yesterday - Remastered 2009 — The Beatles",
+        "count": 134
+      },
+      {
+        "name": "Crucify Your Mind — Rodríguez",
+        "count": 131
+      },
+      {
+        "name": "Cavalleria rusticana: Intermezzo — Pietro Mascagni",
+        "count": 128
+      },
+      {
+        "name": "Mr. Brightside — The Killers",
+        "count": 127
+      },
+      {
+        "name": "Reminder — Mumford & Sons",
+        "count": 127
+      },
+      {
+        "name": "Sweet Virginia — The Rolling Stones",
+        "count": 127
+      },
+      {
+        "name": "I Guess I Just Feel Like — John Mayer",
+        "count": 127
+      },
+      {
+        "name": "Nuovo Cinema Paradiso — Ennio Morricone",
+        "count": 127
+      },
+      {
+        "name": "Imploding The Mirage — The Killers",
+        "count": 123
+      },
+      {
+        "name": "Claudia's Theme - Version Eight — Lennie Niehaus",
+        "count": 123
+      },
+      {
+        "name": "You Sexy Thing — Hot Chocolate",
+        "count": 121
+      },
+      {
+        "name": "Bennie And The Jets - Remastered 2014 — Elton John",
+        "count": 120
+      }
+    ],
+    "evidence": {
+      "uniqueArtists": 4113,
+      "leadArtistCount": 13621
+    }
+  },
+  "spendingSignals": {
+    "id": "spending-signals",
+    "title": "Spending Concentration",
+    "description": "Transactions concentrate heavily in entertainment, travel, and local household transit.",
+    "transactionCategories": [
+      {
+        "name": "online_shopping",
+        "count": 2596
+      },
+      {
+        "name": "travel",
+        "count": 2419
+      },
+      {
+        "name": "entertainment",
+        "count": 2388
+      },
+      {
+        "name": "fitness_and_medical",
+        "count": 2067
+      },
+      {
+        "name": "General",
+        "count": 797
+      }
+    ],
+    "householdCategories": [
+      {
+        "name": "Food",
+        "count": 907
+      },
+      {
+        "name": "Transportation",
+        "count": 307
+      },
+      {
+        "name": "Household",
+        "count": 176
+      },
+      {
+        "name": "subscription",
+        "count": 143
+      },
+      {
+        "name": "Other",
+        "count": 126
+      },
+      {
+        "name": "Investment",
+        "count": 103
+      },
+      {
+        "name": "Health",
+        "count": 94
+      },
+      {
+        "name": "Family",
+        "count": 71
+      },
+      {
+        "name": "Apparel",
+        "count": 47
+      },
+      {
+        "name": "Recurring Deposit",
+        "count": 47
+      },
+      {
+        "name": "Salary",
+        "count": 43
+      },
+      {
+        "name": "Money transfer",
+        "count": 43
+      },
+      {
+        "name": "Gift",
+        "count": 30
+      },
+      {
+        "name": "Public Provident Fund",
+        "count": 29
+      },
+      {
+        "name": "Equity Mutual Fund E",
+        "count": 22
+      },
+      {
+        "name": "Beauty",
+        "count": 22
+      },
+      {
+        "name": "Gpay Reward",
+        "count": 21
+      },
+      {
+        "name": "Education",
+        "count": 18
+      },
+      {
+        "name": "Saving Bank account 1",
+        "count": 17
+      },
+      {
+        "name": "maid",
+        "count": 17
+      },
+      {
+        "name": "Festivals",
+        "count": 16
+      },
+      {
+        "name": "Equity Mutual Fund A",
+        "count": 14
+      },
+      {
+        "name": "Equity Mutual Fund F",
+        "count": 13
+      },
+      {
+        "name": "Dividend earned on Shares",
+        "count": 12
+      },
+      {
+        "name": "Interest",
+        "count": 12
+      },
+      {
+        "name": "Culture",
+        "count": 11
+      },
+      {
+        "name": "Small Cap fund 2",
+        "count": 10
+      },
+      {
+        "name": "Small cap fund 1",
+        "count": 10
+      },
+      {
+        "name": "Share Market",
+        "count": 8
+      },
+      {
+        "name": "Life Insurance",
+        "count": 7
+      },
+      {
+        "name": "Maturity amount",
+        "count": 7
+      },
+      {
+        "name": "Petty cash",
+        "count": 6
+      },
+      {
+        "name": "Equity Mutual Fund C",
+        "count": 6
+      },
+      {
+        "name": "Bonus",
+        "count": 6
+      },
+      {
+        "name": "Tourism",
+        "count": 5
+      },
+      {
+        "name": "Grooming",
+        "count": 4
+      },
+      {
+        "name": "Rent",
+        "count": 4
+      },
+      {
+        "name": "Cook",
+        "count": 4
+      },
+      {
+        "name": "Saving Bank account 2",
+        "count": 3
+      },
+      {
+        "name": "water (jar /tanker)",
+        "count": 3
+      },
+      {
+        "name": "Tax refund",
+        "count": 2
+      },
+      {
+        "name": "Self-development",
+        "count": 2
+      },
+      {
+        "name": "Amazon pay cashback",
+        "count": 2
+      },
+      {
+        "name": "scrap",
+        "count": 2
+      },
+      {
+        "name": "Documents",
+        "count": 2
+      },
+      {
+        "name": "Fixed Deposit",
+        "count": 2
+      },
+      {
+        "name": "garbage disposal",
+        "count": 2
+      },
+      {
+        "name": "Social Life",
+        "count": 1
+      },
+      {
+        "name": "Equity Mutual Fund D",
+        "count": 1
+      },
+      {
+        "name": "Equity Mutual Fund B",
+        "count": 1
+      }
+    ],
+    "evidence": {
+      "leadCategory": "online_shopping",
+      "totalCategories": 55
+    }
+  },
+  "crossSourceOverlap": {
+    "id": "cross-source-overlap",
+    "title": "Cross-Source Co-occurrences",
+    "description": "45 distinct days contain verified convergence between music and financial activity.",
+    "momentsCount": 45,
+    "evidence": {
+      "overlappingDates": 45,
+      "activeSpans": "2015–2018 (Household & Spotify), 2022–2024 (Card & Spotify)"
+    }
+  }
+}

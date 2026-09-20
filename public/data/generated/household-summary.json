@@ -1,0 +1,432 @@
+{
+  "totalCount": 2461,
+  "monthly": {
+    "2018-09": {
+      "count": 30,
+      "expense": 30224,
+      "income": 3500
+    },
+    "2018-08": {
+      "count": 71,
+      "expense": 57848.65,
+      "income": 71735.75
+    },
+    "2018-07": {
+      "count": 91,
+      "expense": 93238.36,
+      "income": 77267.5
+    },
+    "2018-06": {
+      "count": 58,
+      "expense": 74710.61,
+      "income": 68551
+    },
+    "2018-05": {
+      "count": 66,
+      "expense": 77213,
+      "income": 69238
+    },
+    "2018-04": {
+      "count": 79,
+      "expense": 73839.58,
+      "income": 65824.15
+    },
+    "2018-03": {
+      "count": 94,
+      "expense": 46439.630000000005,
+      "income": 69343.5
+    },
+    "2018-02": {
+      "count": 79,
+      "expense": 117922,
+      "income": 64738
+    },
+    "2018-01": {
+      "count": 108,
+      "expense": 236178.03999999998,
+      "income": 292938
+    },
+    "2017-12": {
+      "count": 93,
+      "expense": 594913.96,
+      "income": 82321
+    },
+    "2017-11": {
+      "count": 102,
+      "expense": 93484.33,
+      "income": 143155
+    },
+    "2017-10": {
+      "count": 54,
+      "expense": 221532.09,
+      "income": 6000
+    },
+    "2017-09": {
+      "count": 85,
+      "expense": 48419,
+      "income": 62373
+    },
+    "2017-08": {
+      "count": 102,
+      "expense": 128436.7,
+      "income": 123383
+    },
+    "2017-07": {
+      "count": 101,
+      "expense": 329973,
+      "income": 181617
+    },
+    "2017-06": {
+      "count": 79,
+      "expense": 248393.55000000002,
+      "income": 57827
+    },
+    "2017-05": {
+      "count": 129,
+      "expense": 69883.1,
+      "income": 56970
+    },
+    "2017-04": {
+      "count": 49,
+      "expense": 38834.380000000005,
+      "income": 56957
+    },
+    "2017-03": {
+      "count": 90,
+      "expense": 51502.08,
+      "income": 56686
+    },
+    "2017-02": {
+      "count": 81,
+      "expense": 70229.35,
+      "income": 56021
+    },
+    "2017-01": {
+      "count": 70,
+      "expense": 132797.41999999998,
+      "income": 63101
+    },
+    "2016-12": {
+      "count": 63,
+      "expense": 74916.6,
+      "income": 56590
+    },
+    "2016-11": {
+      "count": 59,
+      "expense": 70175,
+      "income": 58096
+    },
+    "2016-10": {
+      "count": 33,
+      "expense": 32138.2,
+      "income": 56647
+    },
+    "2016-09": {
+      "count": 30,
+      "expense": 29020.5,
+      "income": 58893
+    },
+    "2016-08": {
+      "count": 22,
+      "expense": 46502,
+      "income": 63894
+    },
+    "2016-07": {
+      "count": 16,
+      "expense": 36462,
+      "income": 51556
+    },
+    "2016-06": {
+      "count": 22,
+      "expense": 32013.9,
+      "income": 52284
+    },
+    "2016-05": {
+      "count": 20,
+      "expense": 38309,
+      "income": 51556
+    },
+    "2016-04": {
+      "count": 21,
+      "expense": 28460,
+      "income": 51562.45
+    },
+    "2016-03": {
+      "count": 19,
+      "expense": 16631,
+      "income": 70806
+    },
+    "2016-02": {
+      "count": 24,
+      "expense": 27021,
+      "income": 49806
+    },
+    "2016-01": {
+      "count": 20,
+      "expense": 38435,
+      "income": 94806
+    },
+    "2015-12": {
+      "count": 29,
+      "expense": 72030,
+      "income": 77335
+    },
+    "2015-11": {
+      "count": 22,
+      "expense": 26459,
+      "income": 51306
+    },
+    "2015-10": {
+      "count": 30,
+      "expense": 32217,
+      "income": 49806
+    },
+    "2015-09": {
+      "count": 16,
+      "expense": 18577,
+      "income": 54606
+    },
+    "2015-08": {
+      "count": 16,
+      "expense": 43340,
+      "income": 49806
+    },
+    "2015-07": {
+      "count": 14,
+      "expense": 31735,
+      "income": 47859
+    },
+    "2015-06": {
+      "count": 12,
+      "expense": 19567,
+      "income": 47859
+    },
+    "2015-05": {
+      "count": 33,
+      "expense": 63118,
+      "income": 47859
+    },
+    "2015-04": {
+      "count": 24,
+      "expense": 24222,
+      "income": 49306
+    },
+    "2015-03": {
+      "count": 61,
+      "expense": 32631.399999999998,
+      "income": 70806
+    },
+    "2015-02": {
+      "count": 65,
+      "expense": 24308,
+      "income": 49806
+    },
+    "2015-01": {
+      "count": 79,
+      "expense": 33870,
+      "income": 0
+    }
+  },
+  "categories": [
+    {
+      "name": "Food",
+      "count": 907
+    },
+    {
+      "name": "Transportation",
+      "count": 307
+    },
+    {
+      "name": "Household",
+      "count": 176
+    },
+    {
+      "name": "subscription",
+      "count": 143
+    },
+    {
+      "name": "Other",
+      "count": 126
+    },
+    {
+      "name": "Investment",
+      "count": 103
+    },
+    {
+      "name": "Health",
+      "count": 94
+    },
+    {
+      "name": "Family",
+      "count": 71
+    },
+    {
+      "name": "Apparel",
+      "count": 47
+    },
+    {
+      "name": "Recurring Deposit",
+      "count": 47
+    },
+    {
+      "name": "Salary",
+      "count": 43
+    },
+    {
+      "name": "Money transfer",
+      "count": 43
+    },
+    {
+      "name": "Gift",
+      "count": 30
+    },
+    {
+      "name": "Public Provident Fund",
+      "count": 29
+    },
+    {
+      "name": "Equity Mutual Fund E",
+      "count": 22
+    },
+    {
+      "name": "Beauty",
+      "count": 22
+    },
+    {
+      "name": "Gpay Reward",
+      "count": 21
+    },
+    {
+      "name": "Education",
+      "count": 18
+    },
+    {
+      "name": "Saving Bank account 1",
+      "count": 17
+    },
+    {
+      "name": "maid",
+      "count": 17
+    },
+    {
+      "name": "Festivals",
+      "count": 16
+    },
+    {
+      "name": "Equity Mutual Fund A",
+      "count": 14
+    },
+    {
+      "name": "Equity Mutual Fund F",
+      "count": 13
+    },
+    {
+      "name": "Dividend earned on Shares",
+      "count": 12
+    },
+    {
+      "name": "Interest",
+      "count": 12
+    },
+    {
+      "name": "Culture",
+      "count": 11
+    },
+    {
+      "name": "Small Cap fund 2",
+      "count": 10
+    },
+    {
+      "name": "Small cap fund 1",
+      "count": 10
+    },
+    {
+      "name": "Share Market",
+      "count": 8
+    },
+    {
+      "name": "Life Insurance",
+      "count": 7
+    },
+    {
+      "name": "Maturity amount",
+      "count": 7
+    },
+    {
+      "name": "Petty cash",
+      "count": 6
+    },
+    {
+      "name": "Equity Mutual Fund C",
+      "count": 6
+    },
+    {
+      "name": "Bonus",
+      "count": 6
+    },
+    {
+      "name": "Tourism",
+      "count": 5
+    },
+    {
+      "name": "Grooming",
+      "count": 4
+    },
+    {
+      "name": "Rent",
+      "count": 4
+    },
+    {
+      "name": "Cook",
+      "count": 4
+    },
+    {
+      "name": "Saving Bank account 2",
+      "count": 3
+    },
+    {
+      "name": "water (jar /tanker)",
+      "count": 3
+    },
+    {
+      "name": "Tax refund",
+      "count": 2
+    },
+    {
+      "name": "Self-development",
+      "count": 2
+    },
+    {
+      "name": "Amazon pay cashback",
+      "count": 2
+    },
+    {
+      "name": "scrap",
+      "count": 2
+    },
+    {
+      "name": "Documents",
+      "count": 2
+    },
+    {
+      "name": "Fixed Deposit",
+      "count": 2
+    },
+    {
+      "name": "garbage disposal",
+      "count": 2
+    },
+    {
+      "name": "Social Life",
+      "count": 1
+    },
+    {
+      "name": "Equity Mutual Fund D",
+      "count": 1
+    },
+    {
+      "name": "Equity Mutual Fund B",
+      "count": 1
+    }
+  ]
+}

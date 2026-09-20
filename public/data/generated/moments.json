@@ -1,0 +1,5056 @@
+[
+  {
+    "id": "moment-2022-10-26",
+    "date": "2022-10-26",
+    "title": "Rodríguez & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2022-10-26.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 52,
+    "receipts": [
+      {
+        "id": "sp-126737",
+        "source": "spotify",
+        "timestamp": 1666742851000,
+        "timeStr": "2022-10-26 00:07:31",
+        "title": "Crucify Your Mind",
+        "subtitle": "Rodríguez",
+        "category": "Music",
+        "album": "Cold Fact",
+        "msPlayed": 152346
+      },
+      {
+        "id": "sp-126738",
+        "source": "spotify",
+        "timestamp": 1666743194000,
+        "timeStr": "2022-10-26 00:13:14",
+        "title": "100,000 People",
+        "subtitle": "Kings of Leon",
+        "category": "Music",
+        "album": "When You See Yourself",
+        "msPlayed": 344013
+      },
+      {
+        "id": "sp-126739",
+        "source": "spotify",
+        "timestamp": 1666743547000,
+        "timeStr": "2022-10-26 00:19:07",
+        "title": "Ode To The Mets",
+        "subtitle": "The Strokes",
+        "category": "Music",
+        "album": "The New Abnormal",
+        "msPlayed": 351786
+      },
+      {
+        "id": "sp-126740",
+        "source": "spotify",
+        "timestamp": 1666743895000,
+        "timeStr": "2022-10-26 00:24:55",
+        "title": "When You See Yourself, Are You Far Away",
+        "subtitle": "Kings of Leon",
+        "category": "Music",
+        "album": "When You See Yourself",
+        "msPlayed": 347653
+      },
+      {
+        "id": "sp-126741",
+        "source": "spotify",
+        "timestamp": 1666744125000,
+        "timeStr": "2022-10-26 00:28:45",
+        "title": "The Getting By - Abridged",
+        "subtitle": "The Killers",
+        "category": "Music",
+        "album": "Pressure Machine",
+        "msPlayed": 228626
+      },
+      {
+        "id": "tx-15",
+        "source": "transaction",
+        "timestamp": 1666748640000,
+        "timeStr": "10/26/2022 1:44",
+        "title": "Chaudhari Group",
+        "subtitle": "entertainment",
+        "category": "entertainment",
+        "amount": 4333.7,
+        "currency": "INR",
+        "city": "",
+        "state": "Bihar"
+      },
+      {
+        "id": "tx-927",
+        "source": "transaction",
+        "timestamp": 1666794840000,
+        "timeStr": "10/26/2022 14:34",
+        "title": "Ray LLC",
+        "subtitle": "online_shopping • Ramgarh",
+        "category": "online_shopping",
+        "amount": 377.45,
+        "currency": "INR",
+        "city": "Ramgarh",
+        "state": "West Bengal"
+      },
+      {
+        "id": "tx-942",
+        "source": "transaction",
+        "timestamp": 1666751340000,
+        "timeStr": "10/26/2022 2:29",
+        "title": "Manne, Talwar and Bhardwaj",
+        "subtitle": "online_shopping • Tenali",
+        "category": "online_shopping",
+        "amount": 4810.47,
+        "currency": "INR",
+        "city": "Tenali",
+        "state": "West Bengal"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "52 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Chaudhari Group.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-01-21",
+    "date": "2023-01-21",
+    "title": "Wolfgang Amadeus Mozart & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2023-01-21.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 52,
+    "receipts": [
+      {
+        "id": "sp-129534",
+        "source": "spotify",
+        "timestamp": 1674259597000,
+        "timeStr": "2023-01-21 00:06:37",
+        "title": "Die Hochzeit des Figaro, K. 492, 3. Akt: Canzonetta sull aria… Che soave zeffiretto (Die Verurteilten): Sinfonia",
+        "subtitle": "Wolfgang Amadeus Mozart",
+        "category": "Music",
+        "album": "Mozart: Nozze Di Figaro (Le) (The Marriage of Figaro)",
+        "msPlayed": 117246
+      },
+      {
+        "id": "sp-129535",
+        "source": "spotify",
+        "timestamp": 1674268825000,
+        "timeStr": "2023-01-21 02:40:25",
+        "title": "Die Hochzeit des Figaro, K. 492, 3. Akt: Canzonetta sull aria… Che soave zeffiretto (Die Verurteilten): Sinfonia",
+        "subtitle": "Wolfgang Amadeus Mozart",
+        "category": "Music",
+        "album": "Mozart: Nozze Di Figaro (Le) (The Marriage of Figaro)",
+        "msPlayed": 49078
+      },
+      {
+        "id": "sp-129536",
+        "source": "spotify",
+        "timestamp": 1674273847000,
+        "timeStr": "2023-01-21 04:04:07",
+        "title": "Give A Little Bit",
+        "subtitle": "Supertramp",
+        "category": "Music",
+        "album": "Even In The Quietest Moments",
+        "msPlayed": 248173
+      },
+      {
+        "id": "sp-129537",
+        "source": "spotify",
+        "timestamp": 1674274111000,
+        "timeStr": "2023-01-21 04:08:31",
+        "title": "Get It On",
+        "subtitle": "T. Rex",
+        "category": "Music",
+        "album": "Get It On: The Collection",
+        "msPlayed": 263840
+      },
+      {
+        "id": "sp-129538",
+        "source": "spotify",
+        "timestamp": 1674274293000,
+        "timeStr": "2023-01-21 04:11:33",
+        "title": "Alright",
+        "subtitle": "Supergrass",
+        "category": "Music",
+        "album": "I Should Coco",
+        "msPlayed": 180880
+      },
+      {
+        "id": "tx-658",
+        "source": "transaction",
+        "timestamp": 1674322860000,
+        "timeStr": "1/21/2023 17:41",
+        "title": "Wali, Bobal and Sehgal",
+        "subtitle": "entertainment • Indore",
+        "category": "entertainment",
+        "amount": 6996.92,
+        "currency": "INR",
+        "city": "Indore",
+        "state": "Uttarakhand"
+      },
+      {
+        "id": "tx-687",
+        "source": "transaction",
+        "timestamp": 1674320220000,
+        "timeStr": "1/21/2023 16:57",
+        "title": "Raval Inc",
+        "subtitle": "fitness_and_medical • Chandrapur",
+        "category": "fitness_and_medical",
+        "amount": 5976.46,
+        "currency": "INR",
+        "city": "Chandrapur",
+        "state": ""
+      },
+      {
+        "id": "tx-712",
+        "source": "transaction",
+        "timestamp": 1674308400000,
+        "timeStr": "1/21/2023 13:40",
+        "title": "Savant Inc",
+        "subtitle": "travel • Jammu",
+        "category": "travel",
+        "amount": 2278.05,
+        "currency": "INR",
+        "city": "Jammu",
+        "state": "Punjab"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "52 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Wali, Bobal and Sehgal.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-12-17",
+    "date": "2023-12-17",
+    "title": "OneRepublic & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2023-12-17.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 51,
+    "receipts": [
+      {
+        "id": "sp-139486",
+        "source": "spotify",
+        "timestamp": 1702771353000,
+        "timeStr": "2023-12-17 00:02:33",
+        "title": "Feel Again",
+        "subtitle": "OneRepublic",
+        "category": "Music",
+        "album": "Native",
+        "msPlayed": 185080
+      },
+      {
+        "id": "sp-139487",
+        "source": "spotify",
+        "timestamp": 1702771631000,
+        "timeStr": "2023-12-17 00:07:11",
+        "title": "Perfect",
+        "subtitle": "Simple Plan",
+        "category": "Music",
+        "album": "No Pads, No Helmets...Just Balls",
+        "msPlayed": 277026
+      },
+      {
+        "id": "sp-139488",
+        "source": "spotify",
+        "timestamp": 1702771858000,
+        "timeStr": "2023-12-17 00:10:58",
+        "title": "How? - Remastered 2010",
+        "subtitle": "John Lennon",
+        "category": "Music",
+        "album": "Imagine",
+        "msPlayed": 226280
+      },
+      {
+        "id": "sp-139489",
+        "source": "spotify",
+        "timestamp": 1702772121000,
+        "timeStr": "2023-12-17 00:15:21",
+        "title": "Get You Down",
+        "subtitle": "Sam Fender",
+        "category": "Music",
+        "album": "Get You Down",
+        "msPlayed": 263520
+      },
+      {
+        "id": "sp-139490",
+        "source": "spotify",
+        "timestamp": 1702772339000,
+        "timeStr": "2023-12-17 00:18:59",
+        "title": "The Go Getter",
+        "subtitle": "The Black Keys",
+        "category": "Music",
+        "album": "Brothers",
+        "msPlayed": 217218
+      },
+      {
+        "id": "tx-74",
+        "source": "transaction",
+        "timestamp": 1702797360000,
+        "timeStr": "12/17/2023 7:16",
+        "title": "Som, Loke and Mangal",
+        "subtitle": "online_shopping • Gulbarga",
+        "category": "online_shopping",
+        "amount": 432.21,
+        "currency": "INR",
+        "city": "Gulbarga",
+        "state": "Bihar"
+      },
+      {
+        "id": "tx-132",
+        "source": "transaction",
+        "timestamp": 1702827600000,
+        "timeStr": "12/17/2023 15:40",
+        "title": "Chandran LLC",
+        "subtitle": "General • Gwalior",
+        "category": "General",
+        "amount": 246.6,
+        "currency": "INR",
+        "city": "Gwalior",
+        "state": "Sikkim"
+      },
+      {
+        "id": "tx-549",
+        "source": "transaction",
+        "timestamp": 1702808340000,
+        "timeStr": "12/17/2023 10:19",
+        "title": "Sankar-Virk",
+        "subtitle": "General • Gaya",
+        "category": "General",
+        "amount": 224.58,
+        "currency": "INR",
+        "city": "Gaya",
+        "state": "Mizoram"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "51 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Som, Loke and Mangal.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-01-02",
+    "date": "2023-01-02",
+    "title": "Nathan Francis & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2023-01-02.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 50,
+    "receipts": [
+      {
+        "id": "sp-129093",
+        "source": "spotify",
+        "timestamp": 1672681118000,
+        "timeStr": "2023-01-02 17:38:38",
+        "title": "Ken",
+        "subtitle": "Nathan Francis",
+        "category": "Music",
+        "album": "Diamond Back",
+        "msPlayed": 379493
+      },
+      {
+        "id": "sp-129094",
+        "source": "spotify",
+        "timestamp": 1672681287000,
+        "timeStr": "2023-01-02 17:41:27",
+        "title": "Where or When",
+        "subtitle": "Wynton Marsalis",
+        "category": "Music",
+        "album": "Standard Time Vol. 3: The Resolution Of Romance",
+        "msPlayed": 168666
+      },
+      {
+        "id": "sp-129095",
+        "source": "spotify",
+        "timestamp": 1672681581000,
+        "timeStr": "2023-01-02 17:46:21",
+        "title": "Easy Living",
+        "subtitle": "Massimo Faraò Trio",
+        "category": "Music",
+        "album": "How My Heart Sings",
+        "msPlayed": 293253
+      },
+      {
+        "id": "sp-129096",
+        "source": "spotify",
+        "timestamp": 1672681899000,
+        "timeStr": "2023-01-02 17:51:39",
+        "title": "Tutto",
+        "subtitle": "Lorenzo Tucci",
+        "category": "Music",
+        "album": "Happy end",
+        "msPlayed": 318000
+      },
+      {
+        "id": "sp-129097",
+        "source": "spotify",
+        "timestamp": 1672682128000,
+        "timeStr": "2023-01-02 17:55:28",
+        "title": "On a Turquoise Cloud",
+        "subtitle": "Echoes of Swing",
+        "category": "Music",
+        "album": "Travelin'",
+        "msPlayed": 228403
+      },
+      {
+        "id": "tx-636",
+        "source": "transaction",
+        "timestamp": 1672639560000,
+        "timeStr": "1/2/2023 6:06",
+        "title": "Lad-Sani",
+        "subtitle": "travel • Proddatur",
+        "category": "travel",
+        "amount": 2495.89,
+        "currency": "INR",
+        "city": "Proddatur",
+        "state": "Haryana"
+      },
+      {
+        "id": "tx-797",
+        "source": "transaction",
+        "timestamp": 1672657740000,
+        "timeStr": "1/2/2023 11:09",
+        "title": "Merchant",
+        "subtitle": "travel • Ghaziabad",
+        "category": "travel",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Ghaziabad",
+        "state": "Chhattisgarh"
+      },
+      {
+        "id": "tx-858",
+        "source": "transaction",
+        "timestamp": 1672637220000,
+        "timeStr": "1/2/2023 5:27",
+        "title": "Ramesh Inc",
+        "subtitle": "travel • Bidar",
+        "category": "travel",
+        "amount": 6402.76,
+        "currency": "INR",
+        "city": "Bidar",
+        "state": "Uttar Pradesh"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "50 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Lad-Sani.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-04-26",
+    "date": "2022-04-26",
+    "title": "Dan Auerbach & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-04-26.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 47,
+    "receipts": [
+      {
+        "id": "sp-117724",
+        "source": "spotify",
+        "timestamp": 1650931362000,
+        "timeStr": "2022-04-26 00:02:42",
+        "title": "Waiting on a Song",
+        "subtitle": "Dan Auerbach",
+        "category": "Music",
+        "album": "Waiting on a Song",
+        "msPlayed": 169853
+      },
+      {
+        "id": "sp-117725",
+        "source": "spotify",
+        "timestamp": 1650931569000,
+        "timeStr": "2022-04-26 00:06:09",
+        "title": "The Great Escape",
+        "subtitle": "BOYS LIKE GIRLS",
+        "category": "Music",
+        "album": "Boys Like Girls",
+        "msPlayed": 206520
+      },
+      {
+        "id": "sp-117726",
+        "source": "spotify",
+        "timestamp": 1650931848000,
+        "timeStr": "2022-04-26 00:10:48",
+        "title": "Misty Mountain Hop - Remaster",
+        "subtitle": "Led Zeppelin",
+        "category": "Music",
+        "album": "Led Zeppelin IV",
+        "msPlayed": 278907
+      },
+      {
+        "id": "sp-117727",
+        "source": "spotify",
+        "timestamp": 1650932133000,
+        "timeStr": "2022-04-26 00:15:33",
+        "title": "The Great Gig in the Sky",
+        "subtitle": "Pink Floyd",
+        "category": "Music",
+        "album": "The Dark Side of the Moon",
+        "msPlayed": 283872
+      },
+      {
+        "id": "sp-117728",
+        "source": "spotify",
+        "timestamp": 1650932259000,
+        "timeStr": "2022-04-26 00:17:39",
+        "title": "I Wonder Why",
+        "subtitle": "Kacy & Clayton",
+        "category": "Music",
+        "album": "Plastic Bouquet",
+        "msPlayed": 125840
+      },
+      {
+        "id": "tx-267",
+        "source": "transaction",
+        "timestamp": 1650963000000,
+        "timeStr": "4/26/2022 8:50",
+        "title": "Bhatti-Rattan",
+        "subtitle": "online_shopping • Tumkur",
+        "category": "online_shopping",
+        "amount": 3196,
+        "currency": "INR",
+        "city": "Tumkur",
+        "state": "Andhra Pradesh"
+      },
+      {
+        "id": "tx-470",
+        "source": "transaction",
+        "timestamp": 1650953280000,
+        "timeStr": "4/26/2022 6:08",
+        "title": "Kade Ltd",
+        "subtitle": "entertainment • Barasat",
+        "category": "entertainment",
+        "amount": 5498.24,
+        "currency": "INR",
+        "city": "Barasat",
+        "state": "Himachal Pradesh"
+      },
+      {
+        "id": "tx-676",
+        "source": "transaction",
+        "timestamp": 1650938580000,
+        "timeStr": "4/26/2022 2:03",
+        "title": "Merchant",
+        "subtitle": "fitness_and_medical • Kharagpur",
+        "category": "fitness_and_medical",
+        "amount": 2537.69,
+        "currency": "INR",
+        "city": "Kharagpur",
+        "state": "Uttar Pradesh"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "47 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Bhatti-Rattan.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-09-18",
+    "date": "2022-09-18",
+    "title": "Ed Sheeran & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2022-09-18.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 47,
+    "receipts": [
+      {
+        "id": "sp-124144",
+        "source": "spotify",
+        "timestamp": 1663461689000,
+        "timeStr": "2022-09-18 00:41:29",
+        "title": "The Joker And The Queen",
+        "subtitle": "Ed Sheeran",
+        "category": "Music",
+        "album": "=",
+        "msPlayed": 53480
+      },
+      {
+        "id": "sp-124145",
+        "source": "spotify",
+        "timestamp": 1663461691000,
+        "timeStr": "2022-09-18 00:41:31",
+        "title": "The Joker And The Queen",
+        "subtitle": "Ed Sheeran",
+        "category": "Music",
+        "album": "=",
+        "msPlayed": 2372
+      },
+      {
+        "id": "sp-124146",
+        "source": "spotify",
+        "timestamp": 1663461945000,
+        "timeStr": "2022-09-18 00:45:45",
+        "title": "I Need Never Get Old",
+        "subtitle": "Nathaniel Rateliff & The Night Sweats",
+        "category": "Music",
+        "album": "Nathaniel Rateliff & The Night Sweats",
+        "msPlayed": 253733
+      },
+      {
+        "id": "sp-124147",
+        "source": "spotify",
+        "timestamp": 1663462026000,
+        "timeStr": "2022-09-18 00:47:06",
+        "title": "They Don't Care About Us",
+        "subtitle": "Michael Jackson",
+        "category": "Music",
+        "album": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+        "msPlayed": 79580
+      },
+      {
+        "id": "sp-124148",
+        "source": "spotify",
+        "timestamp": 1663462074000,
+        "timeStr": "2022-09-18 00:47:54",
+        "title": "Bullet Proof ... I Wish I Was",
+        "subtitle": "Radiohead",
+        "category": "Music",
+        "album": "The Bends",
+        "msPlayed": 48015
+      },
+      {
+        "id": "tx-21",
+        "source": "transaction",
+        "timestamp": 1663543800000,
+        "timeStr": "9/18/2022 23:30",
+        "title": "Brar-Brahmbhatt",
+        "subtitle": "travel • Bardhaman",
+        "category": "travel",
+        "amount": 2967.16,
+        "currency": "INR",
+        "city": "Bardhaman",
+        "state": "Himachal Pradesh"
+      },
+      {
+        "id": "tx-24",
+        "source": "transaction",
+        "timestamp": 1663528380000,
+        "timeStr": "9/18/2022 19:13",
+        "title": "Divan Group",
+        "subtitle": "entertainment • Nagpur",
+        "category": "entertainment",
+        "amount": 5742.23,
+        "currency": "INR",
+        "city": "Nagpur",
+        "state": "Mizoram"
+      },
+      {
+        "id": "tx-666",
+        "source": "transaction",
+        "timestamp": 1663485300000,
+        "timeStr": "9/18/2022 7:15",
+        "title": "Sani Group",
+        "subtitle": "online_shopping • Chinsurah",
+        "category": "online_shopping",
+        "amount": 1396.5,
+        "currency": "INR",
+        "city": "Chinsurah",
+        "state": ""
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "47 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Brar-Brahmbhatt.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-12-21",
+    "date": "2022-12-21",
+    "title": "The Killers & General",
+    "narrative": "Listening sessions overlapped with card spending in General on 2022-12-21.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 45,
+    "receipts": [
+      {
+        "id": "sp-128717",
+        "source": "spotify",
+        "timestamp": 1671582666000,
+        "timeStr": "2022-12-21 00:31:06",
+        "title": "Smile Like You Mean It - Live From The Royal Albert Hall / 2009",
+        "subtitle": "The Killers",
+        "category": "Music",
+        "album": "Live From The Royal Albert Hall",
+        "msPlayed": 51066
+      },
+      {
+        "id": "sp-128718",
+        "source": "spotify",
+        "timestamp": 1671590972000,
+        "timeStr": "2022-12-21 02:49:32",
+        "title": "Smile Like You Mean It - Live From The Royal Albert Hall / 2009",
+        "subtitle": "The Killers",
+        "category": "Music",
+        "album": "Live From The Royal Albert Hall",
+        "msPlayed": 128526
+      },
+      {
+        "id": "sp-128719",
+        "source": "spotify",
+        "timestamp": 1671591285000,
+        "timeStr": "2022-12-21 02:54:45",
+        "title": "It's Beginning to Look Like Christmas",
+        "subtitle": "Johnny Mathis",
+        "category": "Music",
+        "album": "Christmas Eve With Johnny Mathis",
+        "msPlayed": 134760
+      },
+      {
+        "id": "sp-128720",
+        "source": "spotify",
+        "timestamp": 1671591451000,
+        "timeStr": "2022-12-21 02:57:31",
+        "title": "It's the Most Wonderful Time of the Year",
+        "subtitle": "Andy Williams",
+        "category": "Music",
+        "album": "It's the Most Wonderful Time of the Year",
+        "msPlayed": 165920
+      },
+      {
+        "id": "sp-128721",
+        "source": "spotify",
+        "timestamp": 1671591569000,
+        "timeStr": "2022-12-21 02:59:29",
+        "title": "Let It Snow! Let It Snow! Let It Snow!",
+        "subtitle": "Dean Martin",
+        "category": "Music",
+        "album": "A Winter Romance",
+        "msPlayed": 117146
+      },
+      {
+        "id": "tx-342",
+        "source": "transaction",
+        "timestamp": 1671595440000,
+        "timeStr": "12/21/2022 4:04",
+        "title": "Goswami, Gara and Iyengar",
+        "subtitle": "General • Dibrugarh",
+        "category": "General",
+        "amount": 4150.2,
+        "currency": "INR",
+        "city": "Dibrugarh",
+        "state": "Goa"
+      },
+      {
+        "id": "tx-759",
+        "source": "transaction",
+        "timestamp": 1671604680000,
+        "timeStr": "12/21/2022 6:38",
+        "title": "Garde-Shukla",
+        "subtitle": "General • Aurangabad",
+        "category": "General",
+        "amount": 6184.84,
+        "currency": "INR",
+        "city": "Aurangabad",
+        "state": "Kerala"
+      },
+      {
+        "id": "tx-826",
+        "source": "transaction",
+        "timestamp": 1671642960000,
+        "timeStr": "12/21/2022 17:16",
+        "title": "Khurana-Andra",
+        "subtitle": "travel • Kollam",
+        "category": "travel",
+        "amount": 6083.8,
+        "currency": "INR",
+        "city": "Kollam",
+        "state": "Maharashtra"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "45 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Goswami, Gara and Iyengar.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-06-14",
+    "date": "2022-06-14",
+    "title": "The Beatles & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-06-14.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 42,
+    "receipts": [
+      {
+        "id": "sp-119990",
+        "source": "spotify",
+        "timestamp": 1655164842000,
+        "timeStr": "2022-06-14 00:00:42",
+        "title": "Sun King - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Abbey Road",
+        "msPlayed": 146266
+      },
+      {
+        "id": "sp-119991",
+        "source": "spotify",
+        "timestamp": 1655164916000,
+        "timeStr": "2022-06-14 00:01:56",
+        "title": "Polythene Pam - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Abbey Road",
+        "msPlayed": 72640
+      },
+      {
+        "id": "sp-119992",
+        "source": "spotify",
+        "timestamp": 1655165034000,
+        "timeStr": "2022-06-14 00:03:54",
+        "title": "She Came In Through The Bathroom Window - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Abbey Road",
+        "msPlayed": 118626
+      },
+      {
+        "id": "sp-119993",
+        "source": "spotify",
+        "timestamp": 1655165126000,
+        "timeStr": "2022-06-14 00:05:26",
+        "title": "Golden Slumbers - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Abbey Road",
+        "msPlayed": 91760
+      },
+      {
+        "id": "sp-119994",
+        "source": "spotify",
+        "timestamp": 1655165223000,
+        "timeStr": "2022-06-14 00:07:03",
+        "title": "Carry That Weight - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Abbey Road",
+        "msPlayed": 96466
+      },
+      {
+        "id": "tx-503",
+        "source": "transaction",
+        "timestamp": 1655211480000,
+        "timeStr": "6/14/2022 12:58",
+        "title": "Barad, Keer and Arora",
+        "subtitle": "online_shopping • Bhagalpur",
+        "category": "online_shopping",
+        "amount": 3884.28,
+        "currency": "INR",
+        "city": "Bhagalpur",
+        "state": "Madhya Pradesh"
+      },
+      {
+        "id": "tx-1175",
+        "source": "transaction",
+        "timestamp": 1655219700000,
+        "timeStr": "6/14/2022 15:15",
+        "title": "Lanka, Tailor and Dhawan",
+        "subtitle": "fitness_and_medical • Faridabad",
+        "category": "fitness_and_medical",
+        "amount": 8817.31,
+        "currency": "INR",
+        "city": "Faridabad",
+        "state": "Assam"
+      },
+      {
+        "id": "tx-1254",
+        "source": "transaction",
+        "timestamp": 1655204940000,
+        "timeStr": "6/14/2022 11:09",
+        "title": "Kata Ltd",
+        "subtitle": "travel • Mango",
+        "category": "travel",
+        "amount": 6665.42,
+        "currency": "INR",
+        "city": "Mango",
+        "state": "Gujarat"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "42 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Barad, Keer and Arora.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2024-02-12",
+    "date": "2024-02-12",
+    "title": "Ace Frehley & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2024-02-12.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 41,
+    "receipts": [
+      {
+        "id": "sp-141632",
+        "source": "spotify",
+        "timestamp": 1707781382000,
+        "timeStr": "2024-02-12 23:43:02",
+        "title": "New York Groove",
+        "subtitle": "Ace Frehley",
+        "category": "Music",
+        "album": "American Animals (Original Motion Picture Soundtrack)",
+        "msPlayed": 10358
+      },
+      {
+        "id": "sp-141633",
+        "source": "spotify",
+        "timestamp": 1707781386000,
+        "timeStr": "2024-02-12 23:43:06",
+        "title": "Nobody But Me",
+        "subtitle": "The Human Beinz",
+        "category": "Music",
+        "album": "Nobody But Me",
+        "msPlayed": 3618
+      },
+      {
+        "id": "sp-141634",
+        "source": "spotify",
+        "timestamp": 1707781568000,
+        "timeStr": "2024-02-12 23:46:08",
+        "title": "New York Groove",
+        "subtitle": "Ace Frehley",
+        "category": "Music",
+        "album": "American Animals (Original Motion Picture Soundtrack)",
+        "msPlayed": 182280
+      },
+      {
+        "id": "sp-141635",
+        "source": "spotify",
+        "timestamp": 1707781782000,
+        "timeStr": "2024-02-12 23:49:42",
+        "title": "The Old Man Down The Road",
+        "subtitle": "John Fogerty",
+        "category": "Music",
+        "album": "Centerfield – 25th Anniversary",
+        "msPlayed": 214093
+      },
+      {
+        "id": "sp-141636",
+        "source": "spotify",
+        "timestamp": 1707781925000,
+        "timeStr": "2024-02-12 23:52:05",
+        "title": "Rich Girl",
+        "subtitle": "Daryl Hall & John Oates",
+        "category": "Music",
+        "album": "Bigger Than Both Of Us",
+        "msPlayed": 142786
+      },
+      {
+        "id": "tx-143",
+        "source": "transaction",
+        "timestamp": 1707779580000,
+        "timeStr": "2/12/2024 23:13",
+        "title": "Srinivasan-Trivedi",
+        "subtitle": "online_shopping • Jabalpur",
+        "category": "online_shopping",
+        "amount": 6240.05,
+        "currency": "INR",
+        "city": "Jabalpur",
+        "state": "Tamil Nadu"
+      },
+      {
+        "id": "tx-246",
+        "source": "transaction",
+        "timestamp": 1707752520000,
+        "timeStr": "2/12/2024 15:42",
+        "title": "Ramakrishnan PLC",
+        "subtitle": "fitness_and_medical • Hindupur",
+        "category": "fitness_and_medical",
+        "amount": 4000.68,
+        "currency": "INR",
+        "city": "Hindupur",
+        "state": "Karnataka"
+      },
+      {
+        "id": "tx-335",
+        "source": "transaction",
+        "timestamp": 1707706740000,
+        "timeStr": "2/12/2024 2:59",
+        "title": "Rajan-Borra",
+        "subtitle": "travel • Malegaon",
+        "category": "travel",
+        "amount": 1430.15,
+        "currency": "INR",
+        "city": "Malegaon",
+        "state": "Punjab"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "41 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Srinivasan-Trivedi.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-08-15",
+    "date": "2022-08-15",
+    "title": "Los Enanitos Verdes & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2022-08-15.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 40,
+    "receipts": [
+      {
+        "id": "sp-123348",
+        "source": "spotify",
+        "timestamp": 1660527687000,
+        "timeStr": "2022-08-15 01:41:27",
+        "title": "Luz De Dia",
+        "subtitle": "Los Enanitos Verdes",
+        "category": "Music",
+        "album": "Nectar",
+        "msPlayed": 9304
+      },
+      {
+        "id": "sp-123349",
+        "source": "spotify",
+        "timestamp": 1660528044000,
+        "timeStr": "2022-08-15 01:47:24",
+        "title": "Singing Winds, Crying Beasts",
+        "subtitle": "Santana",
+        "category": "Music",
+        "album": "Abraxas",
+        "msPlayed": 20192
+      },
+      {
+        "id": "sp-123350",
+        "source": "spotify",
+        "timestamp": 1660528647000,
+        "timeStr": "2022-08-15 01:57:27",
+        "title": "California Stars",
+        "subtitle": "Billy Bragg",
+        "category": "Music",
+        "album": "Mermaid Avenue",
+        "msPlayed": 298533
+      },
+      {
+        "id": "sp-123351",
+        "source": "spotify",
+        "timestamp": 1660528831000,
+        "timeStr": "2022-08-15 02:00:31",
+        "title": "Brown Eyed Girl",
+        "subtitle": "Van Morrison",
+        "category": "Music",
+        "album": "Blowin' Your Mind!",
+        "msPlayed": 183306
+      },
+      {
+        "id": "sp-123352",
+        "source": "spotify",
+        "timestamp": 1660529022000,
+        "timeStr": "2022-08-15 02:03:42",
+        "title": "Cavalleria rusticana: Intermezzo",
+        "subtitle": "Pietro Mascagni",
+        "category": "Music",
+        "album": "Mascagni: Cavalleria Rusticana/Leoncavallo: Pagliacci",
+        "msPlayed": 190226
+      },
+      {
+        "id": "tx-44",
+        "source": "transaction",
+        "timestamp": 1660549680000,
+        "timeStr": "8/15/2022 7:48",
+        "title": "Chander-Subramaniam",
+        "subtitle": "entertainment • Berhampur",
+        "category": "entertainment",
+        "amount": 848.78,
+        "currency": "INR",
+        "city": "Berhampur",
+        "state": "Rajasthan"
+      },
+      {
+        "id": "tx-236",
+        "source": "transaction",
+        "timestamp": 1660587060000,
+        "timeStr": "8/15/2022 18:11",
+        "title": "Sheth, Sidhu and Keer",
+        "subtitle": "General • Pondicherry",
+        "category": "General",
+        "amount": 9305.73,
+        "currency": "INR",
+        "city": "Pondicherry",
+        "state": "Sikkim"
+      },
+      {
+        "id": "tx-384",
+        "source": "transaction",
+        "timestamp": 1660583520000,
+        "timeStr": "8/15/2022 17:12",
+        "title": "Hayre, Amble and Char",
+        "subtitle": "online_shopping",
+        "category": "online_shopping",
+        "amount": 0,
+        "currency": "INR",
+        "city": "",
+        "state": "Nagaland"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "40 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Chander-Subramaniam.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-01-19",
+    "date": "2023-01-19",
+    "title": "Bob Dylan & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2023-01-19.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 40,
+    "receipts": [
+      {
+        "id": "sp-129374",
+        "source": "spotify",
+        "timestamp": 1674091160000,
+        "timeStr": "2023-01-19 01:19:20",
+        "title": "Don't Think Twice, It's All Right",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "The Freewheelin' Bob Dylan",
+        "msPlayed": 20921
+      },
+      {
+        "id": "sp-129375",
+        "source": "spotify",
+        "timestamp": 1674091530000,
+        "timeStr": "2023-01-19 01:25:30",
+        "title": "Like a Rolling Stone",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "Highway 61 Revisited",
+        "msPlayed": 369600
+      },
+      {
+        "id": "sp-129376",
+        "source": "spotify",
+        "timestamp": 1674091899000,
+        "timeStr": "2023-01-19 01:31:39",
+        "title": "Girl from the North Country",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "The Freewheelin' Bob Dylan",
+        "msPlayed": 199573
+      },
+      {
+        "id": "sp-129377",
+        "source": "spotify",
+        "timestamp": 1674092297000,
+        "timeStr": "2023-01-19 01:38:17",
+        "title": "Bob Dylan's 115th Dream",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "Bringing It All Back Home",
+        "msPlayed": 389800
+      },
+      {
+        "id": "sp-129378",
+        "source": "spotify",
+        "timestamp": 1674092472000,
+        "timeStr": "2023-01-19 01:41:12",
+        "title": "You're Gonna Make Me Lonesome When You Go",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "Blood On The Tracks",
+        "msPlayed": 174733
+      },
+      {
+        "id": "tx-610",
+        "source": "transaction",
+        "timestamp": 1674092340000,
+        "timeStr": "1/19/2023 1:39",
+        "title": "Ahluwalia, Baral and Grover",
+        "subtitle": "entertainment • Indore",
+        "category": "entertainment",
+        "amount": 1822.84,
+        "currency": "INR",
+        "city": "Indore",
+        "state": "Kerala"
+      },
+      {
+        "id": "tx-982",
+        "source": "transaction",
+        "timestamp": 1674138240000,
+        "timeStr": "1/19/2023 14:24",
+        "title": "Ramachandran, Chokshi and Edwin",
+        "subtitle": "General • Aurangabad",
+        "category": "General",
+        "amount": 2673.32,
+        "currency": "INR",
+        "city": "Aurangabad",
+        "state": "Nagaland"
+      },
+      {
+        "id": "tx-1218",
+        "source": "transaction",
+        "timestamp": 1674164160000,
+        "timeStr": "1/19/2023 21:36",
+        "title": "Srivastava-Dutta",
+        "subtitle": "travel • Yamunanagar",
+        "category": "travel",
+        "amount": 4462.77,
+        "currency": "INR",
+        "city": "Yamunanagar",
+        "state": "Meghalaya"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "40 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Ahluwalia, Baral and Grover.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-06-09",
+    "date": "2023-06-09",
+    "title": "Band of Horses & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2023-06-09.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 40,
+    "receipts": [
+      {
+        "id": "sp-134509",
+        "source": "spotify",
+        "timestamp": 1686285521000,
+        "timeStr": "2023-06-09 04:38:41",
+        "title": "Casual Party",
+        "subtitle": "Band of Horses",
+        "category": "Music",
+        "album": "Why Are You OK",
+        "msPlayed": 233573
+      },
+      {
+        "id": "sp-134510",
+        "source": "spotify",
+        "timestamp": 1686285725000,
+        "timeStr": "2023-06-09 04:42:05",
+        "title": "I Puritani / Act 1: Oh! vieni al tempio",
+        "subtitle": "Vincenzo Bellini",
+        "category": "Music",
+        "album": "Bellini: I Puritani",
+        "msPlayed": 203137
+      },
+      {
+        "id": "sp-134511",
+        "source": "spotify",
+        "timestamp": 1686285953000,
+        "timeStr": "2023-06-09 04:45:53",
+        "title": "Alright Now",
+        "subtitle": "Liam Gallagher",
+        "category": "Music",
+        "album": "Why Me? Why Not.",
+        "msPlayed": 227855
+      },
+      {
+        "id": "sp-134512",
+        "source": "spotify",
+        "timestamp": 1686286161000,
+        "timeStr": "2023-06-09 04:49:21",
+        "title": "Keep Me in Your Heart",
+        "subtitle": "Warren Zevon",
+        "category": "Music",
+        "album": "The Wind",
+        "msPlayed": 208026
+      },
+      {
+        "id": "sp-134513",
+        "source": "spotify",
+        "timestamp": 1686286406000,
+        "timeStr": "2023-06-09 04:53:26",
+        "title": "Hold On To What You Believe",
+        "subtitle": "Mumford & Sons",
+        "category": "Music",
+        "album": "Sigh No More",
+        "msPlayed": 244186
+      },
+      {
+        "id": "tx-151",
+        "source": "transaction",
+        "timestamp": 1686301380000,
+        "timeStr": "6/9/2023 9:03",
+        "title": "Char, Doctor and Swaminathan",
+        "subtitle": "travel • Asansol",
+        "category": "travel",
+        "amount": 6051.44,
+        "currency": "INR",
+        "city": "Asansol",
+        "state": "Assam"
+      },
+      {
+        "id": "tx-333",
+        "source": "transaction",
+        "timestamp": 1686333420000,
+        "timeStr": "6/9/2023 17:57",
+        "title": "Dubey and Sons",
+        "subtitle": "online_shopping • Deoghar",
+        "category": "online_shopping",
+        "amount": 6419.1,
+        "currency": "INR",
+        "city": "Deoghar",
+        "state": "Jharkhand"
+      },
+      {
+        "id": "tx-462",
+        "source": "transaction",
+        "timestamp": 1686310740000,
+        "timeStr": "6/9/2023 11:39",
+        "title": "Babu-Sehgal",
+        "subtitle": "online_shopping • Mahbubnagar",
+        "category": "online_shopping",
+        "amount": 8327.56,
+        "currency": "INR",
+        "city": "Mahbubnagar",
+        "state": "Assam"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "40 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Char, Doctor and Swaminathan.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-07-24",
+    "date": "2023-07-24",
+    "title": "OneRepublic & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2023-07-24.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 40,
+    "receipts": [
+      {
+        "id": "sp-136015",
+        "source": "spotify",
+        "timestamp": 1690162063000,
+        "timeStr": "2023-07-24 01:27:43",
+        "title": "Secrets",
+        "subtitle": "OneRepublic",
+        "category": "Music",
+        "album": "Waking Up",
+        "msPlayed": 205306
+      },
+      {
+        "id": "sp-136016",
+        "source": "spotify",
+        "timestamp": 1690162240000,
+        "timeStr": "2023-07-24 01:30:40",
+        "title": "Afortunado",
+        "subtitle": "Lucah",
+        "category": "Music",
+        "album": "Voy a Ti",
+        "msPlayed": 176380
+      },
+      {
+        "id": "sp-136017",
+        "source": "spotify",
+        "timestamp": 1690162486000,
+        "timeStr": "2023-07-24 01:34:46",
+        "title": "Meadow",
+        "subtitle": "Liam Gallagher",
+        "category": "Music",
+        "album": "Why Me? Why Not.",
+        "msPlayed": 245783
+      },
+      {
+        "id": "sp-136018",
+        "source": "spotify",
+        "timestamp": 1690162745000,
+        "timeStr": "2023-07-24 01:39:05",
+        "title": "Wait Until Tomorrow - Live at the Nokia Theatre, Los Angeles, CA - December 2007",
+        "subtitle": "John Mayer",
+        "category": "Music",
+        "album": "Where the Light Is: John Mayer Live In Los Angeles",
+        "msPlayed": 259160
+      },
+      {
+        "id": "sp-136019",
+        "source": "spotify",
+        "timestamp": 1690162838000,
+        "timeStr": "2023-07-24 01:40:38",
+        "title": "Intermezzo - Remasterizado",
+        "subtitle": "Manuel Ponce",
+        "category": "Music",
+        "album": "Mexicano (Remasterizado)",
+        "msPlayed": 90953
+      },
+      {
+        "id": "tx-227",
+        "source": "transaction",
+        "timestamp": 1690180560000,
+        "timeStr": "7/24/2023 6:36",
+        "title": "Rao, Dugar and Sant",
+        "subtitle": "online_shopping • Parbhani",
+        "category": "online_shopping",
+        "amount": 5563.41,
+        "currency": "INR",
+        "city": "Parbhani",
+        "state": "Sikkim"
+      },
+      {
+        "id": "tx-334",
+        "source": "transaction",
+        "timestamp": 1690217460000,
+        "timeStr": "7/24/2023 16:51",
+        "title": "Joshi, Balasubramanian and Sharma",
+        "subtitle": "entertainment • Delhi",
+        "category": "entertainment",
+        "amount": 8235.11,
+        "currency": "INR",
+        "city": "Delhi",
+        "state": "Rajasthan"
+      },
+      {
+        "id": "tx-515",
+        "source": "transaction",
+        "timestamp": 1690158000000,
+        "timeStr": "7/24/2023 0:20",
+        "title": "Varma-Basu",
+        "subtitle": "online_shopping • Korba",
+        "category": "online_shopping",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Korba",
+        "state": "Haryana"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "40 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Rao, Dugar and Sant.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-04-25",
+    "date": "2022-04-25",
+    "title": "Joaquín Sabina & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2022-04-25.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 39,
+    "receipts": [
+      {
+        "id": "sp-117720",
+        "source": "spotify",
+        "timestamp": 1650846070000,
+        "timeStr": "2022-04-25 00:21:10",
+        "title": "19 Dias y 500 Noches - En Directo",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "Nos Sobran Los Motivos",
+        "msPlayed": 319053
+      },
+      {
+        "id": "sp-117721",
+        "source": "spotify",
+        "timestamp": 1650846071000,
+        "timeStr": "2022-04-25 00:21:11",
+        "title": "Offend In Every Way",
+        "subtitle": "The White Stripes",
+        "category": "Music",
+        "album": "White Blood Cells",
+        "msPlayed": 0
+      },
+      {
+        "id": "sp-117722",
+        "source": "spotify",
+        "timestamp": 1650877156000,
+        "timeStr": "2022-04-25 08:59:16",
+        "title": "19 Dias y 500 Noches",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "19 Dias Y 500 Noches",
+        "msPlayed": 258832
+      },
+      {
+        "id": "sp-117723",
+        "source": "spotify",
+        "timestamp": 1650931191000,
+        "timeStr": "2022-04-25 23:59:51",
+        "title": "19 Dias y 500 Noches",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "19 Dias Y 500 Noches",
+        "msPlayed": 299440
+      },
+      {
+        "id": "tx-30",
+        "source": "transaction",
+        "timestamp": 1650911400000,
+        "timeStr": "4/25/2022 18:30",
+        "title": "Kumer LLC",
+        "subtitle": "travel • Sultan Pur Majra",
+        "category": "travel",
+        "amount": 6340.55,
+        "currency": "INR",
+        "city": "Sultan Pur Majra",
+        "state": "Nagaland"
+      },
+      {
+        "id": "tx-105",
+        "source": "transaction",
+        "timestamp": 1650923040000,
+        "timeStr": "4/25/2022 21:44",
+        "title": "Samra, Kumer and Ramakrishnan",
+        "subtitle": "online_shopping • Gorakhpur",
+        "category": "online_shopping",
+        "amount": 9991.71,
+        "currency": "INR",
+        "city": "Gorakhpur",
+        "state": "Tamil Nadu"
+      },
+      {
+        "id": "tx-851",
+        "source": "transaction",
+        "timestamp": 1650864600000,
+        "timeStr": "4/25/2022 5:30",
+        "title": "Shankar-Khanna",
+        "subtitle": "online_shopping • Karimnagar",
+        "category": "online_shopping",
+        "amount": 4293.83,
+        "currency": "INR",
+        "city": "Karimnagar",
+        "state": "Goa"
+      },
+      {
+        "id": "tx-1361",
+        "source": "transaction",
+        "timestamp": 1650880260000,
+        "timeStr": "4/25/2022 9:51",
+        "title": "Vyas, Sunder and Shah",
+        "subtitle": "travel • Sasaram",
+        "category": "travel",
+        "amount": 7969.62,
+        "currency": "INR",
+        "city": "Sasaram",
+        "state": "Manipur"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "39 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Kumer LLC.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-08-14",
+    "date": "2022-08-14",
+    "title": "The Box Tops & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2022-08-14.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 39,
+    "receipts": [
+      {
+        "id": "sp-123161",
+        "source": "spotify",
+        "timestamp": 1660435200000,
+        "timeStr": "2022-08-14 00:00:00",
+        "title": "Choo Choo Train - Mono Single Version",
+        "subtitle": "The Box Tops",
+        "category": "Music",
+        "album": "Quentin Tarantino's Once Upon a Time in Hollywood Original Motion Picture Soundtrack",
+        "msPlayed": 1012
+      },
+      {
+        "id": "sp-123162",
+        "source": "spotify",
+        "timestamp": 1660435202000,
+        "timeStr": "2022-08-14 00:00:02",
+        "title": "Mack the Knife",
+        "subtitle": "Bobby Darin",
+        "category": "Music",
+        "album": "That's All",
+        "msPlayed": 1050
+      },
+      {
+        "id": "sp-123163",
+        "source": "spotify",
+        "timestamp": 1660435202000,
+        "timeStr": "2022-08-14 00:00:02",
+        "title": "Me Dediqué a Perderte",
+        "subtitle": "Alejandro Fernández",
+        "category": "Music",
+        "album": "A Corazón Abierto",
+        "msPlayed": 330
+      },
+      {
+        "id": "sp-123164",
+        "source": "spotify",
+        "timestamp": 1660435203000,
+        "timeStr": "2022-08-14 00:00:03",
+        "title": "Samwise the Brave",
+        "subtitle": "Howard Shore",
+        "category": "Music",
+        "album": "The Lord of the Rings: The Two Towers (Original Motion Picture Soundtrack)",
+        "msPlayed": 721
+      },
+      {
+        "id": "sp-123165",
+        "source": "spotify",
+        "timestamp": 1660435204000,
+        "timeStr": "2022-08-14 00:00:04",
+        "title": "Modern Pressure",
+        "subtitle": "Daniel Romano",
+        "category": "Music",
+        "album": "Modern Pressure",
+        "msPlayed": 583
+      },
+      {
+        "id": "tx-552",
+        "source": "transaction",
+        "timestamp": 1660444980000,
+        "timeStr": "8/14/2022 2:43",
+        "title": "Madan-Sood",
+        "subtitle": "travel • Bhimavaram",
+        "category": "travel",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Bhimavaram",
+        "state": "Goa"
+      },
+      {
+        "id": "tx-1000",
+        "source": "transaction",
+        "timestamp": 1660442100000,
+        "timeStr": "8/14/2022 1:55",
+        "title": "Ahluwalia Group",
+        "subtitle": "fitness_and_medical • Chennai",
+        "category": "fitness_and_medical",
+        "amount": 8499.86,
+        "currency": "INR",
+        "city": "Chennai",
+        "state": "Manipur"
+      },
+      {
+        "id": "tx-1211",
+        "source": "transaction",
+        "timestamp": 1660518180000,
+        "timeStr": "8/14/2022 23:03",
+        "title": "Raja-Setty",
+        "subtitle": "entertainment",
+        "category": "entertainment",
+        "amount": 8372.24,
+        "currency": "INR",
+        "city": "",
+        "state": "Meghalaya"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "39 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Madan-Sood.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-06-03",
+    "date": "2022-06-03",
+    "title": "The Lumineers & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2022-06-03.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 38,
+    "receipts": [
+      {
+        "id": "sp-119286",
+        "source": "spotify",
+        "timestamp": 1654229914000,
+        "timeStr": "2022-06-03 04:18:34",
+        "title": "BRIGHTSIDE",
+        "subtitle": "The Lumineers",
+        "category": "Music",
+        "album": "BRIGHTSIDE",
+        "msPlayed": 2460
+      },
+      {
+        "id": "sp-119287",
+        "source": "spotify",
+        "timestamp": 1654230088000,
+        "timeStr": "2022-06-03 04:21:28",
+        "title": "Wild Child",
+        "subtitle": "The Black Keys",
+        "category": "Music",
+        "album": "Dropout Boogie",
+        "msPlayed": 164866
+      },
+      {
+        "id": "sp-119288",
+        "source": "spotify",
+        "timestamp": 1654230316000,
+        "timeStr": "2022-06-03 04:25:16",
+        "title": "It Ain't Over",
+        "subtitle": "The Black Keys",
+        "category": "Music",
+        "album": "Dropout Boogie",
+        "msPlayed": 228533
+      },
+      {
+        "id": "sp-119289",
+        "source": "spotify",
+        "timestamp": 1654230527000,
+        "timeStr": "2022-06-03 04:28:47",
+        "title": "For the Love of Money",
+        "subtitle": "The Black Keys",
+        "category": "Music",
+        "album": "Dropout Boogie",
+        "msPlayed": 211200
+      },
+      {
+        "id": "sp-119290",
+        "source": "spotify",
+        "timestamp": 1654230712000,
+        "timeStr": "2022-06-03 04:31:52",
+        "title": "Your Team Is Looking Good",
+        "subtitle": "The Black Keys",
+        "category": "Music",
+        "album": "Dropout Boogie",
+        "msPlayed": 185120
+      },
+      {
+        "id": "tx-314",
+        "source": "transaction",
+        "timestamp": 1654260420000,
+        "timeStr": "6/3/2022 12:47",
+        "title": "Issac Group",
+        "subtitle": "entertainment • Avadi",
+        "category": "entertainment",
+        "amount": 8163.86,
+        "currency": "INR",
+        "city": "Avadi",
+        "state": "Kerala"
+      },
+      {
+        "id": "tx-776",
+        "source": "transaction",
+        "timestamp": 1654246800000,
+        "timeStr": "6/3/2022 9:00",
+        "title": "Hora Group",
+        "subtitle": "entertainment",
+        "category": "entertainment",
+        "amount": 5199.51,
+        "currency": "INR",
+        "city": "",
+        "state": "Telangana"
+      },
+      {
+        "id": "tx-903",
+        "source": "transaction",
+        "timestamp": 1654273980000,
+        "timeStr": "6/3/2022 16:33",
+        "title": "Brahmbhatt-Chakrabarti",
+        "subtitle": "travel • Nizamabad",
+        "category": "travel",
+        "amount": 1573.99,
+        "currency": "INR",
+        "city": "Nizamabad",
+        "state": "Goa"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "38 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Issac Group.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-02-11",
+    "date": "2023-02-11",
+    "title": "Julian Taylor & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2023-02-11.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 38,
+    "receipts": [
+      {
+        "id": "sp-130650",
+        "source": "spotify",
+        "timestamp": 1676148420000,
+        "timeStr": "2023-02-11 20:47:00",
+        "title": "Ballad of a Young Troubadour",
+        "subtitle": "Julian Taylor",
+        "category": "Music",
+        "album": "The Ridge",
+        "msPlayed": 82320
+      },
+      {
+        "id": "tx-357",
+        "source": "transaction",
+        "timestamp": 1676147160000,
+        "timeStr": "2/11/2023 20:26",
+        "title": "Kalita Ltd",
+        "subtitle": "online_shopping • Unnao",
+        "category": "online_shopping",
+        "amount": 4983.1,
+        "currency": "INR",
+        "city": "Unnao",
+        "state": "Karnataka"
+      },
+      {
+        "id": "tx-618",
+        "source": "transaction",
+        "timestamp": 1676122860000,
+        "timeStr": "2/11/2023 13:41",
+        "title": "Dugal-Chauhan",
+        "subtitle": "General • Nagaon",
+        "category": "General",
+        "amount": 2628.95,
+        "currency": "INR",
+        "city": "Nagaon",
+        "state": ""
+      },
+      {
+        "id": "tx-686",
+        "source": "transaction",
+        "timestamp": 1676076960000,
+        "timeStr": "2/11/2023 0:56",
+        "title": "Ram and Sons",
+        "subtitle": "online_shopping • Ongole",
+        "category": "online_shopping",
+        "amount": 2385.8,
+        "currency": "INR",
+        "city": "Ongole",
+        "state": "West Bengal"
+      },
+      {
+        "id": "tx-734",
+        "source": "transaction",
+        "timestamp": 1676153160000,
+        "timeStr": "2/11/2023 22:06",
+        "title": "Bora, Talwar and Loke",
+        "subtitle": "fitness_and_medical • Anantapuram",
+        "category": "fitness_and_medical",
+        "amount": 6542.01,
+        "currency": "INR",
+        "city": "Anantapuram",
+        "state": "Tamil Nadu"
+      },
+      {
+        "id": "tx-1199",
+        "source": "transaction",
+        "timestamp": 1676149080000,
+        "timeStr": "2/11/2023 20:58",
+        "title": "Walla, Manne and Ganguly",
+        "subtitle": "entertainment • Thoothukudi",
+        "category": "entertainment",
+        "amount": 8870.29,
+        "currency": "INR",
+        "city": "Thoothukudi",
+        "state": ""
+      },
+      {
+        "id": "tx-1240",
+        "source": "transaction",
+        "timestamp": 1676142420000,
+        "timeStr": "2/11/2023 19:07",
+        "title": "Majumdar-Kala",
+        "subtitle": "travel • Tenali",
+        "category": "travel",
+        "amount": 8749.42,
+        "currency": "INR",
+        "city": "Tenali",
+        "state": "Tamil Nadu"
+      },
+      {
+        "id": "tx-1679",
+        "source": "transaction",
+        "timestamp": 1676076960000,
+        "timeStr": "2/11/2023 0:56",
+        "title": "Ram and Sons",
+        "subtitle": "online_shopping • Ongole",
+        "category": "online_shopping",
+        "amount": 2385.8,
+        "currency": "INR",
+        "city": "Ongole",
+        "state": "West Bengal"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "38 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Kalita Ltd.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-03-02",
+    "date": "2023-03-02",
+    "title": "Taylor Swift & General",
+    "narrative": "Listening sessions overlapped with card spending in General on 2023-03-02.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 38,
+    "receipts": [
+      {
+        "id": "sp-131036",
+        "source": "spotify",
+        "timestamp": 1677718325000,
+        "timeStr": "2023-03-02 00:52:05",
+        "title": "End Game",
+        "subtitle": "Taylor Swift",
+        "category": "Music",
+        "album": "reputation",
+        "msPlayed": 48650
+      },
+      {
+        "id": "sp-131037",
+        "source": "spotify",
+        "timestamp": 1677718538000,
+        "timeStr": "2023-03-02 00:55:38",
+        "title": "Welcome To New York",
+        "subtitle": "Taylor Swift",
+        "category": "Music",
+        "album": "1989",
+        "msPlayed": 212600
+      },
+      {
+        "id": "sp-131038",
+        "source": "spotify",
+        "timestamp": 1677718710000,
+        "timeStr": "2023-03-02 00:58:30",
+        "title": "You Need To Calm Down",
+        "subtitle": "Taylor Swift",
+        "category": "Music",
+        "album": "Lover",
+        "msPlayed": 171360
+      },
+      {
+        "id": "sp-131039",
+        "source": "spotify",
+        "timestamp": 1677718818000,
+        "timeStr": "2023-03-02 01:00:18",
+        "title": "I Wish You Would",
+        "subtitle": "Taylor Swift",
+        "category": "Music",
+        "album": "1989",
+        "msPlayed": 19945
+      },
+      {
+        "id": "sp-131040",
+        "source": "spotify",
+        "timestamp": 1677718819000,
+        "timeStr": "2023-03-02 01:00:19",
+        "title": "Welcome To New York",
+        "subtitle": "Taylor Swift",
+        "category": "Music",
+        "album": "1989",
+        "msPlayed": 0
+      },
+      {
+        "id": "tx-7",
+        "source": "transaction",
+        "timestamp": 1677794040000,
+        "timeStr": "3/2/2023 21:54",
+        "title": "Bhatti PLC",
+        "subtitle": "General • Satara",
+        "category": "General",
+        "amount": 7292.34,
+        "currency": "INR",
+        "city": "Satara",
+        "state": "Assam"
+      },
+      {
+        "id": "tx-769",
+        "source": "transaction",
+        "timestamp": 1677753360000,
+        "timeStr": "3/2/2023 10:36",
+        "title": "Sankaran-Anand",
+        "subtitle": "fitness_and_medical • Arrah",
+        "category": "fitness_and_medical",
+        "amount": 688.48,
+        "currency": "INR",
+        "city": "Arrah",
+        "state": "Tripura"
+      },
+      {
+        "id": "tx-771",
+        "source": "transaction",
+        "timestamp": 1677776460000,
+        "timeStr": "3/2/2023 17:01",
+        "title": "Handa Ltd",
+        "subtitle": "travel • Vasai-Virar",
+        "category": "travel",
+        "amount": 1928.47,
+        "currency": "INR",
+        "city": "Vasai-Virar",
+        "state": "Assam"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "38 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Bhatti PLC.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-12-28",
+    "date": "2023-12-28",
+    "title": "Andy Williams & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2023-12-28.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 38,
+    "receipts": [
+      {
+        "id": "sp-139710",
+        "source": "spotify",
+        "timestamp": 1703732577000,
+        "timeStr": "2023-12-28 03:02:57",
+        "title": "It's the Most Wonderful Time of the Year",
+        "subtitle": "Andy Williams",
+        "category": "Music",
+        "album": "It's the Most Wonderful Time of the Year",
+        "msPlayed": 996
+      },
+      {
+        "id": "sp-139711",
+        "source": "spotify",
+        "timestamp": 1703732636000,
+        "timeStr": "2023-12-28 03:03:56",
+        "title": "Have a Holly Jolly Christmas",
+        "subtitle": "Harry Connick, Jr.",
+        "category": "Music",
+        "album": "What A Night! A Christmas Album",
+        "msPlayed": 58895
+      },
+      {
+        "id": "sp-139712",
+        "source": "spotify",
+        "timestamp": 1703732752000,
+        "timeStr": "2023-12-28 03:05:52",
+        "title": "Let It Snow! Let It Snow! Let It Snow!",
+        "subtitle": "Dean Martin",
+        "category": "Music",
+        "album": "A Winter Romance",
+        "msPlayed": 117146
+      },
+      {
+        "id": "sp-139713",
+        "source": "spotify",
+        "timestamp": 1703733495000,
+        "timeStr": "2023-12-28 03:18:15",
+        "title": "It's Beginning to Look Like Christmas",
+        "subtitle": "Johnny Mathis",
+        "category": "Music",
+        "album": "Christmas Eve With Johnny Mathis",
+        "msPlayed": 69473
+      },
+      {
+        "id": "sp-139714",
+        "source": "spotify",
+        "timestamp": 1703784254000,
+        "timeStr": "2023-12-28 17:24:14",
+        "title": "Let It Snow! Let It Snow! Let It Snow!",
+        "subtitle": "Dean Martin",
+        "category": "Music",
+        "album": "A Winter Romance",
+        "msPlayed": 117146
+      },
+      {
+        "id": "tx-82",
+        "source": "transaction",
+        "timestamp": 1703722740000,
+        "timeStr": "12/28/2023 0:19",
+        "title": "Tripathi-Karpe",
+        "subtitle": "travel • Giridih",
+        "category": "travel",
+        "amount": 7629.93,
+        "currency": "INR",
+        "city": "Giridih",
+        "state": "Tamil Nadu"
+      },
+      {
+        "id": "tx-639",
+        "source": "transaction",
+        "timestamp": 1703766360000,
+        "timeStr": "12/28/2023 12:26",
+        "title": "Merchant",
+        "subtitle": "online_shopping • Dewas",
+        "category": "online_shopping",
+        "amount": 4317.75,
+        "currency": "INR",
+        "city": "Dewas",
+        "state": "Haryana"
+      },
+      {
+        "id": "tx-1262",
+        "source": "transaction",
+        "timestamp": 1703764920000,
+        "timeStr": "12/28/2023 12:02",
+        "title": "Kohli-Vora",
+        "subtitle": "General • Rourkela",
+        "category": "General",
+        "amount": 8781,
+        "currency": "INR",
+        "city": "Rourkela",
+        "state": "Rajasthan"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "38 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Tripathi-Karpe.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-06-08",
+    "date": "2022-06-08",
+    "title": "Xoel López & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-06-08.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 37,
+    "receipts": [
+      {
+        "id": "sp-119798",
+        "source": "spotify",
+        "timestamp": 1654646524000,
+        "timeStr": "2022-06-08 00:02:04",
+        "title": "Lodo",
+        "subtitle": "Xoel López",
+        "category": "Music",
+        "album": "Sueños y Pan",
+        "msPlayed": 193344
+      },
+      {
+        "id": "sp-119799",
+        "source": "spotify",
+        "timestamp": 1654659525000,
+        "timeStr": "2022-06-08 03:38:45",
+        "title": "Ella",
+        "subtitle": "Pedro Infante",
+        "category": "Music",
+        "album": "Mexico Gran Colección Ranchera: Pedro Infante",
+        "msPlayed": 188290
+      },
+      {
+        "id": "sp-119800",
+        "source": "spotify",
+        "timestamp": 1654659525000,
+        "timeStr": "2022-06-08 03:38:45",
+        "title": "En El Muelle de San Blas",
+        "subtitle": "Maná",
+        "category": "Music",
+        "album": "Sueños Líquidos",
+        "msPlayed": 352160
+      },
+      {
+        "id": "sp-119801",
+        "source": "spotify",
+        "timestamp": 1654659525000,
+        "timeStr": "2022-06-08 03:38:45",
+        "title": "Toda una Vida",
+        "subtitle": "Pedro Guerra",
+        "category": "Music",
+        "album": "Contigo En La Distancia",
+        "msPlayed": 115200
+      },
+      {
+        "id": "sp-119802",
+        "source": "spotify",
+        "timestamp": 1654659525000,
+        "timeStr": "2022-06-08 03:38:45",
+        "title": "La flaca",
+        "subtitle": "Jarabe De Palo",
+        "category": "Music",
+        "album": "La Flaca",
+        "msPlayed": 261200
+      },
+      {
+        "id": "tx-276",
+        "source": "transaction",
+        "timestamp": 1654655880000,
+        "timeStr": "6/8/2022 2:38",
+        "title": "Bandi-Chakrabarti",
+        "subtitle": "online_shopping • Bharatpur",
+        "category": "online_shopping",
+        "amount": 5724.58,
+        "currency": "INR",
+        "city": "Bharatpur",
+        "state": ""
+      },
+      {
+        "id": "tx-422",
+        "source": "transaction",
+        "timestamp": 1654725420000,
+        "timeStr": "6/8/2022 21:57",
+        "title": "Merchant",
+        "subtitle": "fitness_and_medical • Mau",
+        "category": "fitness_and_medical",
+        "amount": 3799.48,
+        "currency": "INR",
+        "city": "Mau",
+        "state": "Bihar"
+      },
+      {
+        "id": "tx-1158",
+        "source": "transaction",
+        "timestamp": 1654731300000,
+        "timeStr": "6/8/2022 23:35",
+        "title": "Kala-Handa",
+        "subtitle": "travel • Bhalswa Jahangir Pur",
+        "category": "travel",
+        "amount": 8663.05,
+        "currency": "INR",
+        "city": "Bhalswa Jahangir Pur",
+        "state": "Himachal Pradesh"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "37 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Bandi-Chakrabarti.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-09-08",
+    "date": "2022-09-08",
+    "title": "The Jaded Hearts Club & fitness_and_medical",
+    "narrative": "Listening sessions overlapped with card spending in fitness_and_medical on 2022-09-08.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 37,
+    "receipts": [
+      {
+        "id": "sp-123869",
+        "source": "spotify",
+        "timestamp": 1662596636000,
+        "timeStr": "2022-09-08 00:23:56",
+        "title": "Nobody but Me",
+        "subtitle": "The Jaded Hearts Club",
+        "category": "Music",
+        "album": "You've Always Been Here",
+        "msPlayed": 94342
+      },
+      {
+        "id": "sp-123870",
+        "source": "spotify",
+        "timestamp": 1662597747000,
+        "timeStr": "2022-09-08 00:42:27",
+        "title": "Nobody but Me",
+        "subtitle": "The Jaded Hearts Club",
+        "category": "Music",
+        "album": "You've Always Been Here",
+        "msPlayed": 49850
+      },
+      {
+        "id": "sp-123871",
+        "source": "spotify",
+        "timestamp": 1662601686000,
+        "timeStr": "2022-09-08 01:48:06",
+        "title": "You're Gonna Go Far, Kid",
+        "subtitle": "The Offspring",
+        "category": "Music",
+        "album": "Rise And Fall, Rage And Grace",
+        "msPlayed": 177826
+      },
+      {
+        "id": "sp-123872",
+        "source": "spotify",
+        "timestamp": 1662601888000,
+        "timeStr": "2022-09-08 01:51:28",
+        "title": "Underneath the Sky",
+        "subtitle": "Oasis",
+        "category": "Music",
+        "album": "The Masterplan",
+        "msPlayed": 201133
+      },
+      {
+        "id": "sp-123873",
+        "source": "spotify",
+        "timestamp": 1662602318000,
+        "timeStr": "2022-09-08 01:58:38",
+        "title": "Need The Sun To Break",
+        "subtitle": "James Bay",
+        "category": "Music",
+        "album": "Chaos And The Calm",
+        "msPlayed": 224813
+      },
+      {
+        "id": "tx-99",
+        "source": "transaction",
+        "timestamp": 1662632700000,
+        "timeStr": "9/8/2022 10:25",
+        "title": "Saxena, Kala and Badami",
+        "subtitle": "fitness_and_medical • Ozhukarai",
+        "category": "fitness_and_medical",
+        "amount": 5872.62,
+        "currency": "INR",
+        "city": "Ozhukarai",
+        "state": "West Bengal"
+      },
+      {
+        "id": "tx-807",
+        "source": "transaction",
+        "timestamp": 1662636120000,
+        "timeStr": "9/8/2022 11:22",
+        "title": "Kothari-Chana",
+        "subtitle": "entertainment • Chapra",
+        "category": "entertainment",
+        "amount": 9589.26,
+        "currency": "INR",
+        "city": "Chapra",
+        "state": ""
+      },
+      {
+        "id": "tx-1109",
+        "source": "transaction",
+        "timestamp": 1662680940000,
+        "timeStr": "9/8/2022 23:49",
+        "title": "Dutta, Gaba and Uppal",
+        "subtitle": "online_shopping • Nagaon",
+        "category": "online_shopping",
+        "amount": 8889.93,
+        "currency": "INR",
+        "city": "Nagaon",
+        "state": "Sikkim"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "37 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Saxena, Kala and Badami.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-11-02",
+    "date": "2022-11-02",
+    "title": "Juanes & fitness_and_medical",
+    "narrative": "Listening sessions overlapped with card spending in fitness_and_medical on 2022-11-02.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 37,
+    "receipts": [
+      {
+        "id": "sp-127268",
+        "source": "spotify",
+        "timestamp": 1667347433000,
+        "timeStr": "2022-11-02 00:03:53",
+        "title": "Para Tu Amor",
+        "subtitle": "Juanes",
+        "category": "Music",
+        "album": "Mi Sangre",
+        "msPlayed": 249000
+      },
+      {
+        "id": "sp-127269",
+        "source": "spotify",
+        "timestamp": 1667347645000,
+        "timeStr": "2022-11-02 00:07:25",
+        "title": "No Tengo Dinero",
+        "subtitle": "Juanes",
+        "category": "Music",
+        "album": "Origen",
+        "msPlayed": 211493
+      },
+      {
+        "id": "sp-127270",
+        "source": "spotify",
+        "timestamp": 1667348376000,
+        "timeStr": "2022-11-02 00:19:36",
+        "title": "La Bilirrubina",
+        "subtitle": "Juanes",
+        "category": "Music",
+        "album": "Origen",
+        "msPlayed": 129346
+      },
+      {
+        "id": "sp-127271",
+        "source": "spotify",
+        "timestamp": 1667409567000,
+        "timeStr": "2022-11-02 17:19:27",
+        "title": "Taxman - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Revolver",
+        "msPlayed": 158853
+      },
+      {
+        "id": "sp-127272",
+        "source": "spotify",
+        "timestamp": 1667409693000,
+        "timeStr": "2022-11-02 17:21:33",
+        "title": "Eleanor Rigby - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Revolver",
+        "msPlayed": 126533
+      },
+      {
+        "id": "tx-120",
+        "source": "transaction",
+        "timestamp": 1667375520000,
+        "timeStr": "11/2/2022 7:52",
+        "title": "Krishna PLC",
+        "subtitle": "fitness_and_medical • Nagpur",
+        "category": "fitness_and_medical",
+        "amount": 8665.24,
+        "currency": "INR",
+        "city": "Nagpur",
+        "state": "Karnataka"
+      },
+      {
+        "id": "tx-607",
+        "source": "transaction",
+        "timestamp": 1667376240000,
+        "timeStr": "11/2/2022 8:04",
+        "title": "Brar-Mani",
+        "subtitle": "online_shopping • Shimoga",
+        "category": "online_shopping",
+        "amount": 240.24,
+        "currency": "INR",
+        "city": "Shimoga",
+        "state": "Odisha"
+      },
+      {
+        "id": "tx-757",
+        "source": "transaction",
+        "timestamp": 1667406480000,
+        "timeStr": "11/2/2022 16:28",
+        "title": "Khosla, Chander and Sekhon",
+        "subtitle": "entertainment • Ozhukarai",
+        "category": "entertainment",
+        "amount": 5998.42,
+        "currency": "INR",
+        "city": "Ozhukarai",
+        "state": "Telangana"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "37 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Krishna PLC.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-06-13",
+    "date": "2023-06-13",
+    "title": "Bruno Mars & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2023-06-13.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 37,
+    "receipts": [
+      {
+        "id": "sp-134998",
+        "source": "spotify",
+        "timestamp": 1686699074000,
+        "timeStr": "2023-06-13 23:31:14",
+        "title": "When I Was Your Man",
+        "subtitle": "Bruno Mars",
+        "category": "Music",
+        "album": "Unorthodox Jukebox",
+        "msPlayed": 46834
+      },
+      {
+        "id": "sp-134999",
+        "source": "spotify",
+        "timestamp": 1686699077000,
+        "timeStr": "2023-06-13 23:31:17",
+        "title": "Sad-Eyed Lady of the Lowlands",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "Blonde On Blonde",
+        "msPlayed": 2868
+      },
+      {
+        "id": "sp-135000",
+        "source": "spotify",
+        "timestamp": 1686699078000,
+        "timeStr": "2023-06-13 23:31:18",
+        "title": "Too Afraid to Love You",
+        "subtitle": "The Black Keys",
+        "category": "Music",
+        "album": "Brothers",
+        "msPlayed": 1355
+      },
+      {
+        "id": "sp-135001",
+        "source": "spotify",
+        "timestamp": 1686700687000,
+        "timeStr": "2023-06-13 23:58:07",
+        "title": "Pagliacci / Act 1: \"Recitar!...Vesti la giubba\"",
+        "subtitle": "Ruggero Leoncavallo",
+        "category": "Music",
+        "album": "Verismo Arias",
+        "msPlayed": 221880
+      },
+      {
+        "id": "tx-208",
+        "source": "transaction",
+        "timestamp": 1686682860000,
+        "timeStr": "6/13/2023 19:01",
+        "title": "Devan and Sons",
+        "subtitle": "entertainment • Siwan",
+        "category": "entertainment",
+        "amount": 6719.18,
+        "currency": "INR",
+        "city": "Siwan",
+        "state": "Tamil Nadu"
+      },
+      {
+        "id": "tx-329",
+        "source": "transaction",
+        "timestamp": 1686697680000,
+        "timeStr": "6/13/2023 23:08",
+        "title": "Merchant",
+        "subtitle": "travel • Imphal",
+        "category": "travel",
+        "amount": 144.45,
+        "currency": "INR",
+        "city": "Imphal",
+        "state": "Jharkhand"
+      },
+      {
+        "id": "tx-475",
+        "source": "transaction",
+        "timestamp": 1686634440000,
+        "timeStr": "6/13/2023 5:34",
+        "title": "Chaudhari LLC",
+        "subtitle": "travel • Jodhpur",
+        "category": "travel",
+        "amount": 8888.46,
+        "currency": "INR",
+        "city": "Jodhpur",
+        "state": ""
+      },
+      {
+        "id": "tx-810",
+        "source": "transaction",
+        "timestamp": 1686642900000,
+        "timeStr": "6/13/2023 7:55",
+        "title": "Tailor Inc",
+        "subtitle": "online_shopping • Phagwara",
+        "category": "online_shopping",
+        "amount": 4619.48,
+        "currency": "INR",
+        "city": "Phagwara",
+        "state": "West Bengal"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "37 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Devan and Sons.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-10-12",
+    "date": "2023-10-12",
+    "title": "John Williams & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2023-10-12.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 36,
+    "receipts": [
+      {
+        "id": "sp-138164",
+        "source": "spotify",
+        "timestamp": 1697084305000,
+        "timeStr": "2023-10-12 04:18:25",
+        "title": "Fawkes the Phoenix",
+        "subtitle": "John Williams",
+        "category": "Music",
+        "album": "Harry Potter and The Chamber of Secrets/ Original Motion Picture Soundtrack",
+        "msPlayed": 225666
+      },
+      {
+        "id": "sp-138165",
+        "source": "spotify",
+        "timestamp": 1697084480000,
+        "timeStr": "2023-10-12 04:21:20",
+        "title": "Harry in Winter",
+        "subtitle": "Patrick Doyle",
+        "category": "Music",
+        "album": "Harry Potter And The Goblet Of Fire (Original Motion Picture Soundtrack)",
+        "msPlayed": 174440
+      },
+      {
+        "id": "sp-138166",
+        "source": "spotify",
+        "timestamp": 1697084605000,
+        "timeStr": "2023-10-12 04:23:25",
+        "title": "Main Title",
+        "subtitle": "Rachel Portman",
+        "category": "Music",
+        "album": "Chocolat (Original Motion Picture Soundtrack)",
+        "msPlayed": 123849
+      },
+      {
+        "id": "sp-138167",
+        "source": "spotify",
+        "timestamp": 1697084611000,
+        "timeStr": "2023-10-12 04:23:31",
+        "title": "Nuovo Cinema Paradiso",
+        "subtitle": "Ennio Morricone",
+        "category": "Music",
+        "album": "Nuovo Cinema Paradiso (Original Motion Picture Soundtrack)",
+        "msPlayed": 5132
+      },
+      {
+        "id": "sp-138168",
+        "source": "spotify",
+        "timestamp": 1697084810000,
+        "timeStr": "2023-10-12 04:26:50",
+        "title": "Fawkes Is Reborn",
+        "subtitle": "John Williams",
+        "category": "Music",
+        "album": "Harry Potter and The Chamber of Secrets/ Original Motion Picture Soundtrack",
+        "msPlayed": 199133
+      },
+      {
+        "id": "tx-403",
+        "source": "transaction",
+        "timestamp": 1697146200000,
+        "timeStr": "10/12/2023 21:30",
+        "title": "Dara, Kakar and Mammen",
+        "subtitle": "online_shopping • Jamalpur",
+        "category": "online_shopping",
+        "amount": 7321.94,
+        "currency": "INR",
+        "city": "Jamalpur",
+        "state": "Rajasthan"
+      },
+      {
+        "id": "tx-643",
+        "source": "transaction",
+        "timestamp": 1697139480000,
+        "timeStr": "10/12/2023 19:38",
+        "title": "Baria-Rajagopalan",
+        "subtitle": "online_shopping • Varanasi",
+        "category": "online_shopping",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Varanasi",
+        "state": ""
+      },
+      {
+        "id": "tx-1261",
+        "source": "transaction",
+        "timestamp": 1697100960000,
+        "timeStr": "10/12/2023 8:56",
+        "title": "Ramachandran-Randhawa",
+        "subtitle": "travel • Barasat",
+        "category": "travel",
+        "amount": 9225.79,
+        "currency": "INR",
+        "city": "Barasat",
+        "state": "Sikkim"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "36 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Dara, Kakar and Mammen.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2024-04-02",
+    "date": "2024-04-02",
+    "title": "Mireille Mathieu & General",
+    "narrative": "Listening sessions overlapped with card spending in General on 2024-04-02.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 36,
+    "receipts": [
+      {
+        "id": "sp-143078",
+        "source": "spotify",
+        "timestamp": 1712020218000,
+        "timeStr": "2024-04-02 01:10:18",
+        "title": "A Blue Bayou",
+        "subtitle": "Mireille Mathieu",
+        "category": "Music",
+        "album": "Une vie d'amour",
+        "msPlayed": 48103
+      },
+      {
+        "id": "sp-143079",
+        "source": "spotify",
+        "timestamp": 1712025364000,
+        "timeStr": "2024-04-02 02:36:04",
+        "title": "Maybe It's Time",
+        "subtitle": "Bradley Cooper",
+        "category": "Music",
+        "album": "A Star Is Born Soundtrack",
+        "msPlayed": 159293
+      },
+      {
+        "id": "sp-143080",
+        "source": "spotify",
+        "timestamp": 1712025539000,
+        "timeStr": "2024-04-02 02:38:59",
+        "title": "Ob-La-Di, Ob-La-Da - Take 3",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "The Beatles",
+        "msPlayed": 174186
+      },
+      {
+        "id": "sp-143081",
+        "source": "spotify",
+        "timestamp": 1712025551000,
+        "timeStr": "2024-04-02 02:39:11",
+        "title": "Gianni Schicchi: O mio babbino caro",
+        "subtitle": "Giacomo Puccini",
+        "category": "Music",
+        "album": "Opera Chill & Relax",
+        "msPlayed": 11152
+      },
+      {
+        "id": "sp-143082",
+        "source": "spotify",
+        "timestamp": 1712025557000,
+        "timeStr": "2024-04-02 02:39:17",
+        "title": "Cavalleria rusticana: Intermezzo",
+        "subtitle": "Pietro Mascagni",
+        "category": "Music",
+        "album": "Mascagni: Cavalleria Rusticana/Leoncavallo: Pagliacci",
+        "msPlayed": 5545
+      },
+      {
+        "id": "tx-216",
+        "source": "transaction",
+        "timestamp": 1712025300000,
+        "timeStr": "4/2/2024 2:35",
+        "title": "Yohannan-Venkataraman",
+        "subtitle": "General • Bhilwara",
+        "category": "General",
+        "amount": 2182.57,
+        "currency": "INR",
+        "city": "Bhilwara",
+        "state": "Maharashtra"
+      },
+      {
+        "id": "tx-409",
+        "source": "transaction",
+        "timestamp": 1712096700000,
+        "timeStr": "4/2/2024 22:25",
+        "title": "Dhillon-Bakshi",
+        "subtitle": "travel • Raiganj",
+        "category": "travel",
+        "amount": 2824.77,
+        "currency": "INR",
+        "city": "Raiganj",
+        "state": "Nagaland"
+      },
+      {
+        "id": "tx-530",
+        "source": "transaction",
+        "timestamp": 1712048940000,
+        "timeStr": "4/2/2024 9:09",
+        "title": "Merchant",
+        "subtitle": "fitness_and_medical • Khandwa",
+        "category": "fitness_and_medical",
+        "amount": 8207.57,
+        "currency": "INR",
+        "city": "Khandwa",
+        "state": "Uttar Pradesh"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "36 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Yohannan-Venkataraman.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-09-23",
+    "date": "2022-09-23",
+    "title": "Ennio Morricone & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-09-23.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 35,
+    "receipts": [
+      {
+        "id": "sp-124413",
+        "source": "spotify",
+        "timestamp": 1663923034000,
+        "timeStr": "2022-09-23 08:50:34",
+        "title": "Totò e Alfredo - Version 2",
+        "subtitle": "Ennio Morricone",
+        "category": "Music",
+        "album": "Nuovo Cinema Paradiso (Original Motion Picture Soundtrack)",
+        "msPlayed": 64124
+      },
+      {
+        "id": "sp-124414",
+        "source": "spotify",
+        "timestamp": 1663943695000,
+        "timeStr": "2022-09-23 14:34:55",
+        "title": "Luz De Dia",
+        "subtitle": "Los Enanitos Verdes",
+        "category": "Music",
+        "album": "Nectar",
+        "msPlayed": 268866
+      },
+      {
+        "id": "sp-124415",
+        "source": "spotify",
+        "timestamp": 1663943975000,
+        "timeStr": "2022-09-23 14:39:35",
+        "title": "Yolanda",
+        "subtitle": "Pablo Milanés",
+        "category": "Music",
+        "album": "Yo Me Quedo",
+        "msPlayed": 278825
+      },
+      {
+        "id": "sp-124416",
+        "source": "spotify",
+        "timestamp": 1663944171000,
+        "timeStr": "2022-09-23 14:42:51",
+        "title": "Cantares - En Directo",
+        "subtitle": "Joan Manuel Serrat",
+        "category": "Music",
+        "album": "Serrat En Directo",
+        "msPlayed": 196200
+      },
+      {
+        "id": "sp-124417",
+        "source": "spotify",
+        "timestamp": 1663944475000,
+        "timeStr": "2022-09-23 14:47:55",
+        "title": "Y Nos Dieron las Diez",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "Fisica Y Quimica",
+        "msPlayed": 302933
+      },
+      {
+        "id": "tx-53",
+        "source": "transaction",
+        "timestamp": 1663892760000,
+        "timeStr": "9/23/2022 0:26",
+        "title": "Shere-Garde",
+        "subtitle": "online_shopping • Bahraich",
+        "category": "online_shopping",
+        "amount": 6522.83,
+        "currency": "INR",
+        "city": "Bahraich",
+        "state": "Haryana"
+      },
+      {
+        "id": "tx-419",
+        "source": "transaction",
+        "timestamp": 1663963140000,
+        "timeStr": "9/23/2022 19:59",
+        "title": "Magar, Borra and Roy",
+        "subtitle": "entertainment • North Dumdum",
+        "category": "entertainment",
+        "amount": 0,
+        "currency": "INR",
+        "city": "North Dumdum",
+        "state": "Odisha"
+      },
+      {
+        "id": "tx-486",
+        "source": "transaction",
+        "timestamp": 1663948020000,
+        "timeStr": "9/23/2022 15:47",
+        "title": "Saha, Tak and Yadav",
+        "subtitle": "General • Ballia",
+        "category": "General",
+        "amount": 7006.51,
+        "currency": "INR",
+        "city": "Ballia",
+        "state": "Meghalaya"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "35 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Shere-Garde.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-07-25",
+    "date": "2023-07-25",
+    "title": "Noah Kahan & fitness_and_medical",
+    "narrative": "Listening sessions overlapped with card spending in fitness_and_medical on 2023-07-25.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 35,
+    "receipts": [
+      {
+        "id": "sp-136057",
+        "source": "spotify",
+        "timestamp": 1690243219000,
+        "timeStr": "2023-07-25 00:00:19",
+        "title": "If We Were Vampires (feat. Wesley Schultz) - Spotify Singles",
+        "subtitle": "Noah Kahan",
+        "category": "Music",
+        "album": "Spotify Singles",
+        "msPlayed": 217760
+      },
+      {
+        "id": "sp-136058",
+        "source": "spotify",
+        "timestamp": 1690243417000,
+        "timeStr": "2023-07-25 00:03:37",
+        "title": "Until You",
+        "subtitle": "AHI",
+        "category": "Music",
+        "album": "Until You",
+        "msPlayed": 198608
+      },
+      {
+        "id": "sp-136059",
+        "source": "spotify",
+        "timestamp": 1690243717000,
+        "timeStr": "2023-07-25 00:08:37",
+        "title": "Shrike",
+        "subtitle": "Hozier",
+        "category": "Music",
+        "album": "Wasteland, Baby!",
+        "msPlayed": 298780
+      },
+      {
+        "id": "sp-136060",
+        "source": "spotify",
+        "timestamp": 1690243991000,
+        "timeStr": "2023-07-25 00:13:11",
+        "title": "too young to die",
+        "subtitle": "M. Ward",
+        "category": "Music",
+        "album": "supernatural thing",
+        "msPlayed": 274571
+      },
+      {
+        "id": "sp-136061",
+        "source": "spotify",
+        "timestamp": 1690244188000,
+        "timeStr": "2023-07-25 00:16:28",
+        "title": "The Ballad of Betty and Barney Hill",
+        "subtitle": "Angelo De Augustine",
+        "category": "Music",
+        "album": "The Ballad of Betty and Barney Hill",
+        "msPlayed": 196534
+      },
+      {
+        "id": "tx-884",
+        "source": "transaction",
+        "timestamp": 1690302720000,
+        "timeStr": "7/25/2023 16:32",
+        "title": "Ray and Sons",
+        "subtitle": "fitness_and_medical • Pune",
+        "category": "fitness_and_medical",
+        "amount": 8450.5,
+        "currency": "INR",
+        "city": "Pune",
+        "state": "Mizoram"
+      },
+      {
+        "id": "tx-1037",
+        "source": "transaction",
+        "timestamp": 1690257300000,
+        "timeStr": "7/25/2023 3:55",
+        "title": "Wali-Butala",
+        "subtitle": "fitness_and_medical • Visakhapatnam",
+        "category": "fitness_and_medical",
+        "amount": 8456.15,
+        "currency": "INR",
+        "city": "Visakhapatnam",
+        "state": "Chhattisgarh"
+      },
+      {
+        "id": "tx-1123",
+        "source": "transaction",
+        "timestamp": 1690289760000,
+        "timeStr": "7/25/2023 12:56",
+        "title": "Tata, Magar and Rattan",
+        "subtitle": "fitness_and_medical • Secunderabad",
+        "category": "fitness_and_medical",
+        "amount": 5690.31,
+        "currency": "INR",
+        "city": "Secunderabad",
+        "state": "Bihar"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "35 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Ray and Sons.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2024-02-27",
+    "date": "2024-02-27",
+    "title": "Joaquín Sabina & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2024-02-27.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 35,
+    "receipts": [
+      {
+        "id": "sp-142226",
+        "source": "spotify",
+        "timestamp": 1709077598000,
+        "timeStr": "2024-02-27 23:46:38",
+        "title": "Postdata",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "Lo Niego Todo",
+        "msPlayed": 282210
+      },
+      {
+        "id": "sp-142227",
+        "source": "spotify",
+        "timestamp": 1709077729000,
+        "timeStr": "2024-02-27 23:48:49",
+        "title": "The Wall",
+        "subtitle": "Johnny Cash",
+        "category": "Music",
+        "album": "Orange Blossom Special",
+        "msPlayed": 130093
+      },
+      {
+        "id": "sp-142228",
+        "source": "spotify",
+        "timestamp": 1709077912000,
+        "timeStr": "2024-02-27 23:51:52",
+        "title": "Machine",
+        "subtitle": "Imagine Dragons",
+        "category": "Music",
+        "album": "Origins",
+        "msPlayed": 181880
+      },
+      {
+        "id": "sp-142229",
+        "source": "spotify",
+        "timestamp": 1709078072000,
+        "timeStr": "2024-02-27 23:54:32",
+        "title": "Hot House of Omagarashid",
+        "subtitle": "The Yardbirds",
+        "category": "Music",
+        "album": "Roger the Engineer (Expanded Edition)",
+        "msPlayed": 159291
+      },
+      {
+        "id": "sp-142230",
+        "source": "spotify",
+        "timestamp": 1709078236000,
+        "timeStr": "2024-02-27 23:57:16",
+        "title": "Back In The U.S.S.R. - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "The Beatles",
+        "msPlayed": 163453
+      },
+      {
+        "id": "tx-178",
+        "source": "transaction",
+        "timestamp": 1709076480000,
+        "timeStr": "2/27/2024 23:28",
+        "title": "Bhavsar and Sons",
+        "subtitle": "online_shopping • Moradabad",
+        "category": "online_shopping",
+        "amount": 7832.3,
+        "currency": "INR",
+        "city": "Moradabad",
+        "state": ""
+      },
+      {
+        "id": "tx-341",
+        "source": "transaction",
+        "timestamp": 1709027940000,
+        "timeStr": "2/27/2024 9:59",
+        "title": "Chada, Bedi and Sampath",
+        "subtitle": "online_shopping • Cuttack",
+        "category": "online_shopping",
+        "amount": 7973.79,
+        "currency": "INR",
+        "city": "Cuttack",
+        "state": "Bihar"
+      },
+      {
+        "id": "tx-1306",
+        "source": "transaction",
+        "timestamp": 1709054520000,
+        "timeStr": "2/27/2024 17:22",
+        "title": "Bhatti-Sura",
+        "subtitle": "fitness_and_medical • Thane",
+        "category": "fitness_and_medical",
+        "amount": 6953.18,
+        "currency": "INR",
+        "city": "Thane",
+        "state": "Kerala"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "35 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Bhavsar and Sons.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2024-04-03",
+    "date": "2024-04-03",
+    "title": "Kings of Leon & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2024-04-03.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 35,
+    "receipts": [
+      {
+        "id": "sp-143103",
+        "source": "spotify",
+        "timestamp": 1712188066000,
+        "timeStr": "2024-04-03 23:47:46",
+        "title": "Split Screen",
+        "subtitle": "Kings of Leon",
+        "category": "Music",
+        "album": "Split Screen",
+        "msPlayed": 303005
+      },
+      {
+        "id": "sp-143104",
+        "source": "spotify",
+        "timestamp": 1712188287000,
+        "timeStr": "2024-04-03 23:51:27",
+        "title": "The Entertainer",
+        "subtitle": "Billy Joel",
+        "category": "Music",
+        "album": "Streetlife Serenade",
+        "msPlayed": 221040
+      },
+      {
+        "id": "sp-143105",
+        "source": "spotify",
+        "timestamp": 1712188485000,
+        "timeStr": "2024-04-03 23:54:45",
+        "title": "Porque Puedo",
+        "subtitle": "Ricardo Arjona",
+        "category": "Music",
+        "album": "Circo Soledad",
+        "msPlayed": 197640
+      },
+      {
+        "id": "sp-143106",
+        "source": "spotify",
+        "timestamp": 1712188649000,
+        "timeStr": "2024-04-03 23:57:29",
+        "title": "Sea Of Heartbreak",
+        "subtitle": "Johnny Cash",
+        "category": "Music",
+        "album": "American II: Unchained",
+        "msPlayed": 162560
+      },
+      {
+        "id": "tx-472",
+        "source": "transaction",
+        "timestamp": 1712180640000,
+        "timeStr": "4/3/2024 21:44",
+        "title": "Barman LLC",
+        "subtitle": "online_shopping • Bhiwani",
+        "category": "online_shopping",
+        "amount": 2422.39,
+        "currency": "INR",
+        "city": "Bhiwani",
+        "state": "Gujarat"
+      },
+      {
+        "id": "tx-540",
+        "source": "transaction",
+        "timestamp": 1712178420000,
+        "timeStr": "4/3/2024 21:07",
+        "title": "Contractor and Sons",
+        "subtitle": "online_shopping • Surendranagar Dudhrej",
+        "category": "online_shopping",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Surendranagar Dudhrej",
+        "state": "Arunachal Pradesh"
+      },
+      {
+        "id": "tx-768",
+        "source": "transaction",
+        "timestamp": 1712115720000,
+        "timeStr": "4/3/2024 3:42",
+        "title": "Sarma, Anne and Lanka",
+        "subtitle": "entertainment • Ulhasnagar",
+        "category": "entertainment",
+        "amount": 6870.72,
+        "currency": "INR",
+        "city": "Ulhasnagar",
+        "state": "West Bengal"
+      },
+      {
+        "id": "tx-1078",
+        "source": "transaction",
+        "timestamp": 1712117040000,
+        "timeStr": "4/3/2024 4:04",
+        "title": "Manda LLC",
+        "subtitle": "travel",
+        "category": "travel",
+        "amount": 5081.08,
+        "currency": "INR",
+        "city": "",
+        "state": "Rajasthan"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "35 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Barman LLC.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-06-13",
+    "date": "2022-06-13",
+    "title": "The Beach Boys & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2022-06-13.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 34,
+    "receipts": [
+      {
+        "id": "sp-119950",
+        "source": "spotify",
+        "timestamp": 1655137755000,
+        "timeStr": "2022-06-13 16:29:15",
+        "title": "Wouldn't It Be Nice - Mono",
+        "subtitle": "The Beach Boys",
+        "category": "Music",
+        "album": "Pet Sounds",
+        "msPlayed": 21903
+      },
+      {
+        "id": "sp-119951",
+        "source": "spotify",
+        "timestamp": 1655139626000,
+        "timeStr": "2022-06-13 17:00:26",
+        "title": "Shelter from the Storm",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "Blood On The Tracks",
+        "msPlayed": 301133
+      },
+      {
+        "id": "sp-119952",
+        "source": "spotify",
+        "timestamp": 1655139785000,
+        "timeStr": "2022-06-13 17:03:05",
+        "title": "One Too Many Mornings",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "The Times They Are A-Changin'",
+        "msPlayed": 157933
+      },
+      {
+        "id": "sp-119953",
+        "source": "spotify",
+        "timestamp": 1655140138000,
+        "timeStr": "2022-06-13 17:08:58",
+        "title": "The Lonesome Death of Hattie Carroll",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "The Times They Are A-Changin'",
+        "msPlayed": 345133
+      },
+      {
+        "id": "sp-119954",
+        "source": "spotify",
+        "timestamp": 1655140670000,
+        "timeStr": "2022-06-13 17:17:50",
+        "title": "Lily, Rosemary and the Jack of Hearts",
+        "subtitle": "Bob Dylan",
+        "category": "Music",
+        "album": "Blood On The Tracks",
+        "msPlayed": 531160
+      },
+      {
+        "id": "tx-163",
+        "source": "transaction",
+        "timestamp": 1655100420000,
+        "timeStr": "6/13/2022 6:07",
+        "title": "Dubey LLC",
+        "subtitle": "travel • Bhilai",
+        "category": "travel",
+        "amount": 555.14,
+        "currency": "INR",
+        "city": "Bhilai",
+        "state": ""
+      },
+      {
+        "id": "tx-306",
+        "source": "transaction",
+        "timestamp": 1655095920000,
+        "timeStr": "6/13/2022 4:52",
+        "title": "Ravi-Jain",
+        "subtitle": "online_shopping • Sangli-Miraj & Kupwad",
+        "category": "online_shopping",
+        "amount": 9086.16,
+        "currency": "INR",
+        "city": "Sangli-Miraj & Kupwad",
+        "state": "Karnataka"
+      },
+      {
+        "id": "tx-1194",
+        "source": "transaction",
+        "timestamp": 1655086380000,
+        "timeStr": "6/13/2022 2:13",
+        "title": "Khurana, Bhat and Saraf",
+        "subtitle": "online_shopping • Satna",
+        "category": "online_shopping",
+        "amount": 4100.08,
+        "currency": "INR",
+        "city": "Satna",
+        "state": "Assam"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "34 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Dubey LLC.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-07-08",
+    "date": "2022-07-08",
+    "title": "Radiohead & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-07-08.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 34,
+    "receipts": [
+      {
+        "id": "sp-121843",
+        "source": "spotify",
+        "timestamp": 1657250846000,
+        "timeStr": "2022-07-08 03:27:26",
+        "title": "Karma Police",
+        "subtitle": "Radiohead",
+        "category": "Music",
+        "album": "OK Computer",
+        "msPlayed": 62113
+      },
+      {
+        "id": "sp-121844",
+        "source": "spotify",
+        "timestamp": 1657251048000,
+        "timeStr": "2022-07-08 03:30:48",
+        "title": "Karma Police",
+        "subtitle": "Radiohead",
+        "category": "Music",
+        "album": "OK Computer",
+        "msPlayed": 202244
+      },
+      {
+        "id": "sp-121845",
+        "source": "spotify",
+        "timestamp": 1657251053000,
+        "timeStr": "2022-07-08 03:30:53",
+        "title": "Fitter Happier",
+        "subtitle": "Radiohead",
+        "category": "Music",
+        "album": "OK Computer",
+        "msPlayed": 4213
+      },
+      {
+        "id": "sp-121846",
+        "source": "spotify",
+        "timestamp": 1657251283000,
+        "timeStr": "2022-07-08 03:34:43",
+        "title": "Electioneering",
+        "subtitle": "Radiohead",
+        "category": "Music",
+        "album": "OK Computer",
+        "msPlayed": 230626
+      },
+      {
+        "id": "sp-121847",
+        "source": "spotify",
+        "timestamp": 1657260134000,
+        "timeStr": "2022-07-08 06:02:14",
+        "title": "Climbing Up the Walls",
+        "subtitle": "Radiohead",
+        "category": "Music",
+        "album": "OK Computer",
+        "msPlayed": 59930
+      },
+      {
+        "id": "tx-192",
+        "source": "transaction",
+        "timestamp": 1657302540000,
+        "timeStr": "7/8/2022 17:49",
+        "title": "Kashyap, Barman and Apte",
+        "subtitle": "online_shopping",
+        "category": "online_shopping",
+        "amount": 8351.89,
+        "currency": "INR",
+        "city": "",
+        "state": "Rajasthan"
+      },
+      {
+        "id": "tx-841",
+        "source": "transaction",
+        "timestamp": 1657263480000,
+        "timeStr": "7/8/2022 6:58",
+        "title": "Maharaj, Shah and Johal",
+        "subtitle": "online_shopping • Dehri",
+        "category": "online_shopping",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Dehri",
+        "state": "Chhattisgarh"
+      },
+      {
+        "id": "tx-1208",
+        "source": "transaction",
+        "timestamp": 1657318920000,
+        "timeStr": "7/8/2022 22:22",
+        "title": "Kurian-Karnik",
+        "subtitle": "fitness_and_medical • Gurgaon",
+        "category": "fitness_and_medical",
+        "amount": 5572.69,
+        "currency": "INR",
+        "city": "Gurgaon",
+        "state": "Odisha"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "34 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Kashyap, Barman and Apte.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-08-21",
+    "date": "2022-08-21",
+    "title": "John Mayer & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2022-08-21.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 34,
+    "receipts": [
+      {
+        "id": "sp-123482",
+        "source": "spotify",
+        "timestamp": 1661057238000,
+        "timeStr": "2022-08-21 04:47:18",
+        "title": "I Will Be Found (Lost At Sea)",
+        "subtitle": "John Mayer",
+        "category": "Music",
+        "album": "Paradise Valley",
+        "msPlayed": 8247
+      },
+      {
+        "id": "sp-123483",
+        "source": "spotify",
+        "timestamp": 1661057427000,
+        "timeStr": "2022-08-21 04:50:27",
+        "title": "I Will Be Found (Lost At Sea)",
+        "subtitle": "John Mayer",
+        "category": "Music",
+        "album": "Paradise Valley",
+        "msPlayed": 182766
+      },
+      {
+        "id": "sp-123484",
+        "source": "spotify",
+        "timestamp": 1661070090000,
+        "timeStr": "2022-08-21 08:21:30",
+        "title": "In Repair",
+        "subtitle": "John Mayer",
+        "category": "Music",
+        "album": "Continuum",
+        "msPlayed": 270042
+      },
+      {
+        "id": "sp-123485",
+        "source": "spotify",
+        "timestamp": 1661070188000,
+        "timeStr": "2022-08-21 08:23:08",
+        "title": "In Repair",
+        "subtitle": "John Mayer",
+        "category": "Music",
+        "album": "Continuum",
+        "msPlayed": 98868
+      },
+      {
+        "id": "sp-123486",
+        "source": "spotify",
+        "timestamp": 1661070417000,
+        "timeStr": "2022-08-21 08:26:57",
+        "title": "Young Girls",
+        "subtitle": "Bruno Mars",
+        "category": "Music",
+        "album": "Unorthodox Jukebox",
+        "msPlayed": 228720
+      },
+      {
+        "id": "tx-1122",
+        "source": "transaction",
+        "timestamp": 1661094960000,
+        "timeStr": "8/21/2022 15:16",
+        "title": "Kunda Ltd",
+        "subtitle": "travel • Kalyan-Dombivli",
+        "category": "travel",
+        "amount": 9300.36,
+        "currency": "INR",
+        "city": "Kalyan-Dombivli",
+        "state": "Nagaland"
+      },
+      {
+        "id": "tx-1297",
+        "source": "transaction",
+        "timestamp": 1661056560000,
+        "timeStr": "8/21/2022 4:36",
+        "title": "Kalita, Kapadia and Chakrabarti",
+        "subtitle": "entertainment • Proddatur",
+        "category": "entertainment",
+        "amount": 4906.35,
+        "currency": "INR",
+        "city": "Proddatur",
+        "state": "Telangana"
+      },
+      {
+        "id": "tx-1298",
+        "source": "transaction",
+        "timestamp": 1661085300000,
+        "timeStr": "8/21/2022 12:35",
+        "title": "Bansal and Sons",
+        "subtitle": "travel • Loni",
+        "category": "travel",
+        "amount": 3766.58,
+        "currency": "INR",
+        "city": "Loni",
+        "state": "Maharashtra"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "34 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Kunda Ltd.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-11-28",
+    "date": "2022-11-28",
+    "title": "The Killers & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-11-28.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 34,
+    "receipts": [
+      {
+        "id": "sp-128126",
+        "source": "spotify",
+        "timestamp": 1669593600000,
+        "timeStr": "2022-11-28 00:00:00",
+        "title": "Blowback - Acoustic",
+        "subtitle": "The Killers",
+        "category": "Music",
+        "album": "Imploding The Mirage - Deluxe",
+        "msPlayed": 2532
+      },
+      {
+        "id": "sp-128127",
+        "source": "spotify",
+        "timestamp": 1669593850000,
+        "timeStr": "2022-11-28 00:04:10",
+        "title": "The Bandit",
+        "subtitle": "Kings of Leon",
+        "category": "Music",
+        "album": "When You See Yourself",
+        "msPlayed": 250973
+      },
+      {
+        "id": "sp-128128",
+        "source": "spotify",
+        "timestamp": 1669594094000,
+        "timeStr": "2022-11-28 00:08:14",
+        "title": "Don't Go Dark",
+        "subtitle": "Bleachers",
+        "category": "Music",
+        "album": "Take the Sadness Out of Saturday Night",
+        "msPlayed": 243946
+      },
+      {
+        "id": "sp-128129",
+        "source": "spotify",
+        "timestamp": 1669594301000,
+        "timeStr": "2022-11-28 00:11:41",
+        "title": "Alone In My Home",
+        "subtitle": "Jack White",
+        "category": "Music",
+        "album": "Lazaretto",
+        "msPlayed": 206386
+      },
+      {
+        "id": "sp-128130",
+        "source": "spotify",
+        "timestamp": 1669594305000,
+        "timeStr": "2022-11-28 00:11:45",
+        "title": "Terrible Thing - Abridged",
+        "subtitle": "The Killers",
+        "category": "Music",
+        "album": "Pressure Machine",
+        "msPlayed": 2032
+      },
+      {
+        "id": "tx-721",
+        "source": "transaction",
+        "timestamp": 1669624860000,
+        "timeStr": "11/28/2022 8:41",
+        "title": "Sachdeva, Bhatia and Sandhu",
+        "subtitle": "online_shopping",
+        "category": "online_shopping",
+        "amount": 693.23,
+        "currency": "INR",
+        "city": "",
+        "state": ""
+      },
+      {
+        "id": "tx-831",
+        "source": "transaction",
+        "timestamp": 1669628700000,
+        "timeStr": "11/28/2022 9:45",
+        "title": "Dyal LLC",
+        "subtitle": "online_shopping • Yamunanagar",
+        "category": "online_shopping",
+        "amount": 4789.62,
+        "currency": "INR",
+        "city": "Yamunanagar",
+        "state": "Odisha"
+      },
+      {
+        "id": "tx-860",
+        "source": "transaction",
+        "timestamp": 1669614060000,
+        "timeStr": "11/28/2022 5:41",
+        "title": "Shere-Grover",
+        "subtitle": "online_shopping • Mathura",
+        "category": "online_shopping",
+        "amount": 9051.86,
+        "currency": "INR",
+        "city": "Mathura",
+        "state": "Manipur"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "34 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Sachdeva, Bhatia and Sandhu.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-12-30",
+    "date": "2022-12-30",
+    "title": "Simon & Garfunkel & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2022-12-30.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 34,
+    "receipts": [
+      {
+        "id": "sp-128960",
+        "source": "spotify",
+        "timestamp": 1672358992000,
+        "timeStr": "2022-12-30 00:09:52",
+        "title": "The Boxer",
+        "subtitle": "Simon & Garfunkel",
+        "category": "Music",
+        "album": "Bridge Over Troubled Water",
+        "msPlayed": 3403
+      },
+      {
+        "id": "sp-128961",
+        "source": "spotify",
+        "timestamp": 1672359771000,
+        "timeStr": "2022-12-30 00:22:51",
+        "title": "Hammer To Fall",
+        "subtitle": "Queen",
+        "category": "Music",
+        "album": "The Works",
+        "msPlayed": 115635
+      },
+      {
+        "id": "sp-128962",
+        "source": "spotify",
+        "timestamp": 1672417009000,
+        "timeStr": "2022-12-30 16:16:49",
+        "title": "Hammer To Fall",
+        "subtitle": "Queen",
+        "category": "Music",
+        "album": "The Works",
+        "msPlayed": 152581
+      },
+      {
+        "id": "sp-128963",
+        "source": "spotify",
+        "timestamp": 1672417169000,
+        "timeStr": "2022-12-30 16:19:29",
+        "title": "Maybe It's Time",
+        "subtitle": "Bradley Cooper",
+        "category": "Music",
+        "album": "A Star Is Born Soundtrack",
+        "msPlayed": 159293
+      },
+      {
+        "id": "sp-128964",
+        "source": "spotify",
+        "timestamp": 1672418287000,
+        "timeStr": "2022-12-30 16:38:07",
+        "title": "Mr. Blue Sky",
+        "subtitle": "Electric Light Orchestra",
+        "category": "Music",
+        "album": "Out of the Blue",
+        "msPlayed": 188841
+      },
+      {
+        "id": "tx-280",
+        "source": "transaction",
+        "timestamp": 1672421220000,
+        "timeStr": "12/30/2022 17:27",
+        "title": "Gokhale, Rajagopal and Gala",
+        "subtitle": "travel • Ramgarh",
+        "category": "travel",
+        "amount": 7834.5,
+        "currency": "INR",
+        "city": "Ramgarh",
+        "state": ""
+      },
+      {
+        "id": "tx-424",
+        "source": "transaction",
+        "timestamp": 1672412640000,
+        "timeStr": "12/30/2022 15:04",
+        "title": "Dhar, Din and Kothari",
+        "subtitle": "entertainment • Sambhal",
+        "category": "entertainment",
+        "amount": 8706.24,
+        "currency": "INR",
+        "city": "Sambhal",
+        "state": "Tripura"
+      },
+      {
+        "id": "tx-1314",
+        "source": "transaction",
+        "timestamp": 1672407480000,
+        "timeStr": "12/30/2022 13:38",
+        "title": "Goda-Kala",
+        "subtitle": "travel • Malda",
+        "category": "travel",
+        "amount": 5549.5,
+        "currency": "INR",
+        "city": "Malda",
+        "state": "Rajasthan"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "34 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Gokhale, Rajagopal and Gala.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-06-22",
+    "date": "2023-06-22",
+    "title": "Giacomo Puccini & fitness_and_medical",
+    "narrative": "Listening sessions overlapped with card spending in fitness_and_medical on 2023-06-22.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 34,
+    "receipts": [
+      {
+        "id": "sp-135052",
+        "source": "spotify",
+        "timestamp": 1687450606000,
+        "timeStr": "2023-06-22 16:16:46",
+        "title": "Gianni Schicchi: O mio babbino caro",
+        "subtitle": "Giacomo Puccini",
+        "category": "Music",
+        "album": "Opera Chill & Relax",
+        "msPlayed": 169880
+      },
+      {
+        "id": "sp-135053",
+        "source": "spotify",
+        "timestamp": 1687450726000,
+        "timeStr": "2023-06-22 16:18:46",
+        "title": "Rigoletto / Act 1: \"Questa o quella\"",
+        "subtitle": "Giuseppe Verdi",
+        "category": "Music",
+        "album": "Luciano Pavarotti - The Best",
+        "msPlayed": 119400
+      },
+      {
+        "id": "sp-135054",
+        "source": "spotify",
+        "timestamp": 1687450965000,
+        "timeStr": "2023-06-22 16:22:45",
+        "title": "Va, pensiero",
+        "subtitle": "Luciano Pavarotti",
+        "category": "Music",
+        "album": "Pavarotti & Friends For The Children Of Liberia",
+        "msPlayed": 238360
+      },
+      {
+        "id": "sp-135055",
+        "source": "spotify",
+        "timestamp": 1687451071000,
+        "timeStr": "2023-06-22 16:24:31",
+        "title": "Giordano: Fedora: \"Amor ti vieta\"",
+        "subtitle": "Umberto Giordano",
+        "category": "Music",
+        "album": "Pavarotti Forever",
+        "msPlayed": 105000
+      },
+      {
+        "id": "sp-135056",
+        "source": "spotify",
+        "timestamp": 1687451308000,
+        "timeStr": "2023-06-22 16:28:28",
+        "title": "Júrame",
+        "subtitle": "María Grever",
+        "category": "Music",
+        "album": "50 Greatest Tracks",
+        "msPlayed": 222906
+      },
+      {
+        "id": "tx-18",
+        "source": "transaction",
+        "timestamp": 1687432500000,
+        "timeStr": "6/22/2023 11:15",
+        "title": "Walla and Sons",
+        "subtitle": "fitness_and_medical • Dehradun",
+        "category": "fitness_and_medical",
+        "amount": 2476.03,
+        "currency": "INR",
+        "city": "Dehradun",
+        "state": "Rajasthan"
+      },
+      {
+        "id": "tx-293",
+        "source": "transaction",
+        "timestamp": 1687434780000,
+        "timeStr": "6/22/2023 11:53",
+        "title": "Merchant",
+        "subtitle": "entertainment • Bettiah",
+        "category": "entertainment",
+        "amount": 348.35,
+        "currency": "INR",
+        "city": "Bettiah",
+        "state": ""
+      },
+      {
+        "id": "tx-1219",
+        "source": "transaction",
+        "timestamp": 1687448400000,
+        "timeStr": "6/22/2023 15:40",
+        "title": "Sahni, Grewal and Sami",
+        "subtitle": "fitness_and_medical • Nagaon",
+        "category": "fitness_and_medical",
+        "amount": 4025.97,
+        "currency": "INR",
+        "city": "Nagaon",
+        "state": "West Bengal"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "34 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Walla and Sons.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-09-30",
+    "date": "2023-09-30",
+    "title": "Jorge Drexler & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2023-09-30.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 34,
+    "receipts": [
+      {
+        "id": "sp-137639",
+        "source": "spotify",
+        "timestamp": 1696032691000,
+        "timeStr": "2023-09-30 00:11:31",
+        "title": "La vida es más compleja de lo que parece",
+        "subtitle": "Jorge Drexler",
+        "category": "Music",
+        "album": "12 segundos de oscuridad",
+        "msPlayed": 169112
+      },
+      {
+        "id": "sp-137640",
+        "source": "spotify",
+        "timestamp": 1696034400000,
+        "timeStr": "2023-09-30 00:40:00",
+        "title": "Óleo de Mujer Con Sombrero",
+        "subtitle": "Silvio Rodríguez",
+        "category": "Music",
+        "album": "Al Final de Este Viaje...",
+        "msPlayed": 115547
+      },
+      {
+        "id": "sp-137641",
+        "source": "spotify",
+        "timestamp": 1696042234000,
+        "timeStr": "2023-09-30 02:50:34",
+        "title": "Óleo de Mujer Con Sombrero",
+        "subtitle": "Silvio Rodríguez",
+        "category": "Music",
+        "album": "Al Final de Este Viaje...",
+        "msPlayed": 29299
+      },
+      {
+        "id": "sp-137642",
+        "source": "spotify",
+        "timestamp": 1696042419000,
+        "timeStr": "2023-09-30 02:53:39",
+        "title": "Me haces bien",
+        "subtitle": "Jorge Drexler",
+        "category": "Music",
+        "album": "Sea",
+        "msPlayed": 184546
+      },
+      {
+        "id": "sp-137643",
+        "source": "spotify",
+        "timestamp": 1696042708000,
+        "timeStr": "2023-09-30 02:58:28",
+        "title": "Dice la gente",
+        "subtitle": "Kiko Veneno",
+        "category": "Music",
+        "album": "Dice la gente",
+        "msPlayed": 288626
+      },
+      {
+        "id": "tx-490",
+        "source": "transaction",
+        "timestamp": 1696064280000,
+        "timeStr": "9/30/2023 8:58",
+        "title": "Bobal LLC",
+        "subtitle": "entertainment • Pudukkottai",
+        "category": "entertainment",
+        "amount": 4353.69,
+        "currency": "INR",
+        "city": "Pudukkottai",
+        "state": "Telangana"
+      },
+      {
+        "id": "tx-812",
+        "source": "transaction",
+        "timestamp": 1696105080000,
+        "timeStr": "9/30/2023 20:18",
+        "title": "Borra Group",
+        "subtitle": "travel • Ambala",
+        "category": "travel",
+        "amount": 243.49,
+        "currency": "INR",
+        "city": "Ambala",
+        "state": "Mizoram"
+      },
+      {
+        "id": "tx-1371",
+        "source": "transaction",
+        "timestamp": 1696085760000,
+        "timeStr": "9/30/2023 14:56",
+        "title": "Sunder, Roy and Devan",
+        "subtitle": "entertainment • Visakhapatnam",
+        "category": "entertainment",
+        "amount": 2568.42,
+        "currency": "INR",
+        "city": "Visakhapatnam",
+        "state": "Odisha"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "34 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Bobal LLC.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-05-23",
+    "date": "2022-05-23",
+    "title": "The Mud Howlers & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-05-23.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 33,
+    "receipts": [
+      {
+        "id": "sp-119084",
+        "source": "spotify",
+        "timestamp": 1653279041000,
+        "timeStr": "2022-05-23 04:10:41",
+        "title": "Sale el Sol",
+        "subtitle": "The Mud Howlers",
+        "category": "Music",
+        "album": "Las Mercedes",
+        "msPlayed": 236673
+      },
+      {
+        "id": "sp-119085",
+        "source": "spotify",
+        "timestamp": 1653279051000,
+        "timeStr": "2022-05-23 04:10:51",
+        "title": "Sale el Sol",
+        "subtitle": "The Mud Howlers",
+        "category": "Music",
+        "album": "Las Mercedes",
+        "msPlayed": 0
+      },
+      {
+        "id": "sp-119086",
+        "source": "spotify",
+        "timestamp": 1653279054000,
+        "timeStr": "2022-05-23 04:10:54",
+        "title": "Espiral",
+        "subtitle": "The Mud Howlers",
+        "category": "Music",
+        "album": "Las Mercedes",
+        "msPlayed": 1866
+      },
+      {
+        "id": "sp-119087",
+        "source": "spotify",
+        "timestamp": 1653279332000,
+        "timeStr": "2022-05-23 04:15:32",
+        "title": "Sale el Sol",
+        "subtitle": "The Mud Howlers",
+        "category": "Music",
+        "album": "Las Mercedes",
+        "msPlayed": 278136
+      },
+      {
+        "id": "sp-119088",
+        "source": "spotify",
+        "timestamp": 1653279590000,
+        "timeStr": "2022-05-23 04:19:50",
+        "title": "Espiral",
+        "subtitle": "The Mud Howlers",
+        "category": "Music",
+        "album": "Las Mercedes",
+        "msPlayed": 258293
+      },
+      {
+        "id": "tx-61",
+        "source": "transaction",
+        "timestamp": 1653272880000,
+        "timeStr": "5/23/2022 2:28",
+        "title": "Kade and Sons",
+        "subtitle": "online_shopping",
+        "category": "online_shopping",
+        "amount": 4346.33,
+        "currency": "INR",
+        "city": "",
+        "state": "Mizoram"
+      },
+      {
+        "id": "tx-426",
+        "source": "transaction",
+        "timestamp": 1653334620000,
+        "timeStr": "5/23/2022 19:37",
+        "title": "Dugar Inc",
+        "subtitle": "travel • Tiruvottiyur",
+        "category": "travel",
+        "amount": 4783.1,
+        "currency": "INR",
+        "city": "Tiruvottiyur",
+        "state": "Odisha"
+      },
+      {
+        "id": "tx-1156",
+        "source": "transaction",
+        "timestamp": 1653286440000,
+        "timeStr": "5/23/2022 6:14",
+        "title": "Chander-Dara",
+        "subtitle": "entertainment • Rohtak",
+        "category": "entertainment",
+        "amount": 438.92,
+        "currency": "INR",
+        "city": "Rohtak",
+        "state": "Jharkhand"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "33 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Kade and Sons.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-10-05",
+    "date": "2022-10-05",
+    "title": "Joaquín Sabina & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2022-10-05.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 33,
+    "receipts": [
+      {
+        "id": "sp-126008",
+        "source": "spotify",
+        "timestamp": 1664928202000,
+        "timeStr": "2022-10-05 00:03:22",
+        "title": "Peces de Ciudad",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "Dímelo En La Calle",
+        "msPlayed": 305186
+      },
+      {
+        "id": "sp-126009",
+        "source": "spotify",
+        "timestamp": 1664928478000,
+        "timeStr": "2022-10-05 00:07:58",
+        "title": "Slowly - Tributo a Luis Eduardo Aute",
+        "subtitle": "Duncan Dhu",
+        "category": "Music",
+        "album": "Coleccion",
+        "msPlayed": 275053
+      },
+      {
+        "id": "sp-126010",
+        "source": "spotify",
+        "timestamp": 1664928739000,
+        "timeStr": "2022-10-05 00:12:19",
+        "title": "La flaca",
+        "subtitle": "Jarabe De Palo",
+        "category": "Music",
+        "album": "La Flaca",
+        "msPlayed": 261200
+      },
+      {
+        "id": "sp-126011",
+        "source": "spotify",
+        "timestamp": 1664928952000,
+        "timeStr": "2022-10-05 00:15:52",
+        "title": "Hoy Hace Un Buen Dia",
+        "subtitle": "Fernando Delgadillo",
+        "category": "Music",
+        "album": "Con Cierto Aire a Ti",
+        "msPlayed": 42932
+      },
+      {
+        "id": "sp-126012",
+        "source": "spotify",
+        "timestamp": 1664929131000,
+        "timeStr": "2022-10-05 00:18:51",
+        "title": "You're Going To Lose That Girl - Remastered 2009",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "Help!",
+        "msPlayed": 138666
+      },
+      {
+        "id": "tx-231",
+        "source": "transaction",
+        "timestamp": 1664951520000,
+        "timeStr": "10/5/2022 6:32",
+        "title": "Taneja, Hans and Cheema",
+        "subtitle": "entertainment • Ramagundam",
+        "category": "entertainment",
+        "amount": 5274.69,
+        "currency": "INR",
+        "city": "Ramagundam",
+        "state": "Goa"
+      },
+      {
+        "id": "tx-319",
+        "source": "transaction",
+        "timestamp": 1664959140000,
+        "timeStr": "10/5/2022 8:39",
+        "title": "Tandon LLC",
+        "subtitle": "online_shopping • Chennai",
+        "category": "online_shopping",
+        "amount": 7953.98,
+        "currency": "INR",
+        "city": "Chennai",
+        "state": "Kerala"
+      },
+      {
+        "id": "tx-337",
+        "source": "transaction",
+        "timestamp": 1664998320000,
+        "timeStr": "10/5/2022 19:32",
+        "title": "Dhar, Dave and Goyal",
+        "subtitle": "online_shopping • Karimnagar",
+        "category": "online_shopping",
+        "amount": 2880.04,
+        "currency": "INR",
+        "city": "Karimnagar",
+        "state": "Karnataka"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "33 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Taneja, Hans and Cheema.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-03-31",
+    "date": "2023-03-31",
+    "title": "Pink Floyd & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2023-03-31.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 33,
+    "receipts": [
+      {
+        "id": "sp-131932",
+        "source": "spotify",
+        "timestamp": 1680220879000,
+        "timeStr": "2023-03-31 00:01:19",
+        "title": "Have a Cigar",
+        "subtitle": "Pink Floyd",
+        "category": "Music",
+        "album": "Wish You Were Here",
+        "msPlayed": 307733
+      },
+      {
+        "id": "sp-131933",
+        "source": "spotify",
+        "timestamp": 1680221126000,
+        "timeStr": "2023-03-31 00:05:26",
+        "title": "Furr",
+        "subtitle": "Blitzen Trapper",
+        "category": "Music",
+        "album": "Furr",
+        "msPlayed": 247515
+      },
+      {
+        "id": "sp-131934",
+        "source": "spotify",
+        "timestamp": 1680221437000,
+        "timeStr": "2023-03-31 00:10:37",
+        "title": "Brighton Rock",
+        "subtitle": "Queen",
+        "category": "Music",
+        "album": "Sheer Heart Attack",
+        "msPlayed": 310560
+      },
+      {
+        "id": "sp-131935",
+        "source": "spotify",
+        "timestamp": 1680221688000,
+        "timeStr": "2023-03-31 00:14:48",
+        "title": "Es Por Ti",
+        "subtitle": "Juanes",
+        "category": "Music",
+        "album": "Un Día Normal",
+        "msPlayed": 250693
+      },
+      {
+        "id": "sp-131936",
+        "source": "spotify",
+        "timestamp": 1680221871000,
+        "timeStr": "2023-03-31 00:17:51",
+        "title": "Laid",
+        "subtitle": "Matt Nathanson",
+        "category": "Music",
+        "album": "American Wedding",
+        "msPlayed": 182826
+      },
+      {
+        "id": "tx-338",
+        "source": "transaction",
+        "timestamp": 1680247740000,
+        "timeStr": "3/31/2023 7:29",
+        "title": "Wali, Sodhi and Desai",
+        "subtitle": "travel • South Dumdum",
+        "category": "travel",
+        "amount": 2314.45,
+        "currency": "INR",
+        "city": "South Dumdum",
+        "state": "Kerala"
+      },
+      {
+        "id": "tx-438",
+        "source": "transaction",
+        "timestamp": 1680231420000,
+        "timeStr": "3/31/2023 2:57",
+        "title": "Maharaj, Comar and Vora",
+        "subtitle": "General • Jamshedpur",
+        "category": "General",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Jamshedpur",
+        "state": "Odisha"
+      },
+      {
+        "id": "tx-1034",
+        "source": "transaction",
+        "timestamp": 1680262320000,
+        "timeStr": "3/31/2023 11:32",
+        "title": "Sundaram, Bhagat and Kakar",
+        "subtitle": "travel • Cuttack",
+        "category": "travel",
+        "amount": 1867.25,
+        "currency": "INR",
+        "city": "Cuttack",
+        "state": "Arunachal Pradesh"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "33 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Wali, Sodhi and Desai.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-06-04",
+    "date": "2023-06-04",
+    "title": "Simple Plan & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2023-06-04.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 33,
+    "receipts": [
+      {
+        "id": "sp-134459",
+        "source": "spotify",
+        "timestamp": 1685901388000,
+        "timeStr": "2023-06-04 17:56:28",
+        "title": "Welcome to My Life",
+        "subtitle": "Simple Plan",
+        "category": "Music",
+        "album": "Still Not Getting Any",
+        "msPlayed": 218026
+      },
+      {
+        "id": "sp-134460",
+        "source": "spotify",
+        "timestamp": 1685901580000,
+        "timeStr": "2023-06-04 17:59:40",
+        "title": "Antes Que al Mío",
+        "subtitle": "Los Ángeles Azules",
+        "category": "Music",
+        "album": "Esto Sí Es Cumbia",
+        "msPlayed": 190980
+      },
+      {
+        "id": "sp-134461",
+        "source": "spotify",
+        "timestamp": 1685901767000,
+        "timeStr": "2023-06-04 18:02:47",
+        "title": "Primera Cita",
+        "subtitle": "Carin Leon",
+        "category": "Music",
+        "album": "Primera Cita",
+        "msPlayed": 186455
+      },
+      {
+        "id": "sp-134462",
+        "source": "spotify",
+        "timestamp": 1685901988000,
+        "timeStr": "2023-06-04 18:06:28",
+        "title": "Lovebug",
+        "subtitle": "Jonas Brothers",
+        "category": "Music",
+        "album": "A Little Bit Longer",
+        "msPlayed": 220693
+      },
+      {
+        "id": "sp-134463",
+        "source": "spotify",
+        "timestamp": 1685902295000,
+        "timeStr": "2023-06-04 18:11:35",
+        "title": "Home - 2019 - Remaster",
+        "subtitle": "Edward Sharpe & The Magnetic Zeros",
+        "category": "Music",
+        "album": "Up From Below (10th Anniversary Edition)",
+        "msPlayed": 306373
+      },
+      {
+        "id": "tx-385",
+        "source": "transaction",
+        "timestamp": 1685863440000,
+        "timeStr": "6/4/2023 7:24",
+        "title": "Tandon, Sehgal and Bava",
+        "subtitle": "entertainment • Satna",
+        "category": "entertainment",
+        "amount": 1699.44,
+        "currency": "INR",
+        "city": "Satna",
+        "state": "Andhra Pradesh"
+      },
+      {
+        "id": "tx-464",
+        "source": "transaction",
+        "timestamp": 1685916300000,
+        "timeStr": "6/4/2023 22:05",
+        "title": "Lad Group",
+        "subtitle": "fitness_and_medical • Agra",
+        "category": "fitness_and_medical",
+        "amount": 1586,
+        "currency": "INR",
+        "city": "Agra",
+        "state": "Madhya Pradesh"
+      },
+      {
+        "id": "tx-857",
+        "source": "transaction",
+        "timestamp": 1685907240000,
+        "timeStr": "6/4/2023 19:34",
+        "title": "Cheema PLC",
+        "subtitle": "entertainment • Ichalkaranji",
+        "category": "entertainment",
+        "amount": 4007.29,
+        "currency": "INR",
+        "city": "Ichalkaranji",
+        "state": "Jharkhand"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "33 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Tandon, Sehgal and Bava.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-10-23",
+    "date": "2023-10-23",
+    "title": "Joaquín Sabina & fitness_and_medical",
+    "narrative": "Listening sessions overlapped with card spending in fitness_and_medical on 2023-10-23.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 33,
+    "receipts": [
+      {
+        "id": "sp-138369",
+        "source": "spotify",
+        "timestamp": 1698039560000,
+        "timeStr": "2023-10-23 05:39:20",
+        "title": "19 Dias y 500 Noches - En Directo",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "Nos Sobran Los Motivos",
+        "msPlayed": 319053
+      },
+      {
+        "id": "sp-138370",
+        "source": "spotify",
+        "timestamp": 1698039846000,
+        "timeStr": "2023-10-23 05:44:06",
+        "title": "Postdata",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "Lo Niego Todo",
+        "msPlayed": 227680
+      },
+      {
+        "id": "sp-138371",
+        "source": "spotify",
+        "timestamp": 1698040735000,
+        "timeStr": "2023-10-23 05:58:55",
+        "title": "Noches de Boda / Y Nos Dieron las Diez - Directo Luna Park",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "500 Noches para una Crisis (En Directo)",
+        "msPlayed": 876721
+      },
+      {
+        "id": "sp-138372",
+        "source": "spotify",
+        "timestamp": 1698040967000,
+        "timeStr": "2023-10-23 06:02:47",
+        "title": "Lágrimas de Mármol",
+        "subtitle": "Joaquín Sabina",
+        "category": "Music",
+        "album": "Lo Niego Todo",
+        "msPlayed": 231760
+      },
+      {
+        "id": "sp-138373",
+        "source": "spotify",
+        "timestamp": 1698041074000,
+        "timeStr": "2023-10-23 06:04:34",
+        "title": "Lodo",
+        "subtitle": "Xoel López",
+        "category": "Music",
+        "album": "Sueños y Pan",
+        "msPlayed": 41375
+      },
+      {
+        "id": "tx-288",
+        "source": "transaction",
+        "timestamp": 1698097200000,
+        "timeStr": "10/23/2023 21:40",
+        "title": "Ghose and Sons",
+        "subtitle": "fitness_and_medical • Farrukhabad",
+        "category": "fitness_and_medical",
+        "amount": 3194.37,
+        "currency": "INR",
+        "city": "Farrukhabad",
+        "state": "Chhattisgarh"
+      },
+      {
+        "id": "tx-529",
+        "source": "transaction",
+        "timestamp": 1698076320000,
+        "timeStr": "10/23/2023 15:52",
+        "title": "Dhillon LLC",
+        "subtitle": "online_shopping • Rohtak",
+        "category": "online_shopping",
+        "amount": 4820.77,
+        "currency": "INR",
+        "city": "Rohtak",
+        "state": ""
+      },
+      {
+        "id": "tx-820",
+        "source": "transaction",
+        "timestamp": 1698055680000,
+        "timeStr": "10/23/2023 10:08",
+        "title": "Gupta, Dugar and Khare",
+        "subtitle": "entertainment",
+        "category": "entertainment",
+        "amount": 3701.11,
+        "currency": "INR",
+        "city": "",
+        "state": "Meghalaya"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "33 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Ghose and Sons.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-08-24",
+    "date": "2022-08-24",
+    "title": "Elvis Presley & online_shopping",
+    "narrative": "Listening sessions overlapped with card spending in online_shopping on 2022-08-24.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 32,
+    "receipts": [
+      {
+        "id": "sp-123521",
+        "source": "spotify",
+        "timestamp": 1661303908000,
+        "timeStr": "2022-08-24 01:18:28",
+        "title": "Just Because",
+        "subtitle": "Elvis Presley",
+        "category": "Music",
+        "album": "Elvis Presley",
+        "msPlayed": 16950
+      },
+      {
+        "id": "sp-123522",
+        "source": "spotify",
+        "timestamp": 1661303916000,
+        "timeStr": "2022-08-24 01:18:36",
+        "title": "Alchemist Gold",
+        "subtitle": "The Mud Howlers",
+        "category": "Music",
+        "album": "Timeliness",
+        "msPlayed": 6676
+      },
+      {
+        "id": "sp-123523",
+        "source": "spotify",
+        "timestamp": 1661303917000,
+        "timeStr": "2022-08-24 01:18:37",
+        "title": "Cry Baby Cry - Esher Demo",
+        "subtitle": "The Beatles",
+        "category": "Music",
+        "album": "The Beatles",
+        "msPlayed": 1202
+      },
+      {
+        "id": "sp-123524",
+        "source": "spotify",
+        "timestamp": 1661303919000,
+        "timeStr": "2022-08-24 01:18:39",
+        "title": "Fake Plastic Trees",
+        "subtitle": "Radiohead",
+        "category": "Music",
+        "album": "The Bends",
+        "msPlayed": 1651
+      },
+      {
+        "id": "sp-123525",
+        "source": "spotify",
+        "timestamp": 1661303920000,
+        "timeStr": "2022-08-24 01:18:40",
+        "title": "Only Love",
+        "subtitle": "Ben Howard",
+        "category": "Music",
+        "album": "Every Kingdom",
+        "msPlayed": 927
+      },
+      {
+        "id": "tx-379",
+        "source": "transaction",
+        "timestamp": 1661360640000,
+        "timeStr": "8/24/2022 17:04",
+        "title": "Bhargava Group",
+        "subtitle": "online_shopping • Bhubaneswar",
+        "category": "online_shopping",
+        "amount": 2142.72,
+        "currency": "INR",
+        "city": "Bhubaneswar",
+        "state": "Sikkim"
+      },
+      {
+        "id": "tx-411",
+        "source": "transaction",
+        "timestamp": 1661350620000,
+        "timeStr": "8/24/2022 14:17",
+        "title": "Mane, Buch and Buch",
+        "subtitle": "travel • Ichalkaranji",
+        "category": "travel",
+        "amount": 4804.78,
+        "currency": "INR",
+        "city": "Ichalkaranji",
+        "state": "Maharashtra"
+      },
+      {
+        "id": "tx-546",
+        "source": "transaction",
+        "timestamp": 1661335020000,
+        "timeStr": "8/24/2022 9:57",
+        "title": "Chada-Kamdar",
+        "subtitle": "entertainment • Nellore",
+        "category": "entertainment",
+        "amount": 6618.41,
+        "currency": "INR",
+        "city": "Nellore",
+        "state": "Uttar Pradesh"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "32 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Bhargava Group.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2022-11-23",
+    "date": "2022-11-23",
+    "title": "Juanes & entertainment",
+    "narrative": "Listening sessions overlapped with card spending in entertainment on 2022-11-23.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 32,
+    "receipts": [
+      {
+        "id": "sp-127824",
+        "source": "spotify",
+        "timestamp": 1669185624000,
+        "timeStr": "2022-11-23 06:40:24",
+        "title": "La Camisa Negra",
+        "subtitle": "Juanes",
+        "category": "Music",
+        "album": "Mi Sangre",
+        "msPlayed": 216706
+      },
+      {
+        "id": "sp-127825",
+        "source": "spotify",
+        "timestamp": 1669185769000,
+        "timeStr": "2022-11-23 06:42:49",
+        "title": "Love Is A Verb",
+        "subtitle": "John Mayer",
+        "category": "Music",
+        "album": "Born and Raised",
+        "msPlayed": 144400
+      },
+      {
+        "id": "sp-127826",
+        "source": "spotify",
+        "timestamp": 1669186015000,
+        "timeStr": "2022-11-23 06:46:55",
+        "title": "Sam's Town",
+        "subtitle": "The Killers",
+        "category": "Music",
+        "album": "Sam's Town",
+        "msPlayed": 246026
+      },
+      {
+        "id": "sp-127827",
+        "source": "spotify",
+        "timestamp": 1669186198000,
+        "timeStr": "2022-11-23 06:49:58",
+        "title": "Can't Help Falling in Love",
+        "subtitle": "Elvis Presley",
+        "category": "Music",
+        "album": "Blue Hawaii",
+        "msPlayed": 182360
+      },
+      {
+        "id": "sp-127828",
+        "source": "spotify",
+        "timestamp": 1669186349000,
+        "timeStr": "2022-11-23 06:52:29",
+        "title": "Yo soy quién soy",
+        "subtitle": "Pedro Infante",
+        "category": "Music",
+        "album": "60 Rancheras Inmortales Vol. 2",
+        "msPlayed": 150266
+      },
+      {
+        "id": "tx-717",
+        "source": "transaction",
+        "timestamp": 1669199760000,
+        "timeStr": "11/23/2022 10:36",
+        "title": "Sangha, Dash and Venkataraman",
+        "subtitle": "entertainment • Purnia",
+        "category": "entertainment",
+        "amount": 6880.46,
+        "currency": "INR",
+        "city": "Purnia",
+        "state": ""
+      },
+      {
+        "id": "tx-848",
+        "source": "transaction",
+        "timestamp": 1669163580000,
+        "timeStr": "11/23/2022 0:33",
+        "title": "Ramachandran and Sons",
+        "subtitle": "entertainment • Dehri",
+        "category": "entertainment",
+        "amount": 4614.91,
+        "currency": "INR",
+        "city": "Dehri",
+        "state": "Maharashtra"
+      },
+      {
+        "id": "tx-1027",
+        "source": "transaction",
+        "timestamp": 1669215480000,
+        "timeStr": "11/23/2022 14:58",
+        "title": "Mandal-Bhatti",
+        "subtitle": "online_shopping • Howrah",
+        "category": "online_shopping",
+        "amount": 6530.48,
+        "currency": "INR",
+        "city": "Howrah",
+        "state": "Mizoram"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "32 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Sangha, Dash and Venkataraman.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-01-06",
+    "date": "2023-01-06",
+    "title": "Ehrling & travel",
+    "narrative": "Listening sessions overlapped with card spending in travel on 2023-01-06.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 32,
+    "receipts": [
+      {
+        "id": "sp-129298",
+        "source": "spotify",
+        "timestamp": 1672963337000,
+        "timeStr": "2023-01-06 00:02:17",
+        "title": "Infinite",
+        "subtitle": "Ehrling",
+        "category": "Music",
+        "album": "Tropical Confessions Pt. 4",
+        "msPlayed": 195493
+      },
+      {
+        "id": "sp-129299",
+        "source": "spotify",
+        "timestamp": 1672963986000,
+        "timeStr": "2023-01-06 00:13:06",
+        "title": "Good Old Days",
+        "subtitle": "Midnight Generation",
+        "category": "Music",
+        "album": "Good Old Days",
+        "msPlayed": 210294
+      },
+      {
+        "id": "sp-129300",
+        "source": "spotify",
+        "timestamp": 1672964139000,
+        "timeStr": "2023-01-06 00:15:39",
+        "title": "Piece Of Your Heart",
+        "subtitle": "MEDUZA",
+        "category": "Music",
+        "album": "Piece Of Your Heart",
+        "msPlayed": 152913
+      },
+      {
+        "id": "sp-129301",
+        "source": "spotify",
+        "timestamp": 1672964433000,
+        "timeStr": "2023-01-06 00:20:33",
+        "title": "Ani Kuni",
+        "subtitle": "Polo & Pan",
+        "category": "Music",
+        "album": "Ani Kuni",
+        "msPlayed": 276386
+      },
+      {
+        "id": "sp-129302",
+        "source": "spotify",
+        "timestamp": 1672964453000,
+        "timeStr": "2023-01-06 00:20:53",
+        "title": "Good Times (feat. Triciq)",
+        "subtitle": "DJ Who",
+        "category": "Music",
+        "album": "Good Times (feat. Triciq)",
+        "msPlayed": 16472
+      },
+      {
+        "id": "tx-514",
+        "source": "transaction",
+        "timestamp": 1673024940000,
+        "timeStr": "1/6/2023 17:09",
+        "title": "Merchant",
+        "subtitle": "travel • Sri Ganganagar",
+        "category": "travel",
+        "amount": 947.89,
+        "currency": "INR",
+        "city": "Sri Ganganagar",
+        "state": "Meghalaya"
+      },
+      {
+        "id": "tx-548",
+        "source": "transaction",
+        "timestamp": 1673037540000,
+        "timeStr": "1/6/2023 20:39",
+        "title": "Gala Inc",
+        "subtitle": "entertainment • Phusro",
+        "category": "entertainment",
+        "amount": 6157.15,
+        "currency": "INR",
+        "city": "Phusro",
+        "state": "Nagaland"
+      },
+      {
+        "id": "tx-583",
+        "source": "transaction",
+        "timestamp": 1673017620000,
+        "timeStr": "1/6/2023 15:07",
+        "title": "Randhawa LLC",
+        "subtitle": "fitness_and_medical • Nagpur",
+        "category": "fitness_and_medical",
+        "amount": 0,
+        "currency": "INR",
+        "city": "Nagpur",
+        "state": "Bihar"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "32 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Merchant.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  },
+  {
+    "id": "moment-2023-01-27",
+    "date": "2023-01-27",
+    "title": "Johann Sebastian Bach & General",
+    "narrative": "Listening sessions overlapped with card spending in General on 2023-01-27.",
+    "sources": [
+      "spotify",
+      "transaction"
+    ],
+    "receiptCount": 32,
+    "receipts": [
+      {
+        "id": "sp-129844",
+        "source": "spotify",
+        "timestamp": 1674841585000,
+        "timeStr": "2023-01-27 17:46:25",
+        "title": "Cello Suite No. 1 in G Major, BWV 1007: I. Prélude",
+        "subtitle": "Johann Sebastian Bach",
+        "category": "Music",
+        "album": "Bach: Cello Suites Nos. 1, 5 & 6",
+        "msPlayed": 152280
+      },
+      {
+        "id": "sp-129845",
+        "source": "spotify",
+        "timestamp": 1674841826000,
+        "timeStr": "2023-01-27 17:50:26",
+        "title": "Rêverie, CD 76 (Arr. Cullen for Cello and Orchestra)",
+        "subtitle": "Claude Debussy",
+        "category": "Music",
+        "album": "Cello Moods",
+        "msPlayed": 240000
+      },
+      {
+        "id": "sp-129846",
+        "source": "spotify",
+        "timestamp": 1674841999000,
+        "timeStr": "2023-01-27 17:53:19",
+        "title": "Satie / Orch. Ducros: Gymnopédie No. 1",
+        "subtitle": "Erik Satie",
+        "category": "Music",
+        "album": "Emotions",
+        "msPlayed": 172120
+      },
+      {
+        "id": "sp-129847",
+        "source": "spotify",
+        "timestamp": 1674842192000,
+        "timeStr": "2023-01-27 17:56:32",
+        "title": "Sicilienne (Arr. by Söllscher)",
+        "subtitle": "Maria Theresia von Paradis",
+        "category": "Music",
+        "album": "Reverie",
+        "msPlayed": 188693
+      },
+      {
+        "id": "sp-129848",
+        "source": "spotify",
+        "timestamp": 1674842565000,
+        "timeStr": "2023-01-27 18:02:45",
+        "title": "On the Nature of Daylight",
+        "subtitle": "Max Richter",
+        "category": "Music",
+        "album": "The Blue Notebooks",
+        "msPlayed": 371746
+      },
+      {
+        "id": "tx-1152",
+        "source": "transaction",
+        "timestamp": 1674817800000,
+        "timeStr": "1/27/2023 11:10",
+        "title": "Bhagat PLC",
+        "subtitle": "General • Tezpur",
+        "category": "General",
+        "amount": 7960.17,
+        "currency": "INR",
+        "city": "Tezpur",
+        "state": "Odisha"
+      },
+      {
+        "id": "tx-1171",
+        "source": "transaction",
+        "timestamp": 1674780360000,
+        "timeStr": "1/27/2023 0:46",
+        "title": "Golla-Bajaj",
+        "subtitle": "online_shopping • Aurangabad",
+        "category": "online_shopping",
+        "amount": 4186.86,
+        "currency": "INR",
+        "city": "Aurangabad",
+        "state": "Tripura"
+      },
+      {
+        "id": "tx-1375",
+        "source": "transaction",
+        "timestamp": 1674855720000,
+        "timeStr": "1/27/2023 21:42",
+        "title": "Din-Vaidya",
+        "subtitle": "General • Singrauli",
+        "category": "General",
+        "amount": 3525.84,
+        "currency": "INR",
+        "city": "Singrauli",
+        "state": "Punjab"
+      }
+    ],
+    "whyThisMatters": {
+      "observed": "32 receipts recorded across spotify and transaction within 24 hours.",
+      "connected": "Music sessions coincided with spending on Bhagat PLC.",
+      "story": "Rather than isolated actions, these traces suggest a cohesive day of shared activity and routine."
+    }
+  }
+]

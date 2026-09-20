@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "ch-1",
+      "label": "The First Tracks",
+      "category": "CHAPTER",
+      "val": 28,
+      "group": 1,
+      "info": "2013–2015 Discovery era"
+    },
+    {
+      "id": "ch-2",
+      "label": "Commute & Routine",
+      "category": "CHAPTER",
+      "val": 32,
+      "group": 1,
+      "info": "2015–2018 Household & transit"
+    },
+    {
+      "id": "ch-3",
+      "label": "The Soundtrack",
+      "category": "CHAPTER",
+      "val": 30,
+      "group": 1,
+      "info": "2018–2020 Deep listening"
+    },
+    {
+      "id": "ch-4",
+      "label": "Quiet Months",
+      "category": "CHAPTER",
+      "val": 26,
+      "group": 1,
+      "info": "2020–2021 Home focus"
+    },
+    {
+      "id": "ch-5",
+      "label": "Modern Canvas",
+      "category": "CHAPTER",
+      "val": 34,
+      "group": 1,
+      "info": "2022–2024 Multi-facet era"
+    },
+    {
+      "id": "mus-beatles",
+      "label": "The Beatles",
+      "category": "MUSIC",
+      "val": 22,
+      "group": 2,
+      "info": "Top recurring artist"
+    },
+    {
+      "id": "mus-strokes",
+      "label": "The Strokes",
+      "category": "MUSIC",
+      "val": 20,
+      "group": 2,
+      "info": "Heavy late-night rotation"
+    },
+    {
+      "id": "mus-coldplay",
+      "label": "Coldplay",
+      "category": "MUSIC",
+      "val": 18,
+      "group": 2,
+      "info": "Morning & commute favorite"
+    },
+    {
+      "id": "mus-latenight",
+      "label": "Late-Night Listening",
+      "category": "ROUTINE",
+      "val": 24,
+      "group": 3,
+      "info": "23:00–03:00 peak hours"
+    },
+    {
+      "id": "spend-ent",
+      "label": "Entertainment",
+      "category": "PURCHASE",
+      "val": 24,
+      "group": 4,
+      "info": "Lead commercial spending"
+    },
+    {
+      "id": "spend-travel",
+      "label": "Travel",
+      "category": "PURCHASE",
+      "val": 22,
+      "group": 4,
+      "info": "Multi-city transit"
+    },
+    {
+      "id": "spend-food",
+      "label": "Food & Dining",
+      "category": "PURCHASE",
+      "val": 20,
+      "group": 4,
+      "info": "Evening dinners & cafes"
+    },
+    {
+      "id": "hh-transit",
+      "label": "Daily Train Commute",
+      "category": "HOUSEHOLD",
+      "val": 20,
+      "group": 5,
+      "info": "Place 5 to Place 0"
+    },
+    {
+      "id": "hh-netflix",
+      "label": "Netflix Subscriptions",
+      "category": "HOUSEHOLD",
+      "val": 18,
+      "group": 5,
+      "info": "Monthly recurring bank debits"
+    },
+    {
+      "id": "hh-groceries",
+      "label": "Local Groceries",
+      "category": "HOUSEHOLD",
+      "val": 18,
+      "group": 5,
+      "info": "Snacks, atta, household staples"
+    },
+    {
+      "id": "mom-aug14",
+      "label": "Aug 14 Convergence",
+      "category": "MOMENT",
+      "val": 22,
+      "group": 6,
+      "info": "Entertainment + Music convergence"
+    },
+    {
+      "id": "mom-ganesh",
+      "label": "Festival & Music",
+      "category": "MOMENT",
+      "val": 20,
+      "group": 6,
+      "info": "Ganesh pujan + Festive audio"
+    },
+    {
+      "id": "mom-nightflight",
+      "label": "Late Travel & Beats",
+      "category": "MOMENT",
+      "val": 22,
+      "group": 6,
+      "info": "Travel transaction + late night tracks"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ch-1",
+      "target": "mus-beatles",
+      "type": "temporal",
+      "label": "Early discovery"
+    },
+    {
+      "source": "ch-2",
+      "target": "hh-transit",
+      "type": "co-occurrence",
+      "label": "Daily commute"
+    },
+    {
+      "source": "ch-2",
+      "target": "mus-coldplay",
+      "type": "co-occurrence",
+      "label": "Commute soundtrack"
+    },
+    {
+      "source": "ch-2",
+      "target": "hh-netflix",
+      "type": "recurrence",
+      "label": "Monthly subscription"
+    },
+    {
+      "source": "ch-2",
+      "target": "hh-groceries",
+      "type": "co-occurrence",
+      "label": "Daily staples"
+    },
+    {
+      "source": "ch-2",
+      "target": "mom-ganesh",
+      "type": "cross-source",
+      "label": "Festival receipts"
+    },
+    {
+      "source": "ch-3",
+      "target": "mus-strokes",
+      "type": "co-occurrence",
+      "label": "Album marathon"
+    },
+    {
+      "source": "ch-3",
+      "target": "mus-beatles",
+      "type": "recurrence",
+      "label": "Core artist"
+    },
+    {
+      "source": "ch-3",
+      "target": "mus-latenight",
+      "type": "recurrence",
+      "label": "Nightly ritual"
+    },
+    {
+      "source": "ch-4",
+      "target": "mus-strokes",
+      "type": "temporal",
+      "label": "The New Abnormal"
+    },
+    {
+      "source": "ch-4",
+      "target": "mus-latenight",
+      "type": "recurrence",
+      "label": "Late night quiet"
+    },
+    {
+      "source": "ch-5",
+      "target": "spend-ent",
+      "type": "co-occurrence",
+      "label": "Card spending"
+    },
+    {
+      "source": "ch-5",
+      "target": "spend-travel",
+      "type": "co-occurrence",
+      "label": "Multi-city travel"
+    },
+    {
+      "source": "ch-5",
+      "target": "spend-food",
+      "type": "co-occurrence",
+      "label": "Dining out"
+    },
+    {
+      "source": "ch-5",
+      "target": "mom-aug14",
+      "type": "cross-source",
+      "label": "Aug 14 overlap"
+    },
+    {
+      "source": "ch-5",
+      "target": "mom-nightflight",
+      "type": "cross-source",
+      "label": "Travel & music"
+    },
+    {
+      "source": "spend-travel",
+      "target": "mus-latenight",
+      "type": "temporal",
+      "label": "Midnight transit"
+    },
+    {
+      "source": "spend-ent",
+      "target": "mus-strokes",
+      "type": "co-occurrence",
+      "label": "Concert & music"
+    },
+    {
+      "source": "hh-transit",
+      "target": "mus-coldplay",
+      "type": "temporal",
+      "label": "Commute playlist"
+    }
+  ]
+}

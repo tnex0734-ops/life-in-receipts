@@ -1,0 +1,362 @@
+{
+  "totalCount": 149860,
+  "monthly": {
+    "2013-07": 115,
+    "2013-08": 41,
+    "2013-09": 29,
+    "2014-01": 23,
+    "2015-01": 23,
+    "2015-06": 121,
+    "2015-07": 33,
+    "2015-08": 956,
+    "2015-09": 710,
+    "2015-10": 803,
+    "2015-11": 82,
+    "2015-12": 81,
+    "2016-01": 2,
+    "2016-02": 2,
+    "2016-05": 1,
+    "2016-06": 897,
+    "2016-07": 428,
+    "2016-08": 1051,
+    "2016-09": 434,
+    "2016-10": 404,
+    "2016-11": 538,
+    "2016-12": 2656,
+    "2017-01": 2531,
+    "2017-02": 478,
+    "2017-03": 1576,
+    "2017-04": 1949,
+    "2017-05": 1625,
+    "2017-06": 1050,
+    "2017-07": 3915,
+    "2017-08": 3191,
+    "2017-09": 5176,
+    "2017-10": 2481,
+    "2017-11": 1255,
+    "2017-12": 1093,
+    "2018-01": 1681,
+    "2018-02": 1125,
+    "2018-03": 785,
+    "2018-04": 926,
+    "2018-05": 1566,
+    "2018-06": 995,
+    "2018-07": 803,
+    "2018-08": 1446,
+    "2018-09": 1470,
+    "2018-10": 963,
+    "2018-11": 1862,
+    "2018-12": 1195,
+    "2019-01": 567,
+    "2019-02": 289,
+    "2019-03": 749,
+    "2019-04": 1565,
+    "2019-05": 236,
+    "2019-06": 728,
+    "2019-07": 1622,
+    "2019-08": 2018,
+    "2019-09": 1339,
+    "2019-10": 2830,
+    "2019-11": 2059,
+    "2019-12": 925,
+    "2020-01": 1227,
+    "2020-02": 1036,
+    "2020-03": 1591,
+    "2020-04": 2189,
+    "2020-05": 1609,
+    "2020-06": 1578,
+    "2020-07": 664,
+    "2020-08": 2668,
+    "2020-09": 2886,
+    "2020-10": 3263,
+    "2020-11": 3104,
+    "2020-12": 2465,
+    "2021-01": 2635,
+    "2021-02": 2006,
+    "2021-03": 1629,
+    "2021-04": 2940,
+    "2021-05": 1875,
+    "2021-06": 2085,
+    "2021-07": 1161,
+    "2021-08": 1697,
+    "2021-09": 2169,
+    "2021-10": 1952,
+    "2021-11": 1072,
+    "2021-12": 1770,
+    "2022-01": 1314,
+    "2022-02": 1670,
+    "2022-03": 1330,
+    "2022-04": 971,
+    "2022-05": 1187,
+    "2022-06": 1856,
+    "2022-07": 1695,
+    "2022-08": 883,
+    "2022-09": 1908,
+    "2022-10": 1615,
+    "2022-11": 1048,
+    "2022-12": 725,
+    "2023-01": 1073,
+    "2023-02": 935,
+    "2023-03": 1018,
+    "2023-04": 1045,
+    "2023-05": 1400,
+    "2023-06": 846,
+    "2023-07": 865,
+    "2023-08": 854,
+    "2023-09": 650,
+    "2023-10": 777,
+    "2023-11": 785,
+    "2023-12": 775,
+    "2024-01": 1449,
+    "2024-02": 924,
+    "2024-03": 700,
+    "2024-04": 619,
+    "2024-05": 569,
+    "2024-06": 524,
+    "2024-07": 318,
+    "2024-08": 932,
+    "2024-09": 962,
+    "2024-10": 1300,
+    "2024-11": 1425,
+    "2024-12": 148
+  },
+  "topArtists": [
+    {
+      "name": "The Beatles",
+      "count": 13621
+    },
+    {
+      "name": "The Killers",
+      "count": 6878
+    },
+    {
+      "name": "John Mayer",
+      "count": 4855
+    },
+    {
+      "name": "Bob Dylan",
+      "count": 3814
+    },
+    {
+      "name": "Paul McCartney",
+      "count": 2697
+    },
+    {
+      "name": "Led Zeppelin",
+      "count": 2482
+    },
+    {
+      "name": "Johnny Cash",
+      "count": 2478
+    },
+    {
+      "name": "The Rolling Stones",
+      "count": 2390
+    },
+    {
+      "name": "Radiohead",
+      "count": 2305
+    },
+    {
+      "name": "The Black Keys",
+      "count": 2231
+    },
+    {
+      "name": "Imagine Dragons",
+      "count": 2116
+    },
+    {
+      "name": "Pink Floyd",
+      "count": 2105
+    },
+    {
+      "name": "The Strokes",
+      "count": 1818
+    },
+    {
+      "name": "Coldplay",
+      "count": 1631
+    },
+    {
+      "name": "Arctic Monkeys",
+      "count": 1600
+    },
+    {
+      "name": "Lou Reed",
+      "count": 1558
+    },
+    {
+      "name": "The Velvet Underground",
+      "count": 1507
+    },
+    {
+      "name": "Ed Sheeran",
+      "count": 1458
+    },
+    {
+      "name": "Howard Shore",
+      "count": 1446
+    },
+    {
+      "name": "Kings of Leon",
+      "count": 1381
+    },
+    {
+      "name": "Elvis Presley",
+      "count": 1281
+    },
+    {
+      "name": "John Lennon",
+      "count": 1279
+    },
+    {
+      "name": "Billy Joel",
+      "count": 1262
+    },
+    {
+      "name": "Arcade Fire",
+      "count": 1137
+    },
+    {
+      "name": "Mumford & Sons",
+      "count": 1074
+    }
+  ],
+  "topTracks": [
+    {
+      "name": "Ode To The Mets — The Strokes",
+      "count": 207
+    },
+    {
+      "name": "In the Blood — John Mayer",
+      "count": 181
+    },
+    {
+      "name": "Dying Breed — The Killers",
+      "count": 166
+    },
+    {
+      "name": "Caution — The Killers",
+      "count": 164
+    },
+    {
+      "name": "19 Dias y 500 Noches - En Directo — Joaquín Sabina",
+      "count": 148
+    },
+    {
+      "name": "All These Things That I've Done — The Killers",
+      "count": 142
+    },
+    {
+      "name": "Concerning Hobbits — Howard Shore",
+      "count": 142
+    },
+    {
+      "name": "Come Together - Remastered 2009 — The Beatles",
+      "count": 137
+    },
+    {
+      "name": "Yesterday - Remastered 2009 — The Beatles",
+      "count": 134
+    },
+    {
+      "name": "Crucify Your Mind — Rodríguez",
+      "count": 131
+    },
+    {
+      "name": "Cavalleria rusticana: Intermezzo — Pietro Mascagni",
+      "count": 128
+    },
+    {
+      "name": "Mr. Brightside — The Killers",
+      "count": 127
+    },
+    {
+      "name": "Reminder — Mumford & Sons",
+      "count": 127
+    },
+    {
+      "name": "Sweet Virginia — The Rolling Stones",
+      "count": 127
+    },
+    {
+      "name": "I Guess I Just Feel Like — John Mayer",
+      "count": 127
+    },
+    {
+      "name": "Nuovo Cinema Paradiso — Ennio Morricone",
+      "count": 127
+    },
+    {
+      "name": "Imploding The Mirage — The Killers",
+      "count": 123
+    },
+    {
+      "name": "Claudia's Theme - Version Eight — Lennie Niehaus",
+      "count": 123
+    },
+    {
+      "name": "You Sexy Thing — Hot Chocolate",
+      "count": 121
+    },
+    {
+      "name": "Bennie And The Jets - Remastered 2014 — Elton John",
+      "count": 120
+    }
+  ],
+  "platforms": {
+    "web player": 225,
+    "windows": 1691,
+    "android": 139821,
+    "iOS": 3049,
+    "cast to device": 3898,
+    "mac": 1176
+  },
+  "hourBins": {
+    "morning": 17898,
+    "afternoon": 15603,
+    "evening": 54466,
+    "lateNight": 39824,
+    "dawn": 22069
+  },
+  "weekdays": [
+    {
+      "day": "Sunday",
+      "count": 18274,
+      "pct": "12.2"
+    },
+    {
+      "day": "Monday",
+      "count": 21031,
+      "pct": "14.0"
+    },
+    {
+      "day": "Tuesday",
+      "count": 20705,
+      "pct": "13.8"
+    },
+    {
+      "day": "Wednesday",
+      "count": 23406,
+      "pct": "15.6"
+    },
+    {
+      "day": "Thursday",
+      "count": 21401,
+      "pct": "14.3"
+    },
+    {
+      "day": "Friday",
+      "count": 25646,
+      "pct": "17.1"
+    },
+    {
+      "day": "Saturday",
+      "count": 19397,
+      "pct": "12.9"
+    }
+  ],
+  "shuffleCount": 111583,
+  "skipCount": 7869,
+  "totalPlayTimeMs": 19229530935
+}

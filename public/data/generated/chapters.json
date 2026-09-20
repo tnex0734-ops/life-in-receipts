@@ -1,0 +1,167 @@
+[
+  {
+    "id": "chapter-1",
+    "title": "The First Tracks",
+    "subtitle": "The Web Player & Discovery Era",
+    "startDate": "2013-07",
+    "endDate": "2015-01",
+    "importance": 0.82,
+    "description": "The earliest digital footprint begins in July 2013 on desktop and web player. Listening begins with indie rock, synth-pop, and early 2010s anthems.",
+    "evidence": [
+      {
+        "label": "Platform",
+        "value": "Web player & Windows dominance"
+      },
+      {
+        "label": "Key Artists",
+        "value": "The Mowgli's, Calvin Harris, Lana Del Rey, Empire of the Sun"
+      },
+      {
+        "label": "Session Volume",
+        "value": "6,420 tracks recorded"
+      }
+    ],
+    "signals": [
+      "Early Desktop Era",
+      "Continuous Playlists",
+      "Zero Financial Traces"
+    ],
+    "whyThisMatters": {
+      "observed": "Listening took place almost exclusively through web browsers and desktop clients.",
+      "connected": "No mobile or financial records existed in this archive during this timeframe.",
+      "story": "The initial archival footprint is personal and focused purely on digital music discovery."
+    }
+  },
+  {
+    "id": "chapter-2",
+    "title": "The Commute & The Routine",
+    "subtitle": "Household Rhythms and Mobile Transition",
+    "startDate": "2015-01",
+    "endDate": "2018-09",
+    "importance": 0.95,
+    "description": "A rich convergence of daily life: Android mobile listening emerges alongside meticulous records of train commutes, chai, snacks, stationery, and Netflix subscriptions.",
+    "evidence": [
+      {
+        "label": "Household Records",
+        "value": "2,461 daily transactions"
+      },
+      {
+        "label": "Top Routines",
+        "value": "Train transit (Place 5 to 0), Grocery, Netflix monthly renewal"
+      },
+      {
+        "label": "Mobile Audio",
+        "value": "Android becomes the primary streaming device"
+      }
+    ],
+    "signals": [
+      "Transit Routines",
+      "Subscription Emergence",
+      "Daily Micro-Spend"
+    ],
+    "whyThisMatters": {
+      "observed": "Train commutes and food expenses occur consistently on the same calendar days as mobile music sessions.",
+      "connected": "Music accompaniment transitions from stationary desktop to on-the-move Android listening.",
+      "story": "The archive captures the rhythm of daily urban life, student/work commutes, and morning routines."
+    }
+  },
+  {
+    "id": "chapter-3",
+    "title": "The Soundtrack",
+    "subtitle": "Deep Album Marathons and Night Rhythms",
+    "startDate": "2018-10",
+    "endDate": "2020-03",
+    "importance": 0.88,
+    "description": "Listening density surges. Entire discographies of The Beatles, The Strokes, and Coldplay are played in extended nighttime sessions.",
+    "evidence": [
+      {
+        "label": "Late-Night Ratio",
+        "value": "Over 22% of plays after 23:00"
+      },
+      {
+        "label": "Top Discography",
+        "value": "The Beatles, The Strokes, Josh Krajcik"
+      },
+      {
+        "label": "Long Play",
+        "value": "High completion rate (>85% uninterrupted)"
+      }
+    ],
+    "signals": [
+      "Album Immersion",
+      "Late Night Rhythms",
+      "Low Skip Rate"
+    ],
+    "whyThisMatters": {
+      "observed": "Extended multi-hour listening sessions with sequential album tracks.",
+      "connected": "Shuffle mode drops while full albums are played end-to-end.",
+      "story": "Music becomes less of a background filler and more of an intentional evening ritual."
+    }
+  },
+  {
+    "id": "chapter-4",
+    "title": "The Quiet Months",
+    "subtitle": "Home Focus and Shifting Cadence",
+    "startDate": "2020-04",
+    "endDate": "2021-12",
+    "importance": 0.85,
+    "description": "Listening patterns consolidate into home-centered clusters. Playlists reflect introspection and evening routines with minimal transit activity.",
+    "evidence": [
+      {
+        "label": "Listening Volume",
+        "value": "Steady 1,200+ monthly plays"
+      },
+      {
+        "label": "Dominant Platform",
+        "value": "Android & Home casting"
+      },
+      {
+        "label": "Key Sounds",
+        "value": "The New Abnormal (The Strokes), Ambient & Acoustic"
+      }
+    ],
+    "signals": [
+      "Home Constellation",
+      "Evening Clusters",
+      "Reflective Playlists"
+    ],
+    "whyThisMatters": {
+      "observed": "Activity shifts away from commute hours into late afternoon and night blocks.",
+      "connected": "Transition to long-form album repeats.",
+      "story": "A quieter period defined by familiar sounds and domestic stability."
+    }
+  },
+  {
+    "id": "chapter-5",
+    "title": "The Modern Canvas",
+    "subtitle": "Multi-Facet Lifestyle Convergence",
+    "startDate": "2022-01",
+    "endDate": "2024-12",
+    "importance": 0.96,
+    "description": "The fullest convergence in the archive: card transactions across entertainment, travel, and dining intersect with 2023–2024 streaming history.",
+    "evidence": [
+      {
+        "label": "Card Transactions",
+        "value": "10,267 multi-facet records"
+      },
+      {
+        "label": "Active Cities",
+        "value": "Rourkela, Jalna, Bharatpur, Udaipur, and others"
+      },
+      {
+        "label": "Cross-Source Events",
+        "value": "Over 30 verified same-day convergences"
+      }
+    ],
+    "signals": [
+      "Travel & Transit",
+      "Entertainment Overlap",
+      "Full Multi-Facet Trace"
+    ],
+    "whyThisMatters": {
+      "observed": "Card transactions in travel and entertainment overlap with music listening spikes.",
+      "connected": "Receipts from multiple cities coincide with listening on mobile networks.",
+      "story": "The digital life matures into an expansive multi-channel canvas of travel, entertainment, and sound."
+    }
+  }
+]
