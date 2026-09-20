@@ -162,6 +162,31 @@ export const TimeExplorer: React.FC<TimeExplorerProps> = ({ selectedYear, onSele
           </button>
         ))}
       </div>
+
+      {/* Screen Reader Table Fallback */}
+      <div className="sr-only">
+        <table>
+          <caption>Annual Activity Density Distribution 2013 to 2024</caption>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Density Score</th>
+              <th>Archival Era</th>
+              <th>Sources Active</th>
+            </tr>
+          </thead>
+          <tbody>
+            {YEAR_DATA.map((item) => (
+              <tr key={item.year}>
+                <td>{item.year}</td>
+                <td>{item.density}%</td>
+                <td>{item.era}</td>
+                <td>{item.sources.join(', ')}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
   );
 };

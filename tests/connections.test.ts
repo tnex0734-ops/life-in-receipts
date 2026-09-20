@@ -30,7 +30,7 @@ describe('Connection Engine', () => {
     expect(rel.label).toBe('Same Day Window');
   });
 
-  it('identifies shared category co-occurrence', () => {
+  it('identifies shared category co-occurrence across distant dates', () => {
     const timeA = new Date('2023-01-01T10:00:00Z').getTime();
     const timeB = new Date('2023-03-01T10:00:00Z').getTime();
 
@@ -41,6 +41,30 @@ describe('Connection Engine', () => {
 
     expect(rel.type).toBe('co-occurrence');
     expect(rel.label).toBe('Shared Category');
+  });
+
+  it('identifies recurrence when events fall on the same day of week', () => {
+    // Both are Fridays
+    const friday1 = new Date('2023-08-11T12:00:00Z').getTime();
+    const friday2 = new Date('2023-08-18T15:00:00Z').getTime();
+
+    const rel = explainRelationship(
+      { source: 'spotify', timestamp: friday1, title: 'Track A' },
+      { source: 'household', timestamp: friday2, title: 'Household B' }
+    );
+
+    expect(rel.type).toBe('recurrence');
+    expect(rel.label).toContain('Friday');
+  });
+
+  it('handles missing or zero timestamps gracefully without throwing', () => {
+    const rel = explainRelationship(
+      { source: 'spotify', title: 'No Timestamp' },
+      { source: 'transaction', title: 'Also None' }
+    );
+
+    expect(rel).toBeDefined();
+    expect(rel.label).toBeTruthy();
   });
 
   it('builds a multi-step moment trace with explicit relationship explanations', () => {
@@ -80,5 +104,28 @@ describe('Connection Engine', () => {
     expect(steps.length).toBe(1);
     expect(steps[0].relationType).toBe('cross-source');
     expect(steps[0].explanation).toContain('converged');
+  });
+
+  it('returns empty array when moment has fewer than 2 receipts', () => {
+    const singleReceiptMoment: Moment = {
+      id: 'mom-single',
+      date: '2023-08-14',
+      title: 'Solo',
+      narrative: 'Solo receipt.',
+      sources: ['spotify'],
+      receiptCount: 1,
+      receipts: [
+        {
+          id: 'sp-1',
+          source: 'spotify',
+          timestamp: 1692043200000,
+          timeStr: '2023-08-14 20:00:00',
+          title: 'Solo Track'
+        }
+      ],
+      whyThisMatters: { observed: '', connected: '', story: '' }
+    };
+
+    expect(buildMomentTrace(singleReceiptMoment)).toEqual([]);
   });
 });

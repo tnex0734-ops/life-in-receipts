@@ -11,7 +11,7 @@ import { ReceiptExplorer } from './components/ReceiptExplorer';
 import { TracePanel } from './components/TracePanel';
 import { SearchCommand } from './components/SearchCommand';
 import { DiagnosticsModal } from './components/DiagnosticsModal';
-import { loadArchiveData, ArchiveData } from './analytics/storyEngine';
+import { loadCoreArchiveData, loadSampleReceipts, ArchiveData } from './analytics/storyEngine';
 import { Moment, StoryChapter, ConstellationNode } from './types/story';
 import { Receipt } from './types/receipt';
 import { AlertCircle } from 'lucide-react';
@@ -60,20 +60,38 @@ export const App: React.FC = () => {
     window.history.pushState({}, '', url.toString());
   };
 
-  // Load Archive Data
+  // Load Archive Data: Core summaries first for fast LCP, then preload sample receipts
   useEffect(() => {
+    let isMounted = true;
     async function init() {
       try {
         setLoading(true);
-        const archiveData = await loadArchiveData();
-        setData(archiveData);
-      } catch (err: any) {
-        setError(err.message || 'Failed to load archive data');
-      } finally {
+        const coreData = await loadCoreArchiveData();
+        if (!isMounted) return;
+
+        setData({
+          ...coreData,
+          sampleReceipts: []
+        });
+        setLoading(false);
+
+        // Preload sample receipts in the background without blocking initial paint
+        loadSampleReceipts().then((receipts) => {
+          if (isMounted) {
+            setData((prev) => (prev ? { ...prev, sampleReceipts: receipts } : null));
+          }
+        });
+      } catch (err: unknown) {
+        if (!isMounted) return;
+        const msg = err instanceof Error ? err.message : 'Failed to load archive data';
+        setError(msg);
         setLoading(false);
       }
     }
     init();
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   // Keyboard shortcut listener for Ctrl+K
@@ -153,6 +171,11 @@ export const App: React.FC = () => {
 
   return (
     <div className="app-layout">
+      {/* Accessibility Skip Link */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+
       <AppShell
         currentView={currentView}
         onSelectView={handleSelectView}
@@ -161,7 +184,7 @@ export const App: React.FC = () => {
         totalReceiptsCount={totalReceiptsCount}
       />
 
-      <main className="app-container" id="top">
+      <main className="app-container" id="main-content">
         {/* STORY / HOME VIEW */}
         {currentView === 'story' && (
           <>

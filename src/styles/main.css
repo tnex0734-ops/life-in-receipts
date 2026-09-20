@@ -24,10 +24,42 @@ body {
   overflow-x: hidden;
 }
 
-/* Accessibility Focus States */
+/* Accessibility Focus States & Utilities */
 :focus-visible {
   outline: 2px solid var(--accent-orange) !important;
   outline-offset: 2px !important;
+}
+
+.skip-link {
+  position: absolute;
+  top: -50px;
+  left: 1rem;
+  background: var(--accent-orange);
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 0 0 4px 4px;
+  z-index: 9999;
+  text-decoration: none;
+  box-shadow: var(--shadow-md);
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 /* Typography Scale */

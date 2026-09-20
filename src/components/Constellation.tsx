@@ -107,8 +107,10 @@ export const Constellation: React.FC<ConstellationProps> = ({ nodes, edges, onTr
           viewBox="0 0 960 520"
           style={{ width: '100%', height: 'auto', display: 'block' }}
           role="img"
-          aria-label="Interactive Constellation Map depicting relationships between life receipts, chapters, and routines"
+          aria-labelledby="constellation-svg-title constellation-svg-desc"
         >
+          <title id="constellation-svg-title">Digital Constellation Relationship Map</title>
+          <desc id="constellation-svg-desc">Visual map connecting story chapters, routines, moments, and receipts across categories.</desc>
           {/* Edges */}
           <g className="edges">
             {edges.map((edge, i) => {

@@ -12,21 +12,22 @@ export interface ArchiveData {
   sampleReceipts: Receipt[];
 }
 
-/**
- * Loads all pre-aggregated summaries and metadata asynchronously
- */
-export async function loadArchiveData(): Promise<ArchiveData> {
-  const fetchJson = async <T>(url: string, fallback: T): Promise<T> => {
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return await res.json();
-    } catch (err) {
-      console.warn(`Failed to fetch ${url}, using fallback`, err);
-      return fallback;
-    }
-  };
+const fetchJson = async <T>(url: string, fallback: T): Promise<T> => {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    return fallback;
+  }
+};
 
+let cachedReceipts: Receipt[] | null = null;
+
+/**
+ * Loads the core archive summary data required for initial render (<150KB)
+ */
+export async function loadCoreArchiveData(): Promise<Omit<ArchiveData, 'sampleReceipts'>> {
   const [
     chapters,
     moments,
@@ -34,8 +35,7 @@ export async function loadArchiveData(): Promise<ArchiveData> {
     constellation,
     spotifySummary,
     transactionSummary,
-    householdSummary,
-    sampleReceipts
+    householdSummary
   ] = await Promise.all([
     fetchJson<StoryChapter[]>('/data/generated/chapters.json', []),
     fetchJson<Moment[]>('/data/generated/moments.json', []),
@@ -43,8 +43,7 @@ export async function loadArchiveData(): Promise<ArchiveData> {
     fetchJson<{ nodes: ConstellationNode[]; edges: ConstellationEdge[] }>('/data/generated/constellation.json', { nodes: [], edges: [] }),
     fetchJson<SpotifySummary | null>('/data/generated/spotify-summary.json', null),
     fetchJson<TransactionSummary | null>('/data/generated/transaction-summary.json', null),
-    fetchJson<HouseholdSummary | null>('/data/generated/household-summary.json', null),
-    fetchJson<Receipt[]>('/data/generated/sample-receipts.json', [])
+    fetchJson<HouseholdSummary | null>('/data/generated/household-summary.json', null)
   ]);
 
   return {
@@ -54,7 +53,31 @@ export async function loadArchiveData(): Promise<ArchiveData> {
     constellation,
     spotifySummary,
     transactionSummary,
-    householdSummary,
+    householdSummary
+  };
+}
+
+/**
+ * Lazily loads sample receipts on demand or preloads in the background
+ */
+export async function loadSampleReceipts(): Promise<Receipt[]> {
+  if (cachedReceipts) return cachedReceipts;
+  const receipts = await fetchJson<Receipt[]>('/data/generated/sample-receipts.json', []);
+  cachedReceipts = receipts;
+  return receipts;
+}
+
+/**
+ * Loads all archive data (backwards compatibility)
+ */
+export async function loadArchiveData(): Promise<ArchiveData> {
+  const [core, sampleReceipts] = await Promise.all([
+    loadCoreArchiveData(),
+    loadSampleReceipts()
+  ]);
+
+  return {
+    ...core,
     sampleReceipts
   };
 }
