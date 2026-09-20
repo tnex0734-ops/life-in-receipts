@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AppShell, AppView } from './components/AppShell';
 import { StoryHero } from './components/StoryHero';
+import { FeaturedInsight } from './components/FeaturedInsight';
 import { TimeExplorer } from './components/TimeExplorer';
 import { ChapterView } from './components/ChapterView';
 import { MomentsView } from './components/MomentsView';
@@ -13,7 +14,7 @@ import { DiagnosticsModal } from './components/DiagnosticsModal';
 import { loadArchiveData, ArchiveData } from './analytics/storyEngine';
 import { Moment, StoryChapter, ConstellationNode } from './types/story';
 import { Receipt } from './types/receipt';
-import { Compass, Sparkles, AlertCircle } from 'lucide-react';
+import { AlertCircle } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [data, setData] = useState<ArchiveData | null>(null);
@@ -111,9 +112,9 @@ export const App: React.FC = () => {
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg-canvas)', padding: '2rem' }}>
         <div className="paper-card" style={{ maxWidth: '480px', padding: '2rem', textAlign: 'center' }}>
           <AlertCircle size={36} color="var(--accent-orange)" style={{ margin: '0 auto 1rem' }} />
-          <h2 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>Archive Loading Interrupted</h2>
+          <h2 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>The archive couldn't be loaded.</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-            {error || 'Unable to load dataset summaries. Ensure data files exist in public/data/.'}
+            {error || 'Check that local data files exist in public/data/ and try again.'}
           </p>
           <button
             onClick={() => window.location.reload()}
@@ -137,6 +138,19 @@ export const App: React.FC = () => {
     (data.transactionSummary?.totalCount || 10267) +
     (data.householdSummary?.totalCount || 2461);
 
+  // Trace the primary featured pattern (late night)
+  const handleTraceFeaturedPattern = () => {
+    // Find a rich moment that includes late night activity
+    const lateNightMoment = data.moments.find((m) =>
+      m.receipts.some((r) => r.category === 'entertainment' || r.category === 'Food')
+    ) || data.moments[0];
+    if (lateNightMoment) {
+      setActiveMoment(lateNightMoment);
+    } else {
+      handleSelectView('patterns');
+    }
+  };
+
   return (
     <div className="app-layout">
       <AppShell
@@ -151,9 +165,10 @@ export const App: React.FC = () => {
         {/* STORY / HOME VIEW */}
         {currentView === 'story' && (
           <>
+            {/* 1. STORY-FIRST HERO */}
             <StoryHero
               onExplore={() => {
-                const el = document.getElementById('chapters-title');
+                const el = document.getElementById('featured-insight-title');
                 el?.scrollIntoView({ behavior: 'smooth' });
               }}
               onSeePatterns={() => handleSelectView('patterns')}
@@ -165,11 +180,26 @@ export const App: React.FC = () => {
               }}
             />
 
+            {/* 2. FEATURED INSIGHT (THE FIRST WOW MOMENT) */}
+            <FeaturedInsight
+              rhythmsPattern={data.patterns.listeningRhythms}
+              onTrace={handleTraceFeaturedPattern}
+            />
+
+            {/* 3. MOMENTS (HUMAN-SIZED STORIES) */}
+            <MomentsView
+              moments={data.moments}
+              onTraceMoment={(m) => setActiveMoment(m)}
+              initialLimit={6}
+            />
+
+            {/* 4. ACTIVITY RIVER (TIME EXPLORER) */}
             <TimeExplorer
               selectedYear={selectedYear}
               onSelectYear={handleSelectYear}
             />
 
+            {/* 5. LIVING CHAPTERS */}
             <ChapterView
               chapters={data.chapters}
               selectedYear={selectedYear}
@@ -181,38 +211,7 @@ export const App: React.FC = () => {
               }}
             />
 
-            {/* Featured Convergent Moments Preview */}
-            <div style={{ borderTop: '1px dashed var(--border-dashed)', paddingTop: '2.5rem', marginBottom: '3.5rem' }}>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
-                <div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--accent-orange)', fontSize: '0.75rem', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', fontWeight: 600 }}>
-                    <Sparkles size={14} />
-                    <span>Cross-Source Highlights</span>
-                  </div>
-                  <h3 style={{ fontSize: '1.5rem', marginTop: '0.2rem' }}>Featured Convergent Moments</h3>
-                </div>
-                <button
-                  onClick={() => handleSelectView('moments')}
-                  style={{
-                    background: 'var(--bg-subtle)',
-                    border: '1px solid var(--border-paper)',
-                    padding: '0.4rem 0.8rem',
-                    borderRadius: '4px',
-                    fontSize: '0.8125rem',
-                    fontWeight: 600
-                  }}
-                >
-                  View all {data.moments.length} moments →
-                </button>
-              </div>
-
-              <MomentsView
-                moments={data.moments.slice(0, 3)}
-                onTraceMoment={(m) => setActiveMoment(m)}
-              />
-            </div>
-
-            {/* Constellation Preview */}
+            {/* 6. CONSTELLATION OVERVIEW */}
             <Constellation
               nodes={data.constellation.nodes}
               edges={data.constellation.edges}
@@ -228,6 +227,7 @@ export const App: React.FC = () => {
           <MomentsView
             moments={data.moments}
             onTraceMoment={(m) => setActiveMoment(m)}
+            initialLimit={45}
           />
         )}
 
@@ -247,7 +247,6 @@ export const App: React.FC = () => {
             nodes={data.constellation.nodes}
             edges={data.constellation.edges}
             onTraceThread={(node) => {
-              // Find related moment or receipt
               const relatedMoment = data.moments.find((m) =>
                 m.title.toLowerCase().includes(node.label.toLowerCase()) ||
                 m.receipts.some((r) => r.title.toLowerCase().includes(node.label.toLowerCase()))
@@ -267,7 +266,7 @@ export const App: React.FC = () => {
         )}
       </main>
 
-      {/* Signature TRACE Drawer Panel */}
+      {/* Signature TRACE Drawer / Mobile Bottom Sheet */}
       {(activeMoment || activeReceipt) && (
         <TracePanel
           moment={activeMoment}
@@ -275,6 +274,9 @@ export const App: React.FC = () => {
           onClose={() => {
             setActiveMoment(null);
             setActiveReceipt(null);
+          }}
+          onViewReceipts={() => {
+            handleSelectView('receipts');
           }}
         />
       )}

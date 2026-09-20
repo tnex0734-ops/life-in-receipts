@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Receipt, ReceiptSource } from '../types/receipt';
 import { SourceBadge } from './SourceBadge';
 import { formatDate, formatTime, formatDuration, formatAmount, getTimeOfDay } from '../data/normalize';
-import { Search, Filter, ArrowUpDown, ChevronLeft, ChevronRight, SlidersHorizontal, Sparkles } from 'lucide-react';
+import { Search, ChevronLeft, ChevronRight, Sparkles, X, Clock } from 'lucide-react';
 
 interface ReceiptExplorerProps {
   receipts: Receipt[];
@@ -18,7 +18,6 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
   const [searchQuery, setSearchQuery] = useState<string>(initialQuery);
   const [selectedSource, setSelectedSource] = useState<string>('all');
   const [selectedTimeOfDay, setSelectedTimeOfDay] = useState<string>('all');
-  const [sortBy, setSortBy] = useState<'newest' | 'oldest' | 'amount' | 'duration'>('newest');
   const [currentPage, setCurrentPage] = useState<number>(1);
   const pageSize = 25;
 
@@ -27,10 +26,10 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
     const q = searchQuery.toLowerCase().trim();
 
     return receipts.filter((r) => {
-      // Source filter
-      if (selectedSource !== 'all' && r.source !== selectedSource) {
-        return false;
-      }
+      // Source filter: all, spotify (music), transaction (purchases), household
+      if (selectedSource === 'music' && r.source !== 'spotify') return false;
+      if (selectedSource === 'purchases' && r.source !== 'transaction') return false;
+      if (selectedSource === 'household' && r.source !== 'household') return false;
 
       // Time of day filter
       if (selectedTimeOfDay !== 'all' && r.timestamp) {
@@ -44,8 +43,9 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
         const matchSubtitle = r.subtitle?.toLowerCase().includes(q);
         const matchCategory = r.category?.toLowerCase().includes(q);
         const matchAlbum = r.album?.toLowerCase().includes(q);
+        const matchDate = formatDate(r.timestamp).toLowerCase().includes(q);
         const matchTags = r.tags?.some((t) => t.toLowerCase().includes(q));
-        if (!matchTitle && !matchSubtitle && !matchCategory && !matchAlbum && !matchTags) {
+        if (!matchTitle && !matchSubtitle && !matchCategory && !matchAlbum && !matchDate && !matchTags) {
           return false;
         }
       }
@@ -54,150 +54,149 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
     });
   }, [receipts, searchQuery, selectedSource, selectedTimeOfDay]);
 
-  // Sort
-  const sortedReceipts = useMemo(() => {
-    const list = [...filteredReceipts];
-    if (sortBy === 'newest') {
-      list.sort((a, b) => b.timestamp - a.timestamp);
-    } else if (sortBy === 'oldest') {
-      list.sort((a, b) => a.timestamp - b.timestamp);
-    } else if (sortBy === 'amount') {
-      list.sort((a, b) => (b.amount || 0) - (a.amount || 0));
-    } else if (sortBy === 'duration') {
-      list.sort((a, b) => (b.durationMs || 0) - (a.durationMs || 0));
-    }
-    return list;
-  }, [filteredReceipts, sortBy]);
-
   // Pagination
-  const totalPages = Math.max(1, Math.ceil(sortedReceipts.length / pageSize));
+  const totalPages = Math.max(1, Math.ceil(filteredReceipts.length / pageSize));
   const paginatedReceipts = useMemo(() => {
     const start = (currentPage - 1) * pageSize;
-    return sortedReceipts.slice(start, start + pageSize);
-  }, [sortedReceipts, currentPage, pageSize]);
+    return filteredReceipts.slice(start, start + pageSize);
+  }, [filteredReceipts, currentPage, pageSize]);
 
   return (
     <section className="receipt-explorer" aria-labelledby="receipts-heading" style={{ marginBottom: '3.5rem' }}>
-      <div style={{ marginBottom: '1.5rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-orange)', fontSize: '0.75rem', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', fontWeight: 600 }}>
+      <div style={{ marginBottom: '1.75rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--accent-orange)', fontSize: '0.75rem', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', fontWeight: 600 }}>
           <Search size={14} />
-          <span>Curated Archive Explorer • {sortedReceipts.length.toLocaleString()} Matching Records</span>
+          <span>Smart Exploration • {filteredReceipts.length.toLocaleString()} Traces</span>
         </div>
-        <h2 id="receipts-heading" style={{ fontSize: '2rem', marginTop: '0.25rem' }}>
+        <h2 id="receipts-heading" style={{ fontSize: '1.875rem', marginTop: '0.2rem' }}>
           Life Receipts
         </h2>
-        <p style={{ fontSize: '0.9375rem', color: 'var(--text-secondary)', maxWidth: '620px', marginTop: '0.35rem' }}>
-          Explore individual records across music streams, commercial card transactions, and household notes with instant search and filtering.
+        <p style={{ fontSize: '0.9375rem', color: 'var(--text-secondary)', maxWidth: '580px', marginTop: '0.25rem' }}>
+          Search across 11 years of music streams, card purchases, and daily notes.
         </p>
       </div>
 
-      {/* Control Bar: Search & Filters */}
-      <div className="paper-card" style={{ padding: '1.25rem', marginBottom: '1.5rem' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem', alignItems: 'center' }}>
-          {/* Search input */}
-          <div style={{ position: 'relative' }}>
-            <Search size={16} style={{ position: 'absolute', left: '0.75rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
-                setCurrentPage(1);
-              }}
-              placeholder="Search artist, merchant, track, category..."
-              style={{
-                width: '100%',
-                padding: '0.6rem 0.75rem 0.6rem 2.25rem',
-                fontSize: '0.875rem',
-                border: '1px solid var(--border-paper)',
-                borderRadius: '4px',
-                background: 'var(--bg-card)',
-                color: 'var(--text-primary)',
-                outline: 'none'
-              }}
-            />
-          </div>
+      {/* Prominent Search Bar */}
+      <div style={{ marginBottom: '1.25rem', position: 'relative' }}>
+        <Search size={20} style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--accent-orange)' }} />
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => {
+            setSearchQuery(e.target.value);
+            setCurrentPage(1);
+          }}
+          placeholder="Search your receipts (e.g. The Beatles, food, late night, 2023, entertainment)..."
+          style={{
+            width: '100%',
+            padding: '0.85rem 1rem 0.85rem 2.85rem',
+            fontSize: '1rem',
+            border: '1.5px solid var(--border-paper)',
+            borderRadius: '6px',
+            background: 'var(--bg-card)',
+            color: 'var(--text-primary)',
+            boxShadow: 'var(--shadow-sm)',
+            outline: 'none'
+          }}
+        />
+        {searchQuery && (
+          <button
+            onClick={() => setSearchQuery('')}
+            style={{ position: 'absolute', right: '0.75rem', top: '50%', transform: 'translateY(-50%)', minHeight: '32px', minWidth: '32px', color: 'var(--text-muted)' }}
+            aria-label="Clear search"
+          >
+            <X size={16} />
+          </button>
+        )}
+      </div>
 
-          {/* Source Filter */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <span style={{ fontSize: '0.75rem', fontFamily: 'var(--font-mono)', color: 'var(--text-muted)' }}>SOURCE:</span>
-            <select
-              value={selectedSource}
-              onChange={(e) => {
-                setSelectedSource(e.target.value);
-                setCurrentPage(1);
-              }}
-              style={{
-                padding: '0.55rem 0.75rem',
-                fontSize: '0.8125rem',
-                border: '1px solid var(--border-paper)',
-                borderRadius: '4px',
-                background: 'var(--bg-card)',
-                color: 'var(--text-primary)'
-              }}
-            >
-              <option value="all">All Sources</option>
-              <option value="spotify">Spotify Music</option>
-              <option value="transaction">Card Transactions</option>
-              <option value="household">Household Entries</option>
-            </select>
-          </div>
+      {/* Simplified High-UX-Value Filters (Horizontal Bar / Scrollable Chips) */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: '0.75rem',
+          marginBottom: '1.5rem',
+          background: 'var(--bg-paper)',
+          padding: '0.75rem 1rem',
+          borderRadius: '6px',
+          border: '1px solid var(--border-paper)'
+        }}
+      >
+        {/* Source Filter Chips */}
+        <div style={{ display: 'flex', gap: '0.35rem', overflowX: 'auto', paddingBottom: '2px' }}>
+          {[
+            { id: 'all', label: 'All Receipts' },
+            { id: 'music', label: 'Music' },
+            { id: 'purchases', label: 'Purchases' },
+            { id: 'household', label: 'Household' }
+          ].map((chip) => {
+            const isActive = selectedSource === chip.id;
+            return (
+              <button
+                key={chip.id}
+                onClick={() => {
+                  setSelectedSource(chip.id);
+                  setCurrentPage(1);
+                }}
+                style={{
+                  padding: '0.4rem 0.85rem',
+                  fontSize: '0.8125rem',
+                  fontWeight: 600,
+                  borderRadius: '4px',
+                  background: isActive ? 'var(--text-primary)' : 'var(--bg-card)',
+                  color: isActive ? 'var(--bg-paper)' : 'var(--text-secondary)',
+                  border: isActive ? '1px solid var(--text-primary)' : '1px solid var(--border-paper)',
+                  minHeight: '34px',
+                  whiteSpace: 'nowrap'
+                }}
+              >
+                {chip.label}
+              </button>
+            );
+          })}
+        </div>
 
-          {/* Time of Day Filter */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <span style={{ fontSize: '0.75rem', fontFamily: 'var(--font-mono)', color: 'var(--text-muted)' }}>TIME:</span>
-            <select
-              value={selectedTimeOfDay}
-              onChange={(e) => {
-                setSelectedTimeOfDay(e.target.value);
-                setCurrentPage(1);
-              }}
-              style={{
-                padding: '0.55rem 0.75rem',
-                fontSize: '0.8125rem',
-                border: '1px solid var(--border-paper)',
-                borderRadius: '4px',
-                background: 'var(--bg-card)',
-                color: 'var(--text-primary)'
-              }}
-            >
-              <option value="all">Any Time of Day</option>
-              <option value="morning">Morning (06:00–12:00)</option>
-              <option value="afternoon">Afternoon (12:00–17:00)</option>
-              <option value="evening">Evening (17:00–23:00)</option>
-              <option value="lateNight">Late Night (23:00–03:00)</option>
-            </select>
-          </div>
-
-          {/* Sort By */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <span style={{ fontSize: '0.75rem', fontFamily: 'var(--font-mono)', color: 'var(--text-muted)' }}>SORT:</span>
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value as any)}
-              style={{
-                padding: '0.55rem 0.75rem',
-                fontSize: '0.8125rem',
-                border: '1px solid var(--border-paper)',
-                borderRadius: '4px',
-                background: 'var(--bg-card)',
-                color: 'var(--text-primary)'
-              }}
-            >
-              <option value="newest">Newest First</option>
-              <option value="oldest">Oldest First</option>
-              <option value="amount">Largest Amount</option>
-              <option value="duration">Longest Stream</option>
-            </select>
-          </div>
+        {/* Time of Day Filter */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <Clock size={14} color="var(--text-muted)" />
+          <select
+            value={selectedTimeOfDay}
+            onChange={(e) => {
+              setSelectedTimeOfDay(e.target.value);
+              setCurrentPage(1);
+            }}
+            style={{
+              padding: '0.4rem 0.65rem',
+              fontSize: '0.8125rem',
+              border: '1px solid var(--border-paper)',
+              borderRadius: '4px',
+              background: 'var(--bg-card)',
+              color: 'var(--text-primary)'
+            }}
+            aria-label="Filter by time of day"
+          >
+            <option value="all">All Times of Day</option>
+            <option value="morning">Morning (06:00–12:00)</option>
+            <option value="afternoon">Afternoon (12:00–17:00)</option>
+            <option value="evening">Evening (17:00–23:00)</option>
+            <option value="lateNight">Late Night (23:00–03:00)</option>
+          </select>
         </div>
       </div>
 
-      {/* Receipts Table / Card Stream */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '1.5rem' }}>
+      {/* Receipts Stream */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '1.5rem' }}>
         {paginatedReceipts.length === 0 ? (
-          <div className="paper-card" style={{ padding: '3rem', textAlign: 'center', color: 'var(--text-muted)' }}>
-            No receipts match the current search or filters.
+          <div className="paper-card" style={{ padding: '3rem 1.5rem', textAlign: 'center', color: 'var(--text-secondary)' }}>
+            <div style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.35rem', color: 'var(--text-primary)' }}>
+              Nothing surfaced here yet.
+            </div>
+            <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>
+              Try another date, source, or search keyword.
+            </p>
           </div>
         ) : (
           paginatedReceipts.map((r) => (
@@ -205,19 +204,18 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
               key={r.id}
               className="paper-card"
               style={{
-                padding: '1rem 1.25rem',
+                padding: '0.85rem 1.25rem',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
                 flexWrap: 'wrap',
-                gap: '1rem'
+                gap: '0.75rem'
               }}
             >
-              {/* Left Column: Source, Date, Title, Subtitle */}
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', minWidth: '240px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem', overflow: 'hidden' }}>
                 <SourceBadge source={r.source} size="sm" />
-                <div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <div style={{ overflow: 'hidden' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                     <span style={{ fontWeight: 600, fontSize: '0.9375rem', color: 'var(--text-primary)' }}>
                       {r.title}
                     </span>
@@ -228,7 +226,7 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
                     )}
                   </div>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>
                     <span>{formatDate(r.timestamp)}</span>
                     {formatTime(r.timestamp) && <span>• {formatTime(r.timestamp)}</span>}
                     {r.subtitle && <span>• {r.subtitle}</span>}
@@ -236,8 +234,7 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
                 </div>
               </div>
 
-              {/* Right Column: Amount / Duration / Trace button */}
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 {r.amount !== undefined && (
                   <div style={{ fontFamily: 'var(--font-mono)', fontWeight: 600, fontSize: '0.9375rem', color: 'var(--accent-orange)' }}>
                     {formatAmount(r.amount, r.currency)}
@@ -254,7 +251,7 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
                   <button
                     onClick={() => onTraceReceipt(r)}
                     style={{
-                      padding: '0.35rem 0.75rem',
+                      padding: '0.35rem 0.65rem',
                       fontSize: '0.75rem',
                       fontFamily: 'var(--font-mono)',
                       background: 'var(--bg-subtle)',
@@ -275,11 +272,11 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
         )}
       </div>
 
-      {/* Pagination Bar */}
+      {/* Pagination */}
       {totalPages > 1 && (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
           <div style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
-            Showing page {currentPage} of {totalPages} ({sortedReceipts.length.toLocaleString()} total)
+            Showing page {currentPage} of {totalPages}
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -292,7 +289,7 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
                 border: '1px solid var(--border-paper)',
                 borderRadius: '4px',
                 background: 'var(--bg-card)',
-                minHeight: '36px'
+                minHeight: '34px'
               }}
             >
               <ChevronLeft size={16} />
@@ -312,7 +309,7 @@ export const ReceiptExplorer: React.FC<ReceiptExplorerProps> = ({
                 border: '1px solid var(--border-paper)',
                 borderRadius: '4px',
                 background: 'var(--bg-card)',
-                minHeight: '36px'
+                minHeight: '34px'
               }}
             >
               <span>Next</span>
