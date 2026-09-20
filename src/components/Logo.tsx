@@ -1,0 +1,33 @@
+import React from 'react';
+
+interface LogoProps {
+  size?: number;
+  color?: string;
+  className?: string;
+}
+
+export const Logo: React.FC<LogoProps> = ({ size = 28, color = 'currentColor', className }) => {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
+      fill={color}
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden="true"
+      style={{ display: 'inline-block', verticalAlign: 'middle', flexShrink: 0 }}
+    >
+      {/* Left Upright Wing */}
+      <path d="M 27.5 72.5 C 33 55 32.5 38 33 34.5 L 48.5 21 C 49.5 36 43.5 54 36.5 66.5 Z" />
+      
+      {/* Center Shooting Star */}
+      <path d="M 36.5 66.5 C 44 58 48 51.5 53.5 37.5 C 55 43.5 60.5 45.5 72.5 41.5 C 67.5 48.5 66.5 54 68.5 60.5 C 60 55 52.5 57 44 63 Z" />
+      
+      {/* Bottom Sweeping Ribbon */}
+      <path d="M 27.5 75 C 38 72.5 52.5 66 67 63.5 L 65.5 78.5 C 52 75.5 38 76.5 27.5 75 Z" />
+    </svg>
+  );
+};
+
+export default Logo;

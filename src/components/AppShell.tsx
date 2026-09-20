@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Sparkles, TrendingUp, Network, Layers, Search, Database } from 'lucide-react';
+import { Logo } from './Logo';
 
 export type AppView = 'story' | 'moments' | 'patterns' | 'constellation' | 'receipts';
 
@@ -32,7 +33,9 @@ export const AppShell: React.FC<AppShellProps> = ({
             className="brand-block"
             aria-label="Life In Receipts — Home"
           >
-            <div className="brand-icon">LR</div>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '36px', height: '36px', background: 'var(--text-primary)', borderRadius: '4px' }}>
+              <Logo size={24} color="var(--bg-paper)" />
+            </div>
             <div>
               <div className="brand-title">Life in Receipts</div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginTop: '0.1rem' }}>
